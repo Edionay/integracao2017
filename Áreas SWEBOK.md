@@ -1,13 +1,17 @@
-<Paula><br/>
-Chapter 1: Software Requirements
-Chapter 2: Software Design
-Chapter 3: Software Construction </Paula>
+## Paula
+* Chapter 1: Software Requirements
+* Chapter 2: Software Design
+* Chapter 3: Software Construction </Paula>
 
+## Edionay
+* Chapter 4: Software Testing
+* Chapter 5: Software Maintenance
+* Chapter 6: Software Configuration Management
 
-<Edionay><br/>
-Chapter 4: Software Testing
-Chapter 5: Software Maintenance
-Chapter 6: Software Configuration Management
+## 
+* CHAPTER 7: SOFTWARE ENGINEERING MANAGEMENT
+* CHAPTER 8: SOFTWARE ENGINEERING PROCESS                        
+* CHAPTER 9: SOFTWARE ENGINEERING MODELS AND METHODS
 
 <Erick><br/>
 CHAPTER 7: SOFTWARE ENGINEERING MANAGEMENT
