@@ -3,7 +3,7 @@
 Integrantes Grupo:
 
 - [Edionay Aguiar](https://github.com/edionay) - 201407240
-- [Erick Vieira](https://github.com/erickvieira) - 2015
-- [João Lucas](https://github.com/JLucas5) - 
-- [Osmar Cavalcante](https://github.com/osmarpixuri) -
+- [Erick Vieira](https://github.com/erickvieira) - 201515568
+- [João Lucas](https://github.com/JLucas5) - 201503345
+- [Osmar Cavalcante](https://github.com/osmarpixuri) - 200801716
 - [Paula Resende](https://github.com/paularesende) - 201503358
