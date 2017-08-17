@@ -3,7 +3,7 @@
 A elicitação de requisitos no ciclo de vida de um software é o processo no qual as necessidades e funcionalidades visadas por um stakeholder são identificadas e devidamente esclarecidas e elaboradas visando à especificação dos desejos a serem resolvidos por um software. Cronologicamente situa-se no início do desenvolvimento de um projeto, porém, não sendo por isso, restrita à este, visto que possui gerenciamento próprio de mudanças de requisitos visando ao menor impacto na construção e demais fases da execução do ciclo de vida de software, qualquer que seja o modelo processual adotado.
 
 <b>* Chapter 2: Software Design:</b>
-O processo de projeto de software possui como entrada os produtos da etapa anterior e produz insumos a serem utilizados antes da fase de implantação do software. Define toda a arquitetura do software e produz documentos, ou conjunto destes, capazes de serem interpretados pelo programador. Modela os requisitos de software de forma a tornar possível a construção do software. 
+O processo de projeto de software possui como entrada os produtos da etapa anterior e produz insumos a serem utilizados antes da fase de implementação do software. Define toda a arquitetura do software e produz documentos, ou conjunto destes, capazes de serem interpretados pelo programador. Modela os requisitos de software de forma a tornar possível a construção do software. 
 
 <b>* Chapter 3: Software Construction</b>
 Processo da construção de software a partir da combinação de codificação, verificação, teste unitário, teste de integração e debugging. Insumos da fase de projeto de software orientam os programadores de maneira uniforme. Fase em que é efetuada a compilação e executável é gerado. 
