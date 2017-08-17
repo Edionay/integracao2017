@@ -18,7 +18,7 @@ CHAPTER 15: ENGINEERING FOUNDATIONS <br>
 # Disciplinas PPC
 OBS: Tem-se 45 disciplinas. Começando em ''Computador e Sociedade'' e terminando em ''Práticas de Engenharia de Software''. <br>
 Precisamos separar por alto essas  disciplinas de acordo com os capítulos do SWEBOK porque vamos utilizar na aplicação. <br>
-Cada um escolhe 15. Ficarmos atentos para não repetirmos. <br>
+Cada um escolheria 15 pra seleção.<br>
 
 # Disciplinas organizadas
 ## Paula 
