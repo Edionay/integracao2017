@@ -19,10 +19,15 @@ Processo da construção de software a partir da combinação de codificação, 
 * CHAPTER 9: SOFTWARE QUALITY
 
 ## João Lucas
-* CHAPTER 10: SOFTWARE ENGINEERING MODELS AND METHODS 
-* CHAPTER 11: SOFTWARE ENGINEERING PROFESSIONAL PRACTICE
-* CHAPTER 12: SOFTWARE ENGINEERING ECONOMICS
-
+<b>* Chapter 10: Software Engineering Models and Methods</b>
+  Métodos e modelos da engenharia de software impoem um estrutura na engenharia de software com o intuito de tornar a atividade mas sistemática, petitivel, e principalmente mais orientada a processo. Usar Modelos apresenta uma forma de aproximação a resolução de problemas, uma notação, e procedimentos para contrução e analise de modelos. Métodos apresentam uma forma de aproximação a especificações sistemática, design, construção, teste, e verificação do produto final software e produtos de trabalho associados.
+  
+<b>* Chapter 11: Software Engineering Professional Practice</b>
+  A área de conhecimento de Prática Profissional da engenharia de software se preocupa com o conhecimento, habilidades, e atitudes que os engenheiros de software devem possuir para praticar a engenharia de software de uma maneira professional, responsavel e ética.
+  
+<b>* Chapter 12: Software Engineering Economics</b>
+  Economia da Engenharia de Software é sobre a marcação de decisões relacionadas a engenharia de software num contexto de negócios. O socesso de um produto de software, serviço, e solução dependem de uma boa gerencia de negócios. Economia é o estudo de valores, custos, recursos, e seus relacionamentos em dado contexto ou situação.
+  
 ##
 * CHAPTER 13: COMPUTING FOUNDATIONS
 * CHAPTER 14: MATHEMATICAL FOUNDATIONS
