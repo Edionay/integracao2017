@@ -14,13 +14,18 @@ Processo da construção de software a partir da combinação de codificação, 
 * Chapter 6: Software Configuration Management
 
 ## Erick
-* CHAPTER 7: SOFTWARE ENGINEERING MANAGEMENT
-* CHAPTER 8: SOFTWARE ENGINEERING PROCESS
-* CHAPTER 9: SOFTWARE QUALITY
+<b>* Chapter 7: Software Engineering Management:</b>
+  O processo de Gerenciamento de Projeto é parte vital no contexto da Engenharia de Software, bem como de qualquer outra área, onde seja aplicável. É através dele que se toma decisões, colhe-se dados sobre a equipe e gerencia a aplicação de recursos e investimentos através do tempo. Tempo e esforço são palavras-chave dentro desse processo, pois, é devido à essas características que se dá a gerência de projeto, já que um processo é mercado por um período bem delimitado no tempo e com recursos finitos, que são consumidos conforme a demanda por esforços durante a execução do projeto; portanto, para um uso racional e saudável desses recursos, é interessante ter um escopo bem definido e um plano minimamente traçado, a fim evitar desvios acidentais do escopo.
+
+<b>* Chapter 8: Software Engineering Process:</b>
+  Processo nada mais é que um <i>script</i> que delimita o que deve ser feito e por quem, não se preocupando exatamente com o "quando", mas sim com a ordem de execução. Ou seja, dentro desta definição, um processo é um conjunto de atividades correlacionadas, que nada mais são que pequenas partes de um processo maior que tem como fim o desenvolvimento ou evolução de um software. Sendo assim, é evidente que o Gerenciamento de Processo é bem mais ligado à cultura da organização que aos projetos desenvolvidos por ela, contudo, a qualidade dos projetos é necessariamente ligada ao emprego de um bom processo (e à boa execução do mesmo, evidentemente). Já um modelo de processo é uma abstração em alto nível dos papeis e atividades a serem desempenhadas, bem como os artefatos gerados por elas.
+
+<b>* Chapter 9: Software Quality:</b>
+  Qualidade é uma ampla área de conhecimento da Engenharia de Software, que abrange desde um bom gerenciamento de artefatos e repositórios à métricas de avaliação da qualidade subjetiva (do usuário) ou objetiva (sob a ótica de processos internos e padrões aceitos na comunidade). No geral, a Qualidade se preocupa em atender os requisitos, avaliar se o que está sendo produzido é o produto correto e se está sendo produzido da maneira correta, a fim de entregar um software que satisfaça as necessidades do usuário (expressas em requisitos), sob os cenários e condições especificadas (casos de uso e histórias de usuário). Ou seja, com uma seleção muito específica de parâmetros, pode-se avaliar a qualidade de um produto de software, durante ou após a sua confecção. Mas é preciso estar sempre atento aos gastos (não só financeiros, mas de recursos e pessoal), pois esta é uma das atividades mais custosas dentro da Engenharia de Software.
 
 ## João Lucas
 <b>* Chapter 10: Software Engineering Models and Methods</b>
-  Métodos e modelos da engenharia de software impoem um estrutura na engenharia de software com o intuito de tornar a atividade mas sistemática, petitivel, e principalmente mais orientada a processo. Usar Modelos apresenta uma forma de aproximação a resolução de problemas, uma notação, e procedimentos para contrução e analise de modelos. Métodos apresentam uma forma de aproximação a especificações sistemática, design, construção, teste, e verificação do produto final software e produtos de trabalho associados.
+  Métodos e modelos da engenharia de software impõem um estrutura na engenharia de software com o intuito de tornar a atividade mas sistemática, petitivel, e principalmente mais orientada a processo. Usar Modelos apresenta uma forma de aproximação a resolução de problemas, uma notação, e procedimentos para contrução e analise de modelos. Métodos apresentam uma forma de aproximação a especificações sistemática, design, construção, teste, e verificação do produto final software e produtos de trabalho associados.
 
 <b>* Chapter 11: Software Engineering Professional Practice</b>
   A área de conhecimento de Prática Profissional da engenharia de software se preocupa com o conhecimento, habilidades, e atitudes que os engenheiros de software devem possuir para praticar a engenharia de software de uma maneira professional, responsavel e ética.
