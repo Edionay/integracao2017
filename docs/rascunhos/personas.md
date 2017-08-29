@@ -1,6 +1,8 @@
->Quero ter acesso à informação sem gambiarras
 
 # Pietra de Castro
+>Não gosto de ter que ensinar às pessoas sobre acessibilidade.
+
+
 Estudante de Engenharia de Software na Universidade Federal de Goiás  
 Visão subnormal  
 
