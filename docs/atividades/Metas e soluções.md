@@ -1,4 +1,8 @@
 # Metas e soluções
+
+## Mecanismos de Busca 
+http://frontendcollisionblog.com/javascript/jekyll/tutorial/2015/03/26/getting-started-with-a-search-engine-for-your-site-no-server-required.html
+
 ## Acessibilidade
 * Zoom sem bagunçar as coisas
 * Compatibilidade com leitor de tela
