@@ -16,7 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="disciplinas.html" pinned="false" current-in-tab="true">
+=======
+      <file leaf-file-name="disciplinas.html" pinned="false" current-in-tab="false">
+>>>>>>> origin/gh-pages
         <entry file="file://$PROJECT_DIR$/disciplinas.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1581">
@@ -28,6 +32,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="ppc.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ppc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> origin/gh-pages
       <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,12 +166,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505797143427</updated>
+<<<<<<< HEAD
       <workItem from="1505797149025" duration="9294000" />
+=======
+      <workItem from="1505797149025" duration="8864000" />
+>>>>>>> origin/gh-pages
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9294000" />
+=======
+    <option name="totallyTimeSpent" value="8864000" />
+>>>>>>> origin/gh-pages
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -213,6 +238,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/ppc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -221,6 +247,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> origin/gh-pages
     <entry file="file://$PROJECT_DIR$/disciplinas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -231,5 +259,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/ppc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> origin/gh-pages
   </component>
 </project>
