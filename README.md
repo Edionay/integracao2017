@@ -1,6 +1,17 @@
 # Conhecendo o Bacharelado em Engenharia de Software
 
+## Estilo de código
 
+HTML, CSS, Javascript
+
+Tab: 2 espaços
+Identation: 2
+Continuation ident: 4
+
+### Setup:
+atom -> instalar pacote atom-beautify
+vim -> entrar no modo de comando (apertar esc) e entrar : set expandtab shiftwidth=2 softtabstop=2
+ides intellij (idea, webstorm...) -> entrar Ctrl + Alt + S, ir em Editor -> Code Style e adicionar os valores acima.
 
 ## Getting Started
 
@@ -16,83 +27,32 @@ git checkout dev
 
 Adicione os arquivos à área staged do git rodando este comando na pasta raiz do projeto:
 
+```bash
 git add .
+```
 
 Após isso, adicione uma mensagem resumindo suas modificações:
 
+```bash
 git commit -m "Sua mensagem"
+```
 
 Mude para a branch gh-pages:
 
+```bash
 git checkout gh-pages
+```
 
 Faça o merge do seu commit, esse comando gerará um pull request para ser aceita no github do projeto.
 
-git merge dev
+```bash
+git merge --no-ff dev
+
+git push origin gh-pages
+```
 
 Após a aprovação da pull request, suas modificações estarão disponíveis no nosso site (edionay.com/integracao2017)
-```
-Give the example
-```
 
-And repeat
+## Frameworks usados
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* [Materialize](http://http://materializecss.com/) - Framework CSS
