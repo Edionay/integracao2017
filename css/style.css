@@ -1,0 +1,28 @@
+html {
+    overflow-y: scroll;
+}
+
+.logo {
+    font-size: 48pt;
+}
+
+.login {
+    display: inline-block;
+    padding: 32px 48px 0px 48px;
+    border: 1px solid #EEE;
+}
+
+.row {
+    margin-bottom: auto;
+}
+
+p {
+    text-indent: 5em;
+    text-align: justify;
+}
+
+h1 {
+    -webkit-writing-mode: bt-rl;
+    -ms-writing-mode: bt-rl;
+    writing-mode: bt-rl;
+}
