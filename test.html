@@ -12,10 +12,54 @@
 
     <title>Presença na WEB</title>
     <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <style>
+        html,
+        body,
+        .block {
+            height: 100%;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: rgba(0, 0, 0, .1);
+        }
+
+        footer {
+            padding-left: 0;
+        }
+    </style>
 </head>
 
 <body>
-    
+    <nav class="pushpin-demo-nav navbar-fixed" data-target="blue">
+        <div class="nav-wrapper light-blue">
+            <div class="container">
+                <a href="#" class="brand-logo">Blue</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#!">Blue Link 1</a></li>
+                    <li><a href="#!">Blue Link 2</a></li>
+                    <li><a href="#!">Blue Link 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="blue" class="block blue">
+
+    </div>
+
+    <div id="red" class="block red lighten-1">
+
+    </div>
+
+    <div id="green" class="block green lighten-1">
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/pushpin.js"></script>
 </body>
 
 </html>
