@@ -4,24 +4,26 @@
 
 HTML, CSS, Javascript
 
-Tab: 2 espaços
-Identation: 2
-Continuation ident: 4
+Tab: 2 espaços  
+Identation: 2  
+Continuation ident: 4  
 
 ### Setup:
-atom -> instalar pacote atom-beautify
-vim -> entrar no modo de comando (apertar esc) e entrar : set expandtab shiftwidth=2 softtabstop=2
-ides intellij (idea, webstorm...) -> entrar Ctrl + Alt + S, ir em Editor -> Code Style e adicionar os valores acima.
+atom -> instalar pacote atom-beautify  
+vim -> entrar no modo de comando (apertar esc) e entrar : set expandtab shiftwidth=2 softtabstop=2  
+ides intellij (idea, webstorm...) -> entrar Ctrl + Alt + S, ir em Editor -> Code Style e adicionar os valores acima.  
 
 ## Getting Started
 
 Como clonar o projeto:
-
+```bash
 git clone https://github.com/Edionay/integracao2017.git
+```
 
 Dentro da pasta criada (por padrão: integracao2017):
-
+```bash
 git checkout dev
+```
 
 ### Contribuindo com o projeto
 
