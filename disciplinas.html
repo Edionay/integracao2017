@@ -2,245 +2,519 @@
 <html lang="PT-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link href="css/style.css" rel="stylesheet">
-  
-  <title>Presença na WEB</title>
-  <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Presença na WEB</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
 </head>
 
 <!-- Barra de navegação do celular -->
 <nav class="hide-on-large-only">
-  <div class="nav-wrapper blue lighten-1">
-    <a href="#!" class="brand-logo"><i class="material-icons prefix">school</i>ES UFG</a>
-    <a href="#" data-activates="barra-de-navegacao-mobile" class="button-collapse"><i
+    <div class="nav-wrapper blue lighten-1">
+        <a href="#!" class="brand-logo"><i class="material-icons prefix">school</i>ES UFG</a>
+        <a href="#" data-activates="barra-de-navegacao-mobile" class="button-collapse"><i
                 class="material-icons">menu</i></a>
 
-    <ul class="side-nav blue lighten-1" id="barra-de-navegacao-mobile">
-      <li class="center"><i class="material-icons prefix logo">school</i></li>
-      <li><a href="#" class="white-text">PPC</a></li>
-      <li><a href="#" class="white-text">Disciplinas</a></li>
-      <li><a href="#" class="white-text">Perguntas Frequentes</a></li>
-      <li><a href="#" class="white-text">Sobre o Curso</a></li>
-      <li><a href="#" class="white-text">Busca</a></li>
+        <ul class="side-nav blue lighten-1" id="barra-de-navegacao-mobile">
+            <li class="center"><i class="material-icons prefix logo">school</i></li>
+            <li><a href="#" class="white-text">PPC</a></li>
+            <li><a href="#" class="white-text">Disciplinas</a></li>
+            <li><a href="#" class="white-text">Perguntas Frequentes</a></li>
+            <li><a href="#" class="white-text">Sobre o Curso</a></li>
+            <li><a href="#" class="white-text">Busca</a></li>
 
-    </ul>
-  </div>
+        </ul>
+    </div>
 </nav>
 
 <!-- Barra de navegação do desktop -->
 <nav class="hide-on-med-and-down blue lighten-1">
-  <div class="nav-wrapper container ">
-    <a href="#" class="brand-logo">Engenharia de Software UFG</a>
-    <ul id="nav-mobile" class="right">
-      <li><a href="index.html">PPC</a></li>
-      <li class="active"><a href="disciplinas.html">Disciplinas</a></li>
-      <li><a href="faq.html">Perguntas Frequentes</a></li>
-      <li><a href="about.html">Sobre o Curso</a></li>
-      <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-    </ul>
-  </div>
+    <div class="nav-wrapper container ">
+        <a href="#" class="brand-logo">Engenharia de Software UFG</a>
+        <ul id="nav-mobile" class="right">
+            <li><a href="index.html">PPC</a></li>
+            <li class="active"><a href="disciplinas.html">Disciplinas</a></li>
+            <li><a href="faq.html">Perguntas Frequentes</a></li>
+            <li><a href="about.html">Sobre o Curso</a></li>
+            <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+        </ul>
+    </div>
 </nav>
 
+<!-- Cards das disciplinas-->
 <div>
-  <div class="row blue lighten-5">
+    <div class="row blue lighten-5">
 
-    <div class="col l2">
-    </div>
+        <div class="col l2">
+        </div>
 
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Computação e Sociedade</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn  waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="32h Teo">32h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#01">+  </a>
+                </div>
+            </div>
         </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">32h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
 
-          <a class="btn-floating btn waves-effect waves-light red right modal-trigger" href="#mcs">+  </a>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Introdução à Programação</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="32h Teo/32h Pra">128h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#02">+  </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Cálculo 1A</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="96h Teo">96h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#03">+  </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Fund. da Mat. para Computação</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="64h Teo">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#04">+  </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row blue lighten-4">
+
+        <div class="col l2">
+        </div>
+
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Arquitetura de Computadores</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="48h Teo/16h Pra">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#05">+  </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Algoritmo e Estrutura de Dados 1</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="32h Teo/32h Pra">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#06">+  </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Probabilidade e Estatística A</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="64h Teo">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#07">+  </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Álgebra Linear</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="64h Teo">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#08">+  </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Lógica Matemática</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="64h Teo">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#09">+  </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row blue lighten-5">
+
+        <div class="col l2">
+
+        </div>
 
 
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Introdução à Programação</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">128h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Programação Orientada a Objetos</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="32h Teo/32h Pra">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#10">+  </a>
 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">96h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Algoritmos e Estruturas de Dados 2</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="64h Teo">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#11">+  </a>
 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">64h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Linguagens e Paradigmas de Programação</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="32h Teo/32h Pra">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#12">+  </a>
 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="row blue lighten-4">
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title">Engenharia de Software</span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="64h Teo">64h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip="Núcleo Comum">NC</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="Ementa" href="#13">+  </a>
 
-    <div class="col l2">
-    </div>
-
-
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
+                </div>
+            </div>
         </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
+        <div class="col l2">
+            <div class="card blue blue lighten-2">
+                <div class="card-content white-text">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-action">
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light bl" data-position="top" data-delay="50" data-tooltip="">h</a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light pink lighten-2" data-position="top" data-delay="50" data-tooltip=""></a>
+                    <a class="btn tooltipped btn-floating btn waves-effect waves-light red right modal-trigger" data-position="top" data-delay="50" data-tooltip="" href="#">+  </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <div class="row blue lighten-5">
-
-    <div class="col l2">
 
     </div>
-
-
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-
-  </div>
 
 </div>
 
 <!-- Modais de disciplinas -->
 
-<div id="mcs" class="modal">
-  <div class="modal-content">
-    <h4>Computação e Sociedader</h4>
-    <ul>
-      <li>123</li>
-      <li>324324</li>
-      <li>23452345</li>
-    </ul>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
-  </div>
-</div>
+<div id="01" class="modal">
+    <div class="modal-content">
+        <h4>Computação e Sociedade</h4>
+        <ol>
+            <li>História da computação.</li>
+            <li>Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.</li>
+            <li>Subáreas da computação e áreas interdisciplinares.</li>
+            <li>Importância e desafios da computação no Brasil e no mundo.</li>
+            <li>Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado,organizações e associações na área, regulamentação da profissão. </li>
+            <li>mercado, organizações e associações na área, regulamentação da profissão.</li>
+            <li>Leis e normas relacionadas à Informática.</li>
+            <li>Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação.</li>
+            <li>Ética na Computação.</li>
+            <li>Empresas de tecnologia da informação.</li>
+            <li>Incubadoras de empresas.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Computação e Sociedade-->
 
+<div id="02" class="modal">
+    <div class="modal-content">
+        <h4>Introdução à Programação</h4>
+        <ol>
+            <li>Introdução a algoritmos.</li>
+            <li>Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.</li>
+            <li>Ponteiro.</li>
+            <li>Estruturas de dados homogêneas e heterogêneas: vetores, matrizes, cadeias de caracteres, registros. </li>
+            <li>Subprogramas: funções; passagens de parâmetros por valor e por referência, recursividade.</li>
+            <li>Manipulação de arquivos: abertura, fechamento, leitura e gravação.</li>
+            <li>Tipos de acesso a arquivos: sequencial e indexado.</li>
+            <li>Tipos de arquivos (texto e binário).</li>
+            <li>Transcrição de algoritmos para uma linguagem de programação.  </li>
+            <li>Domínio de uma linguagem de programação: sintaxe e semântica; interpretação e compilação de programas; ambiente de desenvolvimento de programas; estilo de codificação; documentação de código; técnicas de depuração e técnicas de profiling; desenvolvimento e uso de bibliotecas.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Introdução a Programação-->
+
+<div id="03" class="modal">
+    <div class="modal-content">
+        <h4>Cálculo 1A</h4>
+        <ol>
+            <li>Números reais. Funções reais de uma variável real e suas inversas.</li>
+            <li>Noções sobre cônicas.</li>
+            <li>Limite e continuidade.</li>
+            <li>Derivadas e aplicações.</li>
+            <li>Integrais. Técnicas de Integração. Integrais impróprias.</li>
+            <li>Polinômio de Taylor.</li>
+            <li>Aplicações.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Cálculo 1A-->
+
+<div id="04" class="modal">
+    <div class="modal-content">
+        <h4>Fundamentos de Matemática para Computação</h4>
+        <ol>
+            <li>Noções de lógica.</li>
+            <li>Introdução a demonstrações.</li>
+            <li>Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória</li>
+            <li>Séries e sequências.</li>
+            <li>Relações e Funções.</li>
+            <li>Representações numéricas e Mudança de base numérica.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+</div>
+</div> <!--Fundamentos da Matemática para Computação-->
+
+<div id="05" class="modal">
+    <div class="modal-content">
+        <h4>Arquitetura de Computadores</h4>
+        <ol>
+            <li>Visão geral dos computadores modernos.</li>
+            <li>Evolução da arquitetura dos computadores.</li>
+            <li>Memória e representação de dados e instruções.</li>
+            <li>Processador, ciclo de instrução, formato e endereçamento.</li>
+            <li>Noções básicas de programação em linguagem de montagem.</li>
+            <li>Dispositivos de entrada e saída.</li>
+            <li>Sistemas de interconexão (barramentos).</li>
+            <li>Interfaceamento e técnicas de entrada e saída.</li>
+            <li>Hierarquia de memória.</li>
+            <li>Introdução a arquiteturas paralelas e métricas de desempenho.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Arquitetura de Computadores-->
+
+<div id="06" class="modal">
+    <div class="modal-content">
+        <h4>Algoritmos e Estruturas de Dados 1</h4>
+        <ol>
+            <li>Noções de complexidade de algoritmos (notações de complexidade). </li>
+            <li>Algoritmos de pesquisa: pesquisa sequencial e binária.</li>
+            <li>Algoritmos de ordenação.</li>
+            <li>Tipos abstratos de dados.</li>
+            <li>Estruturas de dados utilizando vetores: pilhas, filas, listas (simples e circulares).</li>
+            <li>Estruturas de dados com alocação dinâmica de memória: pilhas, filas, listas (simplesmente encadeadas, duplamente encadeadas e circulares).</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Algoritmos e Estrutura de Dados 1-->
+
+<div id="07" class="modal">
+    <div class="modal-content">
+        <h4>Probabilidade e Estatística A</h4>
+        <ol>
+            <li>Estatística descritiva. Noções sobre amostragem.</li>
+            <li>Introdução à teoria de conjuntos.</li>
+            <li>Introdução à teoria de probabilidade: espaço amostral, eventos, frequência relativa, fundamentos de probabilidade, probabilidade condicional, eventos independentes e teorema de Bayes.</li>
+            <li>Variáveis aleatórias: conceitos básicos, esperança e variância.</li>
+            <li>Distribuições discretas de probabilidade: uniforme, binomial e Poisson.</li>
+            <li>Distribuições contínuas de probabilidade: uniforme, exponencial, normal e t-Student.</li>
+            <li>Estimação pontual e intervalar para uma população: média e proporção.</li>
+            <li>Teste de hipóteses para uma população: média e proporção.</li>
+            <li>Correlação linear e regressão linear simples.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Probabilidade e Estatística A-->
+
+<div id="08" class="modal">
+    <div class="modal-content">
+        <h4>Álgebra Linear</h4>
+        <ol>
+            <li>Sistemas lineares e matrizes.</li>
+            <li>Espaços vetoriais.</li>
+            <li>Transformações lineares.</li>
+            <li>Autovalores e autovetores.</li>
+            <li>Espaços com produto interno.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Algebra Linear-->
+
+<div id="09" class="modal">
+    <div class="modal-content">
+        <h4>Lógica Matemática</h4>
+        <ol>
+            <li>Noções básicas</li>
+            <li>Métodos de validação</li>
+            <li>Linguagem para experimentação.</li>
+            <li>Aplicações básicas.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Lógica Matemática-->
+
+<div id="10" class="modal">
+    <div class="modal-content">
+        <h4>Programação Orientada a Objetos</h4>
+        <ol>
+            <li>Abstração e tipos abstratos de dados.</li>
+            <li>Classes, métodos, encapsulamento, interface. Mensagens, instâncias e inicialização. Herança e composição. Polimorfismo. </li>
+            <li>Uso de uma linguagem orientada a objetos.</li>
+            <li>Noções de UML.</li>
+            <li>Noções de padrões de projeto orientado a objetos.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Programação Orientada a Objeto-->
+
+<div id="11" class="modal">
+    <div class="modal-content">
+        <h4>Algoritmos e Estruturas de Dados 2</h4>
+        <ol>
+            <li>Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras).</li>
+            <li>Filas de prioridades. Heaps, Heapsort.  Hashing: tipos de funções de hashing; tratamento de colisões.</li>
+            <li>Definições de Grafos.</li>
+            <li>Estruturas de Dados para representação de grafos.</li>
+            <li>Algoritmos básicos em grafos.</li>
+        </ol>
+    </div>
+
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Algoritmo e Estrutura de Dados 2-->
+
+<div id="12" class="modal">
+    <div class="modal-content">
+        <h4>Linguagens e Paradigmas de Programação</h4>
+        <ol>
+            <li>Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.</li>
+            <li>Reflexão sobre as características desejáveis em uma linguagem de programação e os critérios de seleção de linguagens de acordo com as especificidades dos domínios de aplicação. </li>
+            <li>Descrição de sintaxe e semântica.</li>
+            <li>Estudo sobre tipos de dados, estruturas de controle, ambientes de execução, variáveis, expressões e subprogramas em linguagens de programação.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Linguagens e Paradigma de Programação-->
+
+<div id="13" class="modal">
+    <div class="modal-content">
+        <h4>Engenharia de Software</h4>
+        <ol>
+            <li>Requisitos de software. </li>
+            <li>Projeto (design) de software.</li>
+            <li>Construção de software.</li>
+            <li>Teste de software.</li>
+            <li>Manutenção de software.</li>
+            <li>Gerência de configuração de software. </li>
+            <li>Gerência de projeto de software. </li>
+            <li>Processo de engenharia de software. </li>
+            <li>Modelos e métodos de engenharia de software.</li>
+            <li>Qualidade de software. </li>
+            <li>Prática profissional de engenharia de software. </li>
+            <li>Economia para engenharia de software. </li>
+            <li>Fundamentos de engenharia.</li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div> <!--Engenharia de Software-->
+
+<div id="" class="modal">
+    <div class="modal-content">
+        <h4></h4>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
