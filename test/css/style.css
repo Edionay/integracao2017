@@ -14,7 +14,7 @@
   }
 
   h1 {
-    color: #FF6363;
+    color: #0095DA;
     font-weight: bold;
   }
 
@@ -87,12 +87,12 @@
   }
 
   .nav-brand img {
-    width: 50px;
+    width: 100px;
   }
 
   .fa-bars {
     display: none !important;
-    color: #FF6363;
+    color: #0095DA;
     float: right;
     padding: 20px;
     position: fixed;
@@ -102,7 +102,7 @@
   }
 
   .fa-times {
-    color: #FF6363;
+    color: #0095DA;
     float: right;
     padding: 20px;
     right: 0;
@@ -130,7 +130,7 @@
   }
 
   .header-links a:hover {
-    color: #FF6363 !important;
+    color: #0095DA !important;
   }
 
   /* slide out nav menu styles */
@@ -164,7 +164,7 @@
   }
 
   .nav-links a:hover {
-    color: #FF6363;
+    color: #0095DA;
     -webkit-transition: all 0.6s ease-in-out;
     -o-transition: all 0.6s ease-in-out;
     -ms-transition: all 0.6s ease-in-out;
@@ -173,7 +173,7 @@
   }
 
   #fp-nav ul li .fp-tooltip {
-    color: white !important;
+    color: #005F7E !important;
   }
 
   /* Expanding border effect */
@@ -222,7 +222,7 @@
 
 
   .fa-chevron-down {
-    color: #FF6363 !important;
+    color: #005F7E !important;
     bottom: 10px;
     margin-left: -30px;
     cursor: pointer;
@@ -319,7 +319,7 @@
     position:absolute;
     top:0;
     left:0;
-    width:110px;
+    width:200px;
     font-weight:bold;
     font-size:13px;
     color:#fff;
@@ -384,17 +384,17 @@
   }
 
   .fp-controlArrow.fp-next {
-    border-color: transparent transparent transparent #FF6363 !important;
+    border-color: transparent transparent transparent #0095DA !important;
     right: 45px !important;
   }
 
   .fp-controlArrow.fp-prev {
-    border-color: transparent #FF6363 transparent transparent !important;
+    border-color: transparent #0095DA transparent transparent !important;
     left: 45px !important;
   }
 
   #fp-nav ul li a span, .fp-slidesNav ul li a span{
-    background: rgba(0, 0, 0, 0.62) !important;
+    background: #005F7E !important;
   }
 
 
@@ -464,10 +464,10 @@
     padding: 12px;
     min-width: 200px;
     border-radius: 2px;
-    border: 2px solid #FF6363;
+    border: 2px solid #0095DA;
     text-align: center;
     font-size: 1em;
-    color: #FF6363;
+    color: #0095DA;
     background-color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -475,7 +475,7 @@
   }
 
   #submit:hover {
-    background-color: #FF6363;
+    background-color: #0095DA;
     color: white;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -504,7 +504,7 @@
   }
 
   .social-links a:hover {
-    color: #FF6363;
+    color: #0095DA;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -553,7 +553,7 @@
   }
 
   .spinner > div {
-    background-color: #FF6363;
+    background-color: #0095DA;
     height: 100%;
     width: 6px;
     display: inline-block;
