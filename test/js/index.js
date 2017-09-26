@@ -16,7 +16,7 @@ $(document).ready(function() {
   })(jQuery);
 
   // input text for typing animation 
-  $("#holder").writeText("CURSO NOTA 5 SEGUNDO O GUIA DO ESTUDANTE");
+  $("#holder").writeText('☆ ☆ ☆ ☆ ☆');
 
   // initialize wow.js
   new WOW().init();
@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['home', 'about', 'portfolio', 'contact', 'faq', 'connect'],
-    anchors: ['home', 'about', 'portfolio', 'contact', 'faq', 'connect'],
+    navigationTooltips: ['A', 'B', 'C', 'D', 'E'],
+    anchors: ['A', 'B', 'C', 'D', 'E'],
     menu: '#myMenu',
     fitToSection: false,
 
