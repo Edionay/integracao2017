@@ -167,7 +167,7 @@
   }
 
   #fp-nav ul li .fp-tooltip {
-      color: #8ED8F8 !important;
+      color: #005F7E !important;
   }
   /* Expanding border effect */
 
@@ -216,7 +216,7 @@
       bottom: 10px;
       margin-left: -30px;
       cursor: pointer;
-      position: relative;
+      position: absolute;
       opacity: 0;
       -webkit-transition: 1.2s ease;
   }
@@ -393,7 +393,7 @@
 
   #fp-nav ul li a span,
   .fp-slidesNav ul li a span {
-      background: #0095DA !important;
+      background: #005F7E !important;
   }
   /* contact us styles */
 
@@ -689,3 +689,76 @@
       -moz-border-radius: 4px;
       border-radius: 4px;
   }
+
+/* ==================== OCULTAR BOTÃO DE PESQUISA ==================== */
+#pesq input {
+    outline: none;
+    color: #005F7E;
+}
+#pesq input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 80%;
+}
+#pesq input::-webkit-search-decoration,
+#pesq input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+#pesq input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #0095DA;
+	padding: 1px 10px 1px 32px;
+	width: 75px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+#pesq input[type=search]:focus {
+	width: 270px;
+	background-color: #fff;
+	border-color: #005F7E;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+#pesq input:-moz-placeholder {
+	color: #999;
+}
+#pesq input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* VERSÃO MOBILE */
+#pesq input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#pesq input[type=search]:hover {
+	background-color: #fff;
+}
+#pesq input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#pesq input:-moz-placeholder {
+	color: transparent;
+}
+#pesq input::-webkit-input-placeholder {
+	color: transparent;
+}
