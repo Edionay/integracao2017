@@ -112,6 +112,10 @@
       z-index: 500;
   }
 
+  .header-links:first-child {
+      margin-top: -10px;
+  }
+
   .header-links li {
       color: white;
       display: inline;
@@ -709,7 +713,7 @@
 
 #pesq input[type=search] {
 	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-	border: solid 1px #0095DA;
+	border: solid 1px transparent;
 	padding: 1px 10px 1px 32px;
 	width: 75px;
 	
