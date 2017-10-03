@@ -203,6 +203,10 @@
       padding: 1px 1px 5px 5px;
   }
 
+  .opaque-bg p {
+      text-align: justify;
+  }
+
   .aboutme {
       background: url("http://t.wallpaperweb.org/wallpaper/computer/1920x1080/Chasse.jpg") no-repeat;
       background-size: cover;
@@ -710,7 +714,6 @@
 	display: none; 
 }
 
-
 #pesq input[type=search] {
 	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
 	border: solid 1px transparent;
@@ -765,4 +768,20 @@
 }
 #pesq input::-webkit-input-placeholder {
 	color: transparent;
+}
+
+.clp-right {
+    margin-right: 10%;
+}
+
+.clp-left {
+    margin-left: 10%;
+}
+
+.collapsible-header {
+    margin-top: 10px;
+}
+
+.collapsible-header i {
+    color: #005F7E;
 }

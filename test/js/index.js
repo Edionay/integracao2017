@@ -148,9 +148,9 @@ $(document)
         .click(function () {
           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
-            target = target.length
-              ? target
-              : $('[name=' + this.hash.slice(1) + ']');
+            target = target.length ?
+              target :
+              $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
               $('html,body').animate({
                 scrollTop: target
@@ -198,4 +198,17 @@ $(document)
       });
 
     });
+
+    $(document).ready(function () {
+      $('.collapsible').collapsible();
+    });
+
+    // Open
+    $('.collapsible').collapsible('open', 0);
+
+    // Close
+    $('.collapsible').collapsible('close', 0);
+
+    // Destroy
+    $('.collapsible').collapsible('destroy');
   });
