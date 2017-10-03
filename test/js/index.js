@@ -17,7 +17,7 @@ $(document)
     })(jQuery);
 
     // input text for typing animation
-    $("#holder").writeText('☆ ☆ ☆ ☆ ☆');
+    $("#holder").writeText('ENGENHARIA DE SOFTWARE');
 
     // initialize wow.js
     new WOW().init();
