@@ -124,6 +124,12 @@
       font-size: 16px;
   }
 
+  .header-links ul:nth-child(2),
+  .header-links ul:nth-child(3),
+  .header-links ul:nth-child(2) {
+      padding-top: 10px !important;
+  }
+
   .header-links a {
       color: #757575;
       -webkit-transition: all 0.2s ease-in;
@@ -199,7 +205,7 @@
   .opaque-bg {
       margin-left: auto;
       margin-right: auto;
-      max-width: 600px;
+      max-width: 1200px;
       padding: 1px 1px 5px 5px;
   }
 
@@ -697,91 +703,102 @@
       -moz-border-radius: 4px;
       border-radius: 4px;
   }
+  /* ==================== OCULTAR BOTÃO DE PESQUISA ==================== */
 
-/* ==================== OCULTAR BOTÃO DE PESQUISA ==================== */
-#pesq input {
-    outline: none;
-    color: #005F7E;
-}
-#pesq input[type=search] {
-	-webkit-appearance: textfield;
-	-webkit-box-sizing: content-box;
-	font-family: inherit;
-	font-size: 80%;
-}
-#pesq input::-webkit-search-decoration,
-#pesq input::-webkit-search-cancel-button {
-	display: none; 
-}
+  #pesq input {
+      outline: none;
+      color: #005F7E;
+  }
 
-#pesq input[type=search] {
-	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-	border: solid 1px transparent;
-	padding: 1px 10px 1px 32px;
-	width: 75px;
-	
-	-webkit-border-radius: 10em;
-	-moz-border-radius: 10em;
-	border-radius: 10em;
-	
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-}
-#pesq input[type=search]:focus {
-	width: 270px;
-	background-color: #fff;
-	border-color: #005F7E;
-	
-	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	box-shadow: 0 0 5px rgba(109,207,246,.5);
-}
+  #pesq input[type=search] {
+      -webkit-appearance: textfield;
+      -webkit-box-sizing: content-box;
+      font-family: inherit;
+      font-size: 80%;
+  }
 
+  #pesq input::-webkit-search-decoration,
+  #pesq input::-webkit-search-cancel-button {
+      display: none;
+  }
 
-#pesq input:-moz-placeholder {
-	color: #999;
-}
-#pesq input::-webkit-input-placeholder {
-	color: #999;
-}
+  #pesq input[type=search] {
+      background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 7.5px center;
+      border: solid 1px transparent;
+      padding: 1px 10px 1px 32px;
+      width: 75px;
+      -webkit-border-radius: 10em;
+      -moz-border-radius: 10em;
+      border-radius: 10em;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all .5s;
+  }
 
-/* VERSÃO MOBILE */
-#pesq input[type=search] {
-	width: 15px;
-	padding-left: 10px;
-	color: transparent;
-	cursor: pointer;
-}
-#pesq input[type=search]:hover {
-	background-color: #fff;
-}
-#pesq input[type=search]:focus {
-	width: 130px;
-	padding-left: 32px;
-	color: #000;
-	background-color: #fff;
-	cursor: auto;
-}
-#pesq input:-moz-placeholder {
-	color: transparent;
-}
-#pesq input::-webkit-input-placeholder {
-	color: transparent;
-}
+  #pesq input[type=search]:focus {
+      width: 270px;
+      background-color: #fff;
+      border-color: #005F7E;
+      -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+      -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+      box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+  }
 
-.clp-right {
-    margin-right: 10%;
-}
+  #pesq input:-moz-placeholder {
+      color: #999;
+  }
 
-.clp-left {
-    margin-left: 10%;
-}
+  #pesq input::-webkit-input-placeholder {
+      color: #999;
+  }
+  /* VERSÃO MOBILE */
 
-.collapsible-header {
-    margin-top: 10px;
-}
+  #pesq input[type=search] {
+      width: 15px;
+      padding-left: 10px;
+      color: transparent;
+      cursor: pointer;
+  }
 
-.collapsible-header i {
-    color: #005F7E;
-}
+  #pesq input[type=search]:hover {
+      background-color: #fff;
+  }
+
+  #pesq input[type=search]:focus {
+      width: 130px;
+      padding-left: 32px;
+      color: #000;
+      background-color: #fff;
+      cursor: auto;
+  }
+
+  #pesq input:-moz-placeholder {
+      color: transparent;
+  }
+
+  #pesq input::-webkit-input-placeholder {
+      color: transparent;
+  }
+
+  .clp-right {
+      margin-right: 10%;
+  }
+
+  .clp-left {
+      margin-left: 10%;
+  }
+
+  @media (max-width: 800px) {
+      .clp-left {
+          margin-left: 0;
+          margin-right: 10%;
+      }
+  }
+
+  .collapsible-header {
+      margin-top: 10px;
+  }
+
+  .collapsible-header i {
+      color: #005F7E;
+  }

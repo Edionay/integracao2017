@@ -148,9 +148,9 @@ $(document)
         .click(function () {
           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
-            target = target.length ?
-              target :
-              $('[name=' + this.hash.slice(1) + ']');
+            target = target.length
+              ? target
+              : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
               $('html,body').animate({
                 scrollTop: target
@@ -163,7 +163,8 @@ $(document)
         });
     });
 
-    // = OCULTAR CAIXA DE BUSCA ===========================================================================
+    // = OCULTAR CAIXA DE BUSCA
+    // ===========================================================================
     $(document).ready(function () {
       var trig = 1;
       //fix for chrome
@@ -195,20 +196,16 @@ $(document)
         //handle other nav elements visibility first to avoid push down
         $('.search-hide').removeClass('hide');
 
+        // Open
+        $('.collapsible').collapsible('open', 0);
+
+        // Close
+        $('.collapsible').collapsible('close', 0);
+
+        // Destroy
+        $('.collapsible').collapsible('destroy');
+
       });
 
     });
-
-    $(document).ready(function () {
-      $('.collapsible').collapsible();
-    });
-
-    // Open
-    $('.collapsible').collapsible('open', 0);
-
-    // Close
-    $('.collapsible').collapsible('close', 0);
-
-    // Destroy
-    $('.collapsible').collapsible('destroy');
   });
