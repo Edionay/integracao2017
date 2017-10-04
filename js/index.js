@@ -66,10 +66,10 @@ $(document)
       responsiveWidth: 400,
       navigation: true,
       navigationTooltips: [
-        'início', 'sobre', 'disciplinas', 'faq', 'segue a gente'
+        'início', 'sobre', 'disciplinas', 'faq', 'acompanhe'
       ],
       anchors: [
-        'início', 'sobre', 'disciplinas', 'faq', 'segue a gente'
+        'início', 'sobre', 'disciplinas', 'faq', 'rodapé'
       ],
       menu: '#myMenu',
       fitToSection: false,
@@ -88,12 +88,14 @@ $(document)
             $(this).css('color', 'white')
           });
           $('.header-links').css("background-color", "transparent");
+          $('img[src="assets/images/cl-logo.png"]').attr('src','assets/images/logo.png');
         } else if (index != 1) {
           $('.header-links a')
             .each(function () {
               $(this).css('color', '#005F7E')
             });
           $('.header-links').css('background-color', 'white');
+          $('img[src="assets/images/logo.png"]').attr('src','assets/images/cl-logo.png');
         }
 
         //using index
@@ -111,7 +113,7 @@ $(document)
         }
       }
     });
-
+  
     // move section down one
     $(document).on('click', '#moveDown', function () {
       $
@@ -206,6 +208,5 @@ $(document)
         $('.collapsible').collapsible('destroy');
 
       });
-
     });
   });
