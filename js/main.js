@@ -88,14 +88,14 @@ $(document)
             $(this).css('color', 'white')
           });
           $('.header-links').css("background-color", "transparent");
-          $('img[src="assets/images/cl-logo.png"]').attr('src','assets/images/logo.png');
+          $('img[src="assets/images/cl-logo.png"]').attr('src', 'assets/images/logo.png');
         } else if (index != 1) {
           $('.header-links a')
             .each(function () {
               $(this).css('color', '#005F7E')
             });
           $('.header-links').css('background-color', 'white');
-          $('img[src="assets/images/logo.png"]').attr('src','assets/images/cl-logo.png');
+          $('img[src="assets/images/logo.png"]').attr('src', 'assets/images/cl-logo.png');
         }
 
         //using index
@@ -113,7 +113,7 @@ $(document)
         }
       }
     });
-  
+
     // move section down one
     $(document).on('click', '#moveDown', function () {
       $
@@ -150,9 +150,9 @@ $(document)
         .click(function () {
           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
-            target = target.length
-              ? target
-              : $('[name=' + this.hash.slice(1) + ']');
+            target = target.length ?
+              target :
+              $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
               $('html,body').animate({
                 scrollTop: target

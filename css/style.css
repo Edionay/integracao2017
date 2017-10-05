@@ -523,7 +523,7 @@
   }
 
   .social-links a:hover {
-      color: #0095DA;
+      color: #6adcfa;
       -webkit-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       -ms-transition: all 0.2s ease-in-out;
@@ -796,4 +796,14 @@
 
   .collapsible-header i {
       color: #005F7E;
+  }
+
+  /* = ESTILIZANDO AS LOGOS DO RODAPÉ COM SVG ================================ */
+
+  .draco-bg {
+    fill: white;
+  }
+
+  .draco-layer-01 {
+    fill: #071D35;
   }
