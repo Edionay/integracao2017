@@ -24,6 +24,7 @@
 
   .section {
       text-align: center;
+
   }
 
   .skillbar {
@@ -218,8 +219,10 @@
 
   .aboutme p {
       color: white;
-      font-weight: 100;
       font-size: 17.4px;
+      text-align: center;
+      padding-left:80px;
+      padding-right:80px;
   }
   /* bouncing arrow */
 
@@ -797,6 +800,7 @@
   .collapsible-header i {
       color: #005F7E;
   }
+
 
   /* = ESTILIZANDO AS LOGOS DO RODAPÉ COM SVG ================================ */
 
