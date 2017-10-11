@@ -83,8 +83,7 @@
   }
 
   .nav-brand img {
-      width: 200px;
-      background: url(images/logo.png);
+      height: 38px;
   }
 
   .fa-bars {
