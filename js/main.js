@@ -88,14 +88,16 @@ $(document)
             $(this).css('color', 'white')
           });
           $('.header-links').css("background-color", "transparent");
-          $('img[src="assets/images/cl-logo.png"]').attr('src', 'assets/images/logo.png');
+          $('img[src="assets/images/logo.png"]').fadeIn('fast');
+          $('img[src="assets/images/cl-logo.png"]').fadeOut('fast');
         } else if (index != 1) {
           $('.header-links a')
             .each(function () {
               $(this).css('color', '#005F7E')
             });
           $('.header-links').css('background-color', 'white');
-          $('img[src="assets/images/logo.png"]').attr('src', 'assets/images/cl-logo.png');
+          $('img[src="assets/images/logo.png"]').fadeOut('fast');
+          $('img[src="assets/images/cl-logo.png"]').fadeIn('fast');
         }
 
         //using index

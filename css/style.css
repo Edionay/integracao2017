@@ -120,7 +120,7 @@
       color: white;
       display: inline;
       float: right;
-      padding: 15px;
+      padding: 18px;
       font-size: 16px;
   }
 
@@ -508,7 +508,7 @@
   /* footer styles */
 
   .footer {
-      background-color: #484848;
+      background-color: #005F7E;
       height: 100px;
       padding-top: 10px;
   }
@@ -798,15 +798,4 @@
 
   .collapsible-header i {
       color: #005F7E;
-  }
-
-
-  /* = ESTILIZANDO AS LOGOS DO RODAPÉ COM SVG ================================ */
-
-  .draco-bg {
-    fill: white;
-  }
-
-  .draco-layer-01 {
-    fill: #071D35;
   }

@@ -31,24 +31,26 @@
 
 </head>
 
-
 <body>
   <!-- navbar header -->
   <div class="nav-header">
     <div class="nav-brand">
-      <a href="#"><img id="#logomarca" src="assets/images/logo.png"></a>
+      <a href="#">
+        <img id="#colored-logo" 'position:relative;' src="assets/images/cl-logo.png">
+        <img id="#white-logo" style='position:absolute; top:10px;' src="assets/images/logo.png">
+      </a>
     </div>
     <i class="fa fa-bars fa-3x"></i>
     <div class="header-links" style="padding:0%">
       <ul style="padding:0%">
-        <li class="valign-wrapper" style="padding:0%">
+        <li style="padding:0%">
           <form id="pesq" style="padding-top:10px;padding-right:20px">
-            <input type="search" placeholder="Pesquisar">
+            <input id="pesq-btn" type="search" placeholder="Pesquisar">
           </form>
         </li>
-        <li data-menuanchor="fourthPage"><a href="#faq">FAQs</a></li>
-        <li data-menuanchor="thirdPage"><a href="#disciplinas">DISCIPLINAS</a></li>
-        <li data-menuanchor="secondPage"><a href="#sobre">SOBRE</a></li>
+        <li data-menuanchor="fourthPage"><a href="equivalencias.html">EQUIVALÊNCIAS</a></li>
+        <li data-menuanchor="thirdPage"><a href="disciplinas.html">DISCIPLINAS</a></li>
+        <li data-menuanchor="secondPage"><a href="sobre.html">SOBRE</a></li>
       </ul>
     </div>
   </div>
@@ -60,12 +62,12 @@
     <div class="nav-container">
       <div class="nav-links">
         <ul id='myMenu'>
-          <li data-menuanchor="secondPage"><a href="#sobre">SOBRE</a></li>
-          <li data-menuanchor="thirdPage"><a href="#disciplinas">DISCIPLINAS</a></li>
-          <li data-menuanchor="fourthPage"><a href="#faq">FAQs</a></li>
+          <li data-menuanchor="secondPage"><a href="sobre.html">SOBRE</a></li>
+          <li data-menuanchor="thirdPage"><a href="disciplinas.html">DISCIPLINAS</a></li>
+          <li data-menuanchor="fourthPage"><a href="equivalencias.html">EQUIVALÊNCIAS</a></li>
           <li>
             <form id="pesq-mb">
-              <input type="search" placeholder="Pesquisar">
+              <input id="pesq-btn" type="search" placeholder="Pesquisar">
             </form>
           </li>
         </ul>
@@ -82,21 +84,23 @@
 
     <!-- begin section -->
     <div class="section aboutme" data-anchor="aboutme">
-      <div class="opaque-bg animated fadeInDown">
+      <div class="opaque-bg animated">
         <h1 style="color:white"><span id="holder"></span><span class="blinking-cursor">|</span></h1>
-        <p style="color:white">
-          O Curso de Engenharia de Software da Universidade Federal de Goiás forma o profissional de software, o engenheiro de Software, apto a participar de e conduzir empreendimentos de softwares que sejam competitivos no mercado global.<br>
-            <br>
-            <br>
+        <p style="color:white" class="animated fadeInUp">
+          O Curso de Engenharia de Software da Universidade Federal de Goiás forma o profissional de software, o engenheiro de Software,
+          apto a participar de e conduzir empreendimentos de softwares que sejam competitivos no mercado global.<br>
+          <br>
+          <br>
         </p>
-          <div>
-          <a href="https://guiadoestudante.abril.com.br/profissoes/engenharia-de-software/"><img width="400" height="80" src="assets/images/5-estrelas.png"></a>
-              <br>
-              <br>
-          </div>
-          <p style="color:white">
-          Possui avaliação 5 do CPC, que é o indicador do Ministério da Educação que mede a qualidade dos cursos, de 1 (menor valor) a 5 (maior valor).
-          </p>
+        <div>
+          <a href="https://guiadoestudante.abril.com.br/profissoes/engenharia-de-software/"><img width="400" height="80" class="animated fadeInUp" src="assets/images/5-estrelas.png"></a>
+          <br>
+          <br>
+        </div>
+        <p style="color:white" class="animated fadeInUp">
+          Possui avaliação 5 do CPC, que é o indicador do Ministério da Educação que mede a qualidade dos cursos, de 1 (menor valor)
+          a 5 (maior valor).
+        </p>
       </div>
       <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
     </div>
@@ -107,9 +111,10 @@
     <div class="section" data-anchor="about">
       <div class="content">
         <h1 class="wow fadeInDown" data-wow-delay="0.2s">Sobre o Curso</h1>
-        <p class="wow fadeInDown" data-wow-delay="0.2s">O Instituto de Informática da Universidade Federal de Goiás cria o Curso de Engenharia de Software (talvez o primeiro do país). Nesse, o egresso do curso é capaz de projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem.
-
-
+        <p class="wow fadeInUp" data-wow-delay="0.2s">O Instituto de Informática da Universidade Federal de Goiás cria o Curso de Engenharia de Software (talvez o primeiro
+          do país). Nesse, o egresso do curso é capaz de projetar (design) software (inclui arquitetura de software); construir
+          (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe,
+          comunicar e escrever bem.
         </p>
 
         <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
@@ -142,7 +147,7 @@
 
     <div class="section" data-anchor="disc">
       <h1 class="wow fadeInDown">Disciplinas</h1>
-      <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     </div>
     <!-- end section -->
 
@@ -151,7 +156,7 @@
     <div class="section" data-anchor="faq">
       <div class="">
         <div class="col-md-12">
-          <h1 class="wow fadeInDown" data-wow-delay="0.2s">FAQs</h1>
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">O que você precisa saber</h1>
         </div>
         <div class="col-md-6 col-xs-12">
           <div class="content">
@@ -208,19 +213,24 @@
         <div class="social-links">
           <span><a href="https://www.facebook.com/dracoufg/" target="_blank">
             <span class="icon-logo-draco"></span>
-          </a></span>
+          </a>
+          </span>
           <span><a href="https://www.facebook.com/aaaucomp/" target="_blank">
             <span class="icon-logo-unificada"></span>
-          </a></span>
+          </a>
+          </span>
           <span><a href="https://www.level5jr.com.br" target="_blank">
             <span class="icon-logo-lvl5"></span>
-          </a></span>
+          </a>
+          </span>
           <span><a href="http://apoema.inf.ufg.br" target="_blank">
             <span class="icon-logo-apoema"></span>
-          </a></span>
+          </a>
+          </span>
           <span><a href="http://inf.ufg.br" target="_blank">
             <span class="icon-logo-inf"></span>
-          </a></span>
+          </a>
+          </span>
         </div>
       </div>
     </div>
