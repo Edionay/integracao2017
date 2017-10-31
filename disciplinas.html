@@ -3,248 +3,316 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <title>Presença na Web</title>
+  <title>ES UFG</title>
+  <meta name="description" content="Página web ideaizada para facilitar o acesso do aluno ao Projeto Pedagógico do Curso de Engenharia de Software, da UFG.">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link href="css/style.css" rel="stylesheet">
-  
-  <title>Presença na WEB</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/icons.css">
   <link rel="shortcut icon" href="assets/images/favicon.png">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
 </head>
 
-<!-- Barra de navegação do celular -->
-<nav class="hide-on-large-only">
-  <div class="nav-wrapper blue lighten-1">
-    <a href="#!" class="brand-logo"><i class="material-icons prefix">school</i>ES UFG</a>
-    <a href="#" data-activates="barra-de-navegacao-mobile" class="button-collapse"><i
-                class="material-icons">menu</i></a>
-
-    <ul class="side-nav blue lighten-1" id="barra-de-navegacao-mobile">
-      <li class="center"><i class="material-icons prefix logo">school</i></li>
-      <li><a href="#" class="white-text">PPC</a></li>
-      <li><a href="#" class="white-text">Disciplinas</a></li>
-      <li><a href="#" class="white-text">Perguntas Frequentes</a></li>
-      <li><a href="#" class="white-text">Sobre o Curso</a></li>
-      <li><a href="#" class="white-text">Busca</a></li>
-
-    </ul>
+<body>
+  <!-- navbar header -->
+  <div class="fixed" style="color:white!important">
+    <div class="nav-brand">
+      <a href="index.html">
+        <img id="#colored-logo" style="position:relative;" src="assets/images/cl-logo.png">
+        <img id="#white-logo" style="position:absolute; display:none; top:10px;" src="assets/images/logo.png">
+      </a>
+    </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links" style="padding:0%">
+      <ul style="padding:0%">
+        <li style="padding:0%">
+          <form id="pesq" style="padding-top:10px;padding-right:20px">
+            <input id="pesq-btn" type="search" placeholder="Pesquisar">
+          </form>
+        </li>
+        <li data-menuanchor="fourthPage">
+          <a href="equivalencias.html">EQUIVALÊNCIAS</a>
+        </li>
+        <li data-menuanchor="thirdPage">
+          <a href="disciplinas.html">DISCIPLINAS</a>
+        </li>
+        <li data-menuanchor="secondPage">
+          <a class="brand-logo center waves-effect waves-light btn blue darken-1 white-text valign-wrapper" 
+            href="http://www.inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf"
+            style="margin:-10px;">
+            <i class="material-icons">cloud_download</i> PPC completo
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
-</nav>
+  <!-- end navbar header -->
 
-<!-- Barra de navegação do desktop -->
-<nav class="hide-on-med-and-down blue lighten-1">
-  <div class="nav-wrapper container ">
-    <a href="#" class="brand-logo">Engenharia de Software UFG</a>
-    <ul id="nav-mobile" class="right">
-      <li><a href="index.html">PPC</a></li>
-      <li class="active"><a href="disciplinas.html">Disciplinas</a></li>
-      <li><a href="faq.html">Perguntas Frequentes</a></li>
-      <li><a href="about.html">Sobre o Curso</a></li>
-      <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-    </ul>
-  </div>
-</nav>
-
-<div>
-  <div class="row blue lighten-5">
-
-    <div class="col l2">
-    </div>
-
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">32h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
-
-          <a class="btn-floating btn waves-effect waves-light red right modal-trigger" href="#mcs">+  </a>
-
-
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Introdução à Programação</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">128h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
-
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">96h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
-
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl">64h</a>
-          <a class="btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
-
-        </div>
+  <!-- sidebar slider -->
+  <div class="nav-screen">
+    <i class="fa fa-times fa-3x"></i>
+    <div class="nav-container">
+      <div class="nav-links">
+        <ul id='myMenu'>
+          <li data-menuanchor="secondPage">
+            <li>
+              <a class="waves-effect waves-light btn" href="http://www.inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf">
+                <i class="material-icons">cloud_download</i>PPC completo
+              </a>
+            </li>
+          </li>
+          <li data-menuanchor="thirdPage">
+            <a href="disciplinas.html">DISCIPLINAS</a>
+          </li>
+          <li data-menuanchor="fourthPage">
+            <a href="equivalencias.html">EQUIVALÊNCIAS</a>
+          </li>
+          <li>
+            <form id="pesq-mb">
+              <input id="pesq-btn" type="search" placeholder="Pesquisar">
+            </form>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <div class="row blue lighten-4">
+  <!-- end navbar slider -->
 
-    <div class="col l2">
-    </div>
+  <div style="padding-top:55px;">
+    <div class="row grey lighten-5">
+
+      <div class="col l2">
+      </div>
+
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">32h</a>
+            <a class="center btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
+
+            <a class="center btn-floating btn waves-effect waves-light red right modal-trigger" href="#mcs">+ </a>
 
 
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
+          </div>
         </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Introdução à Programação</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">128h</a>
+            <a class="center btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">96h</a>
+            <a class="center btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">64h</a>
+            <a class="center btn-floating btn waves-effect waves-light pink lighten-2">NC</a>
+
+          </div>
         </div>
       </div>
     </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
+    <div class="row white">
+
+      <div class="col l2">
+      </div>
+
+
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
         </div>
       </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
+    <div class="row grey lighten-5">
+
+      <div class="col l2">
+
+      </div>
+
+
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
         </div>
       </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col l2">
+        <div class="card blue darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Computação e Sociedade</span>
+          </div>
+          <div class="card-action">
+            <a class="center btn-floating btn waves-effect waves-light bl">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>
-  <div class="row blue lighten-5">
 
-    <div class="col l2">
+  <!-- Modais de disciplinas -->
 
+  <div id="mcs" class="modal">
+    <div class="modal-content">
+      <h4>Computação e Sociedader</h4>
+      <ul>
+        <li>123</li>
+        <li>324324</li>
+        <li>23452345</li>
+      </ul>
     </div>
-
-
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
     </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col l2">
-      <div class="card blue blue lighten-2">
-        <div class="card-content white-text">
-          <span class="card-title">Computação e Sociedade</span>
-        </div>
-        <div class="card-action">
-          <a class="btn-floating btn waves-effect waves-light bl"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-    </div>
-
   </div>
 
-</div>
-
-<!-- Modais de disciplinas -->
-
-<div id="mcs" class="modal">
-  <div class="modal-content">
-    <h4>Computação e Sociedader</h4>
-    <ul>
-      <li>123</li>
-      <li>324324</li>
-      <li>23452345</li>
-    </ul>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
-  </div>
-</div>
-
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 
