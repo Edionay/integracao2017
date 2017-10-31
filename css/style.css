@@ -799,3 +799,13 @@
   .collapsible-header i {
       color: #005F7E;
   }
+
+  .btn {
+      background-color: #005F7E !important;
+      opacity: 1;
+      box-shadow: none;
+  }
+
+  .btn:hover {
+      box-shadow: none;
+  }
