@@ -1,13 +1,28 @@
-# Integração 2017 - Engenharia de Software 2017/2
-## Endereço de hospedagem do projeto:
-[edionay.com/integracao2017](http://www.edionay.com/integracao2017)
+# PresencaNaWeb
 
-## Propósito
-Implementar o projeto [Conhecendo o Bacharelado em Engenharia de Software](https://docs.google.com/document/d/1ujvTIM47dr3d30GfUcfyDTLJgYhaZqjHo4nO7AIKjMs/edit#heading=h.af80tl7prv5v) tentando integrar todo o conhecimento das disciplinas do curso de tal forma a permitir a compreensão, a relação entre elas, a importância, os produtos e atividades pertinentes a cada uma delas.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
-## Integrantes do grupo:
-- [Edionay Aguiar](https://github.com/edionay) - 201407240
-- [Erick Vieira](https://github.com/erickvieira) - 201515568
-- [João Lucas](https://github.com/JLucas5) - 201503345
-- [Osmar Cavalcante](https://github.com/osmarpixuri) - 200801716
-- [Paula Resende](https://github.com/paularesende) - 201503358
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
