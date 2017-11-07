@@ -525,7 +525,7 @@
   }
 
   .social-links a:hover {
-      color: #6adcfa;
+      color: #002633;
       -webkit-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       -ms-transition: all 0.2s ease-in-out;
@@ -789,7 +789,7 @@
       margin-left: 10%;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 982px) {
       .clp-left {
           margin-left: 0;
           margin-right: 10%;
