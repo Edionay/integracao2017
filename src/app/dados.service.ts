@@ -5,7 +5,7 @@ import {Observable} from 'rxjs/Observable';
 @Injectable()
 export class DadosService {
 
-  enderecoJson = 'data/dados.json';
+  enderecoJson = 'https://raw.githubusercontent.com/Edionay/integracao2017/gh-pages/data/dados.json';
   constructor(private http: Http) { }
 
   baixarDados(): Observable<Response> {
