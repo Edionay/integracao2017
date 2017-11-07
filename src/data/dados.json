@@ -234,6 +234,19 @@
     },
     {
       "id": 11,
+      "nome": "Optativa 1",
+      "ementa": [""],
+      "cargaHorariaTotal": "",
+      "cargaHorariaTeorica": "",
+      "cargaHorariaPratica": "",
+      "periodo": "",
+      "obrigatoria": "",
+      "preRequisitos": "",
+      "nucleo": "",
+      "bibliografia": []
+    },
+    {
+      "id": 12,
       "nome": "Linguagens e Paradigmas de Programação",
       "ementa": [
         "Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.",
@@ -251,7 +264,7 @@
       "bibliografia": []
     },
     {
-      "id": 12,
+      "id": 13,
       "nome": "Engenharia de Software",
       "ementa": [
         "Requisitos de software.",
@@ -278,7 +291,7 @@
       "bibliografia": []
     },
     {
-      "id": 13,
+      "id": 14,
       "nome": "Análise e Projeto de Algoritmos",
       "ementa": [
         "Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.",
@@ -297,7 +310,7 @@
       "bibliografia": []
     },
     {
-      "id": 14,
+      "id": 15,
       "nome": "Interação Humano-Computador",
       "ementa": [
         "Aspectos gerais sobre interação humano-computador",
@@ -321,7 +334,20 @@
       "bibliografia": []
     },
     {
-      "id": 15,
+      "id": 16,
+      "nome": "Optativa 1",
+      "ementa": [""],
+      "cargaHorariaTotal": "",
+      "cargaHorariaTeorica": "",
+      "cargaHorariaPratica": "",
+      "periodo": "",
+      "obrigatoria": "",
+      "preRequisitos": "",
+      "nucleo": "",
+      "bibliografia": []
+    },
+    {
+      "id": 17,
       "nome": "Banco de Dados",
       "ementa": [
         "Conceitos básicos de Banco de Dados",
@@ -341,7 +367,7 @@
       "bibliografia": []
     },
     {
-      "id": 16,
+      "id": 18,
       "nome": "Projeto de Software",
       "ementa": [
         "Fundamentos de design de software",
@@ -363,7 +389,7 @@
       "bibliografia": []
     },
     {
-      "id": 17,
+      "id": 19,
       "nome": "Sistemas Operacionais",
       "ementa": [
         "Conceitos de Hardware e Software",
@@ -386,7 +412,7 @@
       "bibliografia": []
     },
     {
-      "id": 18,
+      "id": 20,
       "nome": "Pesquisa Operacional",
       "ementa": [
         "Modelagem",
@@ -407,7 +433,7 @@
       "bibliografia": []
     },
     {
-      "id": 19,
+      "id": 21,
       "nome": "Linguagens Formais e Autômatos",
       "ementa": [
         "Conceitos básicos de linguagens",
@@ -424,7 +450,7 @@
       "bibliografia": []
     },
     {
-      "id": 20,
+      "id": 22,
       "nome": "Redes de computadores",
       "ementa": [
         "Fundamentos",
@@ -444,7 +470,7 @@
       "bibliografia": []
     },
     {
-      "id": 21,
+      "id": 23,
       "nome": "Introdução à Língua Brasileira de Sinais",
       "ementa": [
         "Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares",
@@ -461,7 +487,7 @@
       "bibliografia": []
     },
     {
-      "id": 22,
+      "id": 24,
       "nome": "Compiladores",
       "ementa": [
         "A estrutura de um compilador",
@@ -483,7 +509,7 @@
       "bibliografia": []
     },
     {
-      "id": 23,
+      "id": 25,
       "nome": "Sistemas Distribuídos",
       "ementa": [
         "Introdução a Sistemas Distribuídos",
@@ -503,7 +529,7 @@
       "bibliografia": []
     },
     {
-      "id": 24,
+      "id": 26,
       "nome": "Construção de Software",
       "ementa": [
         "Visão geral (4h): construção (minimizar complexidade, antecipação de mudança, verificação, padrões), projeto de software (software design), qualidade de produto",
@@ -528,7 +554,7 @@
       "bibliografia": []
     },
     {
-      "id": 25,
+      "id": 27,
       "nome": "Modelagem de Software",
       "ementa": [
         "Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software",
@@ -563,7 +589,7 @@
       "bibliografia": []
     },
     {
-      "id": 27,
+      "id": 28,
       "nome": "Engenharia de Sistemas",
       "ementa": [
         "Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz",
@@ -580,7 +606,7 @@
       "bibliografia": []
     },
     {
-      "id": 28,
+      "id": 29,
       "nome": "Design de Software",
       "ementa": [
         "Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado",
@@ -605,7 +631,7 @@
       "bibliografia": []
     },
     {
-      "id": 29,
+      "id": 30,
       "nome": "Domínios de Software",
       "ementa": [
         "Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles",
@@ -623,7 +649,7 @@
       "bibliografia": []
     },
     {
-      "id": 30,
+      "id": 31,
       "nome": "Processos de Qualidade de Software",
       "ementa": [
         "Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software",
@@ -641,7 +667,7 @@
       "bibliografia": []
     },
     {
-      "id": 31,
+      "id": 32,
       "nome": "Gerência de Projeto de Software",
       "ementa": [
         "Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO)",
@@ -660,7 +686,7 @@
       "bibliografia": []
     },
     {
-      "id": 32,
+      "id": 33,
       "nome": "Software Concorrente e Distribuído",
       "ementa": [
         "Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.",
@@ -680,7 +706,7 @@
       "bibliografia": []
     },
     {
-      "id": 33,
+      "id": 34,
       "nome": "Experiência do Usuário de Software",
       "ementa": [
         "Qualidade em uso (4h): usabilidade, acessibilidade.",
@@ -700,7 +726,7 @@
       "bibliografia": []
     },
     {
-      "id": 34,
+      "id": 35,
       "nome": "Arquitetura de Software",
       "ementa": [
         "Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
@@ -719,7 +745,7 @@
       "bibliografia": []
     },
     {
-      "id": 35,
+      "id": 36,
       "nome": "Requisitos de Software",
       "ementa": [
         "Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.",
@@ -744,7 +770,7 @@
       "bibliografia": []
     },
     {
-      "id": 36,
+      "id": 37,
       "nome": "Governança e Gestão de Serviços de Software",
       "ementa": [
         "Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS",
@@ -768,7 +794,7 @@
       "bibliografia": []
     },
     {
-      "id": 37,
+      "id": 38,
       "nome": "Software para Sistemas Ubíquos",
       "ementa": [
         "Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).",
@@ -785,7 +811,7 @@
       "bibliografia": []
     },
     {
-      "id": 38,
+      "id": 39,
       "nome": "Software para Persistência de Dados",
       "ementa": [
         "Visão geral de persistência (12h): arquivos em formato texto/binário",
@@ -809,7 +835,7 @@
       "bibliografia": []
     },
     {
-      "id": 39,
+      "id": 40,
       "nome": "Padrões de Arquitetura de Software",
       "ementa": [
         "Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC).",
@@ -827,7 +853,7 @@
       "bibliografia": []
     },
     {
-      "id": 40,
+      "id": 41,
       "nome": "Teste de Software",
       "ementa": [
         "Processo de construção (8h): definições básicas, atividades e documentação.",
@@ -843,7 +869,7 @@
       "bibliografia": []
     },
     {
-      "id": 41,
+      "id": 42,
       "nome": "Metodologia e Experimentação em Engenharia de Software",
       "ementa": [
         "Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software",
@@ -860,7 +886,7 @@
       "bibliografia": []
     },
     {
-      "id": 42,
+      "id": 43,
       "nome": "Mercado e Economia de Software",
       "ementa": [
         "Modelos de negócio para software (aluguel, serviço, código aberto).",
@@ -888,7 +914,7 @@
       "bibliografia": []
     },
     {
-      "id": 43,
+      "id": 44,
       "nome": "Prática em Engenharia de Software",
       "ementa": [
         "Aplicação do corpo de conhecimento da Engenharia de Software no contexto de projetos realizados em uma Fábrica de Software (320h): emprego de processos de Engenharia de Software em abrangência e profundidade;",
