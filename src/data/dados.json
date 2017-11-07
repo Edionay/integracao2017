@@ -572,7 +572,7 @@
       "bibliografia": []
     },
     {
-      "id": 26,
+      "id": 28,
       "nome": "Processos de Software",
       "ementa": [
         "Visão geral (8h): processo, método e modelo",
@@ -589,7 +589,7 @@
       "bibliografia": []
     },
     {
-      "id": 28,
+      "id": 29,
       "nome": "Engenharia de Sistemas",
       "ementa": [
         "Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz",
@@ -606,7 +606,7 @@
       "bibliografia": []
     },
     {
-      "id": 29,
+      "id": 30,
       "nome": "Design de Software",
       "ementa": [
         "Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado",
@@ -631,7 +631,7 @@
       "bibliografia": []
     },
     {
-      "id": 30,
+      "id": 31,
       "nome": "Domínios de Software",
       "ementa": [
         "Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles",
@@ -649,7 +649,7 @@
       "bibliografia": []
     },
     {
-      "id": 31,
+      "id": 32,
       "nome": "Processos de Qualidade de Software",
       "ementa": [
         "Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software",
@@ -667,7 +667,7 @@
       "bibliografia": []
     },
     {
-      "id": 32,
+      "id": 33,
       "nome": "Gerência de Projeto de Software",
       "ementa": [
         "Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO)",
@@ -686,7 +686,7 @@
       "bibliografia": []
     },
     {
-      "id": 33,
+      "id": 34,
       "nome": "Software Concorrente e Distribuído",
       "ementa": [
         "Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.",
@@ -706,7 +706,7 @@
       "bibliografia": []
     },
     {
-      "id": 34,
+      "id": 35,
       "nome": "Experiência do Usuário de Software",
       "ementa": [
         "Qualidade em uso (4h): usabilidade, acessibilidade.",
@@ -726,7 +726,7 @@
       "bibliografia": []
     },
     {
-      "id": 35,
+      "id": 36,
       "nome": "Arquitetura de Software",
       "ementa": [
         "Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
@@ -745,7 +745,7 @@
       "bibliografia": []
     },
     {
-      "id": 36,
+      "id": 37,
       "nome": "Requisitos de Software",
       "ementa": [
         "Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.",
@@ -770,7 +770,7 @@
       "bibliografia": []
     },
     {
-      "id": 37,
+      "id": 38,
       "nome": "Governança e Gestão de Serviços de Software",
       "ementa": [
         "Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS",
@@ -794,7 +794,7 @@
       "bibliografia": []
     },
     {
-      "id": 38,
+      "id": 39,
       "nome": "Software para Sistemas Ubíquos",
       "ementa": [
         "Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).",
@@ -811,7 +811,7 @@
       "bibliografia": []
     },
     {
-      "id": 39,
+      "id": 40,
       "nome": "Software para Persistência de Dados",
       "ementa": [
         "Visão geral de persistência (12h): arquivos em formato texto/binário",
@@ -835,7 +835,7 @@
       "bibliografia": []
     },
     {
-      "id": 40,
+      "id": 41,
       "nome": "Padrões de Arquitetura de Software",
       "ementa": [
         "Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC).",
@@ -853,7 +853,7 @@
       "bibliografia": []
     },
     {
-      "id": 41,
+      "id": 42,
       "nome": "Teste de Software",
       "ementa": [
         "Processo de construção (8h): definições básicas, atividades e documentação.",
@@ -869,7 +869,7 @@
       "bibliografia": []
     },
     {
-      "id": 42,
+      "id": 43,
       "nome": "Metodologia e Experimentação em Engenharia de Software",
       "ementa": [
         "Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software",
@@ -886,7 +886,7 @@
       "bibliografia": []
     },
     {
-      "id": 43,
+      "id": 44,
       "nome": "Mercado e Economia de Software",
       "ementa": [
         "Modelos de negócio para software (aluguel, serviço, código aberto).",
@@ -914,7 +914,7 @@
       "bibliografia": []
     },
     {
-      "id": 44,
+      "id": 45,
       "nome": "Prática em Engenharia de Software",
       "ementa": [
         "Aplicação do corpo de conhecimento da Engenharia de Software no contexto de projetos realizados em uma Fábrica de Software (320h): emprego de processos de Engenharia de Software em abrangência e profundidade;",
