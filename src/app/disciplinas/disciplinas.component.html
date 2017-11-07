@@ -1,19 +1,78 @@
-<div class="container">
-  <div class="row">
+<div>
 
-    <div *ngFor="let disciplina of disciplinas" class="card" style="width: 15rem;">
-      <div class="card-body" id="{{ disciplina.id }}">
+  <div class="row">
+    <div *ngFor="let disciplina of periodo1" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo2" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo3" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo4" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo5" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo6" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo7" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo8" class="card" style="width: 15rem;">
+      <div class="card-body">
+        <h4 class="card-title">{{ disciplina.nome }}</h4>
+        <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let disciplina of periodo9" class="card" style="width: 15rem;">
+      <div class="card-body">
         <h4 class="card-title">{{ disciplina.nome }}</h4>
         <a class="btn btn-info" data-toggle="modal" (click)="gerarDisciplinaModal(disciplina.id)" data-target="#exampleModal">Mais detalhes</a>
       </div>
     </div>
   </div>
 </div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
