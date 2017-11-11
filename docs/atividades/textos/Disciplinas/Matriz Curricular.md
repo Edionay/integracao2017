@@ -1,1 +1,0 @@
-A matriz curricular do curso perfaz 44 disciplinas descritas nas Tabelas 1, 2 e 3. A Tabela 1 apresenta a lista das 17 disciplinas de formação básica em computação. Em particular, são 4 disciplinas oferecidas pelo Instituto de Matemática e Estatística (IME) e as outras 13 oferecidas pelo INF. Todas elas são obrigatórias e pertencem ao Núcleo Comum (NC). 
