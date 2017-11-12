@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col hide-on-small-only m3 l2">
     <ul class="section table-of-contents fixed">
-      <li *ngFor="let topico of topicos"><a href="#{{ topico.id }}">{{ topico.topico }}</a></li>
+      <li *ngFor="let topico of topicos"><a href="#{{ topico.id }}">- {{ topico.topico }}</a></li>
     </ul>
   </div>
 
@@ -21,23 +21,3 @@
   </div>
 </div>
 
-
-<div class="container">
-  <div class="row">
-
-    <div class="col-lg-9" data-spy="scroll" data-target="#navbar-example">
-      <div *ngFor="let topico of topicos">
-
-        <h1 class="text-center">{{ topico.topico }}</h1>
-        <p *ngFor="let paragrafo of topico.descricao">{{ paragrafo }}</p>
-
-        <div *ngFor="let subtopico of topico.conteudo">
-          <h3>{{ subtopico.subtopico }}</h3>
-          <p *ngFor="let paragrafo of subtopico.detalhe">
-            {{ paragrafo}}
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
