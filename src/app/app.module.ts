@@ -12,7 +12,7 @@ import {DisciplinasComponent} from './disciplinas/disciplinas.component';
 import {PpcComponent} from './ppc/ppc.component';
 import { RouterModule} from '@angular/router';
 import {BuscaComponent} from './busca/busca.component';
-import {InicioComponent} from "./inicio/inicio.component";
+import {InicioComponent} from './inicio/inicio.component';
 
 const appRoutes = [
   { path: 'disciplinas', component: DisciplinasComponent},
