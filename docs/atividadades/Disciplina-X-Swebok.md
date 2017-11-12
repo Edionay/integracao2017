@@ -12,7 +12,7 @@
 - 9 - Programação Orientada a Objetos	= Software Design, projeto de software, Software construction, construção de software;
 - 10 - Algoritmos e Estruturas de Dados = Computing foundations, fundamentos da computação;
 - 11 - Linguagens e Paradigmas de Programação	= Computing foundations, fundamentos da computação;
-- 12 - Engenharia de Software	= Software testing, teste de software, Software Engineering Managment, gerencia de configuraço de software, software engineering processo, processo de software, software engineering models and methods, métodos e modelos de engenharia de software, software quality, qualidade de software, software engineering professional practice, prática profissional em engenharia de software, software engineering economics, economia em engenharia de software, software requirements, requisitos de software, software design, projeto de software, software construction, construção de software, software maintenance, manutenção de software; 
+- 12 - Engenharia de Software	= Software testing, teste de software, Software Engineering Managment, gerencia de engenharia de software, software configuration management, gerencia de configuraço de software, software engineering processo, processo de software, software engineering models and methods, métodos e modelos de engenharia de software, software quality, qualidade de software, software engineering professional practice, prática profissional em engenharia de software, software engineering economics, economia em engenharia de software, software requirements, requisitos de software, software design, projeto de software, software construction, construção de software, software maintenance, manutenção de software; 
 - 13 - Análise e Projeto de Algoritmos	= Mathematicals foundations, fundamentos matemáticos, matemática, Computing foundations, fundamentos da computação;
 - 14 - Interação Humano-Computador	= Software testing, teste de software, software design, projeto de software;
 - 15 - Banco de Dados	= software design, projeto de software, computing foundations; 
@@ -21,28 +21,26 @@
 - 18 - Pesquisa Operacional	= Computing foundations, fundamentos da computação;
 - 19 - Linguagens Formais e Autômatos	= Computing foundations, fundamentos da computação;
 - 20 - Redes de computadores = Computing foundations, fundamentos da computação;
-- 21 - Introdução à Língua Brasileira de Sinais	= 
-Compiladores	54
-Sistemas Distribuídos	55
-Disciplinas específicas de Engenharia de Software	56
-Condições mínimas	56
-Construção de Software	57
-Modelagem de Software	59
-Processos de Software	59
-Engenharia de Sistemas	60
-Design de Software	61
-Domínios de Software	62
-Processos de Qualidade de Software	63
-Gerência de Projeto de Software	64
-Software Concorrente e Distribuído	65
-Experiência do Usuário de Software	66
-Arquitetura de Software	67
-Requisitos de Software	68
-Governança e Gestão de Serviços de Software	69
-Software para Sistemas Ubíquos	70
-Software para Persistência de Dados	71
-Padrões de Arquitetura de Software	72
-Teste de Software	73
-Metodologia e Experimentação em Engenharia de Software	74
-Mercado e Economia de Software	74
-Prática em Engenharia de Software
+- 21 - Introdução à Língua Brasileira de Sinais	= Software engineering professional practice, prática profissional em engenharia de software;
+- 22 - Compiladores	= Computing foundations, fundamentos da computação;
+- 23 - Sistemas Distribuídos = Software construction, construção de software;
+- 24 - Construção de Software	= Software construction, construção de software;
+- 25 - Modelagem de Software = Software construction, construção de software, software design, projeto de software; 
+- 26 - Processos de Software = Software requirements, requisitos de software, software design, projeto de software, Software testing, teste de software, software maintenance, manutenção de software, software configuration managment, gerencia de configuração de software, software Engineering Managment, gerencia de engenharia de software, software engineering process, processo de engenharia de software, software quality, qualidade de software, software engineering economics, engenharia economica de software, computing foundations, fundamentos da computação; 
+ - 27 - Engenharia de Sistemas	= Software engineering professional practice, prática profissional em engenharia de software;
+- 28 - Design de Software	= design de software, projeto de software;
+- 29 - Domínios de Software	= Software requirements, requisitos de software;
+- 30 - Processos de Qualidade de Software	= software quality, qualidade de software;
+- 31 - Gerência de Projeto de Software	= software configuration management, gerencia de configuraço de software;
+- 32 - Software Concorrente e Distribuído	= software construction, construção de software;
+- 33 - Experiência do Usuário de Software	= software quality, qualidade de software, software construction, construção de software, software requirements, requisitos de software;
+- 34 - Arquitetura de Software = software design, projeto de software;
+- 35 - Requisitos de Software	= software requirements;
+- 36 - Governança e Gestão de Serviços de Software = software maintenance, manutenção de software, software configuration management, gerencia de configuraço de software;
+- 37 - Software para Sistemas Ubíquos	= Software engineering professional practice, prática profissional em engenharia de software;
+- 38 - Software para Persistência de Dados = software construction, construção de software, software design, projeto de software;
+- 39 - Padrões de Arquitetura de Software	= software construction, construção de software, software design, projeto de software;
+- 40 - Teste de Software = software quality, qualidade de software, software testing, teste de software;
+- 41 - Metodologia e Experimentação em Engenharia de Software	= software engineering process, processo de engenharia de software;
+- 42 - Mercado e Economia de Software	= software requirements, requisitos de software, software testing, teste de software, software engineering economics, economia em engenharia de software;
+- 43 - Prática em Engenharia de Software = Software requirements, requisitos de software, software design, projeto de software, Software testing, teste de software, software maintenance, manutenção de software, software configuration managment, gerencia de configuração de software, software Engineering Managment, gerencia de engenharia de software, software engineering process, processo de engenharia de software, software quality, qualidade de software, software engineering economics, engenharia economica de software, computing foundations, fundamentos da computação; 
