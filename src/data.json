@@ -1,45 +1,44 @@
 {
-  "disciplina": [
-    {
-      "id": 0,
-      "nome": "Computação e Sociedade",
-      "ementa": [
-        "História da computação",
-        "Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente",
-        "Subáreas da computação e áreas interdisciplinares",
-        "Importância e desafios da computação no Brasil e no mundo",
-        "Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado,organizações e associações na área, regulamentação da profissão",
-        "mercado, organizações e associações na área, regulamentação da profissão",
-        "Leis e normas relacionadas à Informática",
-        "Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação",
-        "Ética na Computação",
-        "Empresas de tecnologia da informação",
-        "Incubadoras de empresas."
-      ],
-      "cargaHorariaTotal": 32,
-      "cargaHorariaTeorica": 32,
-      "cargaHorariaPratica": 0,
-      "periodo": 1,
-      "obrigatoria": "Sim",
-      "preRequisitos": "",
-      "nucleo": "NC",
-      "bibliografiaBasica": [
-        "VELOSO, R. Tecnologias da Informação e Comunicação: Desafios e Perspectivas. São Paulo: Saraiva, 2011",
-        "MASIERO, P. Ética em Computação. Editora da USP, 2000",
-        "FONSECA FILHO, C. História da computação: O Caminho do Pensamento e da Tecnologia. Porto Alegre: EDIPUCRS, 2007"
-      ],
-      "bibliografiaComplementar": [
-        "CHALITA, G. Os Dez Mandamentos da Ética. Editora Nova Fronteira, 2003",
-        "DRUMMOND, V. Internet, Privacidade e Dados Pessoais. Editora Lumen Juris, 2003",
-        "KACZMARCZYK, L. C. Computers and Society: Computing for Good. Chapman & Hall/CRC Textbooks in Computing. CRC Press, 2011",
-        "LUCCA, N.; FILHO, A. S. Direito & Internet. Editora Edipro, 2001",
-        "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005"
-      ],
-      "swebok": [
-        "Software engineering professional practice",
-        "Prática profissional em engenharia de software"
-      ]
-    },
+  "disciplina": [{
+    "id": 0,
+    "nome": "Computação e Sociedade",
+    "ementa": [
+      "História da computação",
+      "Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente",
+      "Subáreas da computação e áreas interdisciplinares",
+      "Importância e desafios da computação no Brasil e no mundo",
+      "Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado,organizações e associações na área, regulamentação da profissão",
+      "mercado, organizações e associações na área, regulamentação da profissão",
+      "Leis e normas relacionadas à Informática",
+      "Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação",
+      "Ética na Computação",
+      "Empresas de tecnologia da informação",
+      "Incubadoras de empresas."
+    ],
+    "cargaHorariaTotal": 32,
+    "cargaHorariaTeorica": 32,
+    "cargaHorariaPratica": 0,
+    "periodo": 1,
+    "obrigatoria": "Sim",
+    "preRequisitos": "",
+    "nucleo": "NC",
+    "bibliografiaBasica": [
+      "VELOSO, R. Tecnologias da Informação e Comunicação: Desafios e Perspectivas. São Paulo: Saraiva, 2011",
+      "MASIERO, P. Ética em Computação. Editora da USP, 2000",
+      "FONSECA FILHO, C. História da computação: O Caminho do Pensamento e da Tecnologia. Porto Alegre: EDIPUCRS, 2007"
+    ],
+    "bibliografiaComplementar": [
+      "CHALITA, G. Os Dez Mandamentos da Ética. Editora Nova Fronteira, 2003",
+      "DRUMMOND, V. Internet, Privacidade e Dados Pessoais. Editora Lumen Juris, 2003",
+      "KACZMARCZYK, L. C. Computers and Society: Computing for Good. Chapman & Hall/CRC Textbooks in Computing. CRC Press, 2011",
+      "LUCCA, N.; FILHO, A. S. Direito & Internet. Editora Edipro, 2001",
+      "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005"
+    ],
+    "swebok": [
+      "Software engineering professional practice",
+      "Prática profissional em engenharia de software"
+    ]
+  },
     {
       "id": 1,
       "nome": "Introdução à Programação",
@@ -66,7 +65,7 @@
         "FOBERLONE, A. L. V.; EBERSPACHER, H. F. Lógica de Programação: A construção de algoritmos e estruturas de dados. 3.a edição. São Paulo: Prentice Hall, 2005",
         "ASCENCIO, A. F. G.; CAMPOS, E. A. V. Fundamentos da Programação de Computadores. 3.a edição. Editora Pearson, 2010",
         "SCHILDT, H. C Completo e Total. 3a Ed.  São Paulo: Makron Books, 1996"
-        ],
+      ],
       "bibliografiaComplementar": [
         "FEOFILOFF, P. Algoritmos em Linguagem C. Editora Campus/Elsevier, 2009",
         "FARRER, H. at al. Programação Estruturada de Computadores: Algoritmos Estruturados. 3.a edição. Rio de Janeiro: LTC, 1989",
@@ -260,7 +259,7 @@
         "MORETTIN, L. G. Estatística básica: probabilidade e inferência. São Paulo: Prentice Hall, 2010",
         "ROSS, S. Probabilidade. Um Curso Moderno com Aplicações. 8.a ed. Porto Alegre: Bookman, 2010",
         "TRIOLA, M. F. Introdução à Estatística. 10. ed. Rio de Janeiro: LTC, 2008"
-      ]
+      ],
       "swebok": []
     },
     {
@@ -290,7 +289,7 @@
         "HOWARD, A.; RORRES, C. Álgebra Linear com Aplicações, 8.a ed. Bookman, Porto Alegre, Brasil, 2001",
         "LIMA, E. L. Álgebra Linear: Coleção Matemática Universitária. IMPA, Rio de Janeiro, Brasil, 2006",
         "SHOKRANIAN, S. Introdução à Álgebra Linear e Aplicações, 1 ed. UNB, 2004"
-      ]
+      ],
       "swebok": []
     },
     {
@@ -320,7 +319,7 @@
         "ENDERTON, H. A. Mathematical Introduction to Logic. Academic Press 2000",
         "SMULLYAN, R. Lógica de Primeira Ordem. São Paulo: UNESP. 2009",
         "CASANOVA, M. A.; GIORNO, F. A. C.; FURTADO, A. L. Programação em Lógica e a Linguagem PROLOG. Edgard Blucher, 1987"
-      ]
+      ],
       "swebok": []
     },
     {
@@ -349,7 +348,7 @@
         "HORSTMANN, C. S. Core Java – Volume II – Advanced Features, Prentice Hall, 8.a Edição, 2008",
         "SANTOS, R. Introdução à Programação Orientada a Objetos com Java. Campus, 2003",
         "ZEIGLER, B. P. Objects and Systems: Principled Design with Implementations in C++ and Java. Springer-Verlag New York, Inc., New York, NY, USA. 1997"
-      ]
+      ],
       "swebok": []
     },
     {
@@ -408,7 +407,7 @@
         "",
         "",
         ""
-      ]
+      ],
       "swebok": []
     },
 
@@ -507,7 +506,7 @@
         "software construction",
         "construção de software",
         "software maintenance",
-        "manutenção de software",
+        "manutenção de software"
       ]
     },
     {
@@ -528,7 +527,7 @@
       "preRequisitos": [
         "Fundamentos de Matemática para Computação",
         "Algoritmos e Estruturas de Dados 2"
-        ],
+      ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "BRASSARD, G.; BRATLEY, P. Fundamentals of Algorithmics. Prentice-Hall, Inc., Upper Saddle River, NJ, 1996. ISBN: 0-13-335068-1",
@@ -572,7 +571,7 @@
       "preRequisitos": [
         "Algoritmos e Estruturas de Dados 1",
         "Probabilidade e Estatística A"
-        ],
+      ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "DIX, A.; FINLAY, J. E.; ABOWD, G. D.; BEALE, R. Human­Computer Interaction (3rd Edition). Prentice­Hall, Inc., Upper Saddle River, NJ, USA, 2003",
@@ -590,7 +589,7 @@
         "Software testing",
         "teste de software",
         "software design",
-        "projeto de software",
+        "projeto de software"
       ]
     },
     {
@@ -615,7 +614,7 @@
         "",
         "",
         ""
-      ]
+      ],
       "swebok": []
     },
     {
@@ -676,7 +675,7 @@
       "preRequisitos": [
         "Programação Orientada a Objetos",
         "Engenharia de Software"
-        ],
+      ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "BASS, L.; CLEMENTS, P.; KAZMAN, R. Software Architecture in Practice, 3rd edition, Pearson Education, Inc., 2013",
@@ -890,7 +889,7 @@
       "preRequisitos": [
         "Algoritmos e Estruturas de Dados 2",
         "Linguagens Formais e Autômatos"
-        ],
+      ],
       "nucleo": "NE",
       "bibliografiaBasica": [
         "AHO, A. V; LAM, M. S.; SETHI, R.; ULLMAN, J. D. Compiladores: Princípios, técnicas e ferramentas. 2.a ed. Pearson-Addison-Wesley, 2008",
@@ -1095,7 +1094,7 @@
       ],
       "bibliografiaComplementar": [
         "ISO/IEC/IEEE 24765. Systems and software engineering - Vocabulary, 2010. Portal de periódicos da CAPES (http://goo.gl/FrGm7c)",
-        "MAGELA, R. Engenharia de software aplicada. Alta Books, 2006."
+        "MAGELA, R. Engenharia de software aplicada. Alta Books, 2006.",
         "MPS.BR.  Melhoria de Processos do Software Brasileiro.",
         "Software Engineering Body of Knowledge (SWEBOK), V3, IEEE, Disponível em https://www.computer.org/web/swebok",
         "Software Engineering Competency Model (SWECOM), IEEE. Disponível em https://www.computer.org/web/peb/swecom."
@@ -1604,7 +1603,7 @@
       ],
       "swebok": [
         "software engineering process",
-        "processo de engenharia de software",
+        "processo de engenharia de software"
       ]
     },
     {
@@ -1651,7 +1650,7 @@
         "software testing",
         "teste de software",
         "software engineering economics",
-        "economia em engenharia de software",
+        "economia em engenharia de software"
       ]
     },
     {
@@ -1684,7 +1683,7 @@
         "PFLEEGER, S. L. Engenharia de software: teoria e prática. 2.a edição. Prentice Hall, 2004. ISBN 8587918311",
         "PEDRYCZ, W.; PETERS, J. F. Engenharia de software: teoria e prática. Campus, 2003. ISBN 8535207465",
         "MAGELA, R. Engenharia de software aplicada: princípios. Alta Books, 2006. ISBN 8576081202"
-      ]
+      ],
       "swebok": [
         "Software testing",
         "Teste de software",
@@ -1713,34 +1712,30 @@
       ]
     }
   ],
-  "informacoes": [
-    {
-      "topico": "Apresentação",
-      "descricao": [
-        "O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES.",
-        "A busca pela qualidade é a motivação (p. ) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. ), o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”.",
-        "Não houve alteração relevante dos objetivos do curso (p. ), nem tampouco do perfil do egresso (p. ), contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações étnico-raciais e para o ensino de história e cultura afro-brasileira e africana foi revista em sua totalidade.",
-        "A estrutura curricular (p. ) sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina “Prática em Engenharia de Software” (p. ) é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas” (p. ), que estabelece competências a serem demonstradas/adquiridas pelo estudante em cada uma delas.",
-        "A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios (p. ). Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções."
-      ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": [""]
-        }
-      ]
-    },
+  "informacoes": [{
+    "topico": "Apresentação",
+    "descricao": [
+      "O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES.",
+      "A busca pela qualidade é a motivação (p. ) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. ), o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”.",
+      "Não houve alteração relevante dos objetivos do curso (p. ), nem tampouco do perfil do egresso (p. ), contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações étnico-raciais e para o ensino de história e cultura afro-brasileira e africana foi revista em sua totalidade.",
+      "A estrutura curricular (p. ) sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina “Prática em Engenharia de Software” (p. ) é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas” (p. ), que estabelece competências a serem demonstradas/adquiridas pelo estudante em cada uma delas.",
+      "A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios (p. ). Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções."
+    ],
+    "conteudo": [{
+      "subtopico": "",
+      "detalhe": [""]
+    }]
+  },
     {
       "topico": "Objetvos",
       "descricao": [""],
-      "conteudo": [
-        {
-          "subtopico": "Objetivo geral",
-          "detalhe": [
-            "O BES tem como objetivo: ",
-            "Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Objetivo geral",
+        "detalhe": [
+          "O BES tem como objetivo: ",
+          "Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional."
+        ]
+      },
         {
           "subtopico": "Objetivos específicos",
           "detalhe": [
@@ -1761,16 +1756,15 @@
     {
       "topico": "Expectativa da formação do profissional",
       "descricao": [""],
-      "conteudo": [
-        {
-          "subtopico": "Perfil do egresso",
-          "detalhe": [
-            "O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.",
-            "O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos.",
-            "A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética.",
-            "As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantê-la, usando processos adequados."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Perfil do egresso",
+        "detalhe": [
+          "O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.",
+          "O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos.",
+          "A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética.",
+          "As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantê-la, usando processos adequados."
+        ]
+      },
         {
           "subtopico": "Habilidades do egresso",
           "detalhe": [
@@ -1784,16 +1778,15 @@
       "descricao": [
         "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso (p. ) e o perfil do egresso (p. ). Esses princípios são fornecidos abaixo."
       ],
-      "conteudo": [
-        {
-          "subtopico": "Formação Ética e Função Social do Profissional",
-          "detalhe": [
-            "A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES.",
-            "Ética é assunto de uma das disciplinas do primeiro semestre do curso, “Computação e Sociedade” (p. ), e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso “Prática em Engenharia de Software” (p. ). Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina.",
-            "O comportamento ético e profissional será trabalhado nas atividades do curso, e não apenas na primeira e última disciplinas. A exigência de uma conduta apropriada em sala de aula, tanto dos docentes quanto dos estudantes, contribui com essa formação. Isso significa promover a qualidade de vida, o respeito à diversidade, o respeito ao meio ambiente. Nesse sentido, não apenas as disciplinas, mas toda e qualquer ação, deve ser pautada pela reflexão do impacto no contexto no qual se insere.",
-            "Ainda convém destacar que a área possui um código de ética próprio, Código de Ética e Prática Profissional da Engenharia de Software [ACM/IEEE]. Esse código é uma das bases de fundamentação do curso e deve ser observado no convívio diário do curso."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Formação Ética e Função Social do Profissional",
+        "detalhe": [
+          "A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES.",
+          "Ética é assunto de uma das disciplinas do primeiro semestre do curso, “Computação e Sociedade” (p. ), e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso “Prática em Engenharia de Software” (p. ). Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina.",
+          "O comportamento ético e profissional será trabalhado nas atividades do curso, e não apenas na primeira e última disciplinas. A exigência de uma conduta apropriada em sala de aula, tanto dos docentes quanto dos estudantes, contribui com essa formação. Isso significa promover a qualidade de vida, o respeito à diversidade, o respeito ao meio ambiente. Nesse sentido, não apenas as disciplinas, mas toda e qualquer ação, deve ser pautada pela reflexão do impacto no contexto no qual se insere.",
+          "Ainda convém destacar que a área possui um código de ética próprio, Código de Ética e Prática Profissional da Engenharia de Software [ACM/IEEE]. Esse código é uma das bases de fundamentação do curso e deve ser observado no convívio diário do curso."
+        ]
+      },
         {
           "subtopico": "Formação Técnica",
           "detalhe": [
@@ -1866,12 +1859,10 @@
         "A atuação do NDE deve ser realizada em estreita interação com a coordenação do curso. Entretanto, não é nem pode ser vista como meio para auxiliar a realização de fluxos administrativos (atribuição da coordenação do curso). ",
         "Convém observar que as atribuições estabelecidas acima estão em conformidade com a resolução da Comissão Nacional de Avaliação da Educação Superior (CONAES), 01/2010 de 17 de junho de 2010, a qual “normatiza o núcleo docente estruturante”, e esclarecido pelo parecer CONAES 04/2010 de 17 de junho de 2010. "
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Política e gestão de estágio não obrigatório",
@@ -1903,12 +1894,10 @@
         "Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção o ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino).",
         "A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não é apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso. "
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Avaliação do processo de ensino e aprendizagem",
@@ -1924,12 +1913,10 @@
         "Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas” (p. ), que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições.",
         "Dada a especificidade da disciplina “Prática em Engenharia de Software” (p. ), o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada."
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Avaliação do projeto de curso",
@@ -1938,12 +1925,10 @@
         "O NDE é responsável pelas revisões do PPC e, em particular, por contínua vigilância da adequação do PPC ao cenário corrente. Esse esforço se realizada de duas formas. Uma no sentido de fazer com que as orientações do PPC sejam observadas no cotidiano do curso e outra, onde considerado oportuno, na análise de possíveis melhorias para reagir adequadamente às mudanças do ambiente.",
         "Ao acompanhar o curso, o NDE continuamente coleta, detecta e propõe alterações. As demandas podem se originar dos estudantes, dos docentes e de outras fontes como os resultados dos estudantes do curso no Exame Nacional de Desempenho de Estudantes (ENADE)."
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Política de qualificação",
@@ -1955,24 +1940,21 @@
         "Do ponto de vista legal, o INF se apoia na Resolução CEPEC 1286/2014 de 2014 [CEPEC 2014], que regulamenta o afastamento de docentes para cursar Mestrado, Doutorado e estágios Pós-Doutorais, e na Resolução CONSUNI 02/2014 [CONSUNI 2014], que regulamenta o Programa de Capacitação e o Plano Anual de Capacitação dos TAEs. Em consonância com a Resolução CEPEC 1286/2014, o INF instrui o afastamento de docentes com a Resolução CD/INF n. 01 de 2014, que dá suporte ao planejamento administrativo e incentiva a participação de seus docentes, em cursos de doutorado, pós-doutorado e capacitação, no país e no exterior, de acordo com a sua política de pessoal para o ensino, a pesquisa, a extensão e a administração.",
         "Por fim, cabe ao NDE monitorar o PPC e, consequentemente, promover ações que promovam a qualidade dos serviços oferecidos tanto por docentes quanto por TAEs."
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Requisitos legais e normativos",
       "descricao": "",
-      "conteudo": [
-        {
-          "subtopico": "Libras",
-          "detalhe": [
-            "O Decreto 5.626/2005 regulamenta a Lei 10.436, de 24 de abril de 2002, e o artigo 18 da Lei 10.098, de 19 de dezembro de 2000. Segundo esse Decreto, a disciplina curricular Libras é obrigatória para vários cursos, dentre eles, as licenciaturas e os cursos de Fonoaudiologia. O Decreto também estabelece que, nos demais cursos, a disciplina curricular Libras seja optativa, conforme o Capítulo II, § 2º: “a Libras constituir-se-á em disciplina curricular optativa nos demais cursos de educação superior”.",
-            "Em atenção a tal requisito legal, o Bacharelado em Engenharia de Software inclui a disciplina Libras como optativa, no oitavo período do curso."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Libras",
+        "detalhe": [
+          "O Decreto 5.626/2005 regulamenta a Lei 10.436, de 24 de abril de 2002, e o artigo 18 da Lei 10.098, de 19 de dezembro de 2000. Segundo esse Decreto, a disciplina curricular Libras é obrigatória para vários cursos, dentre eles, as licenciaturas e os cursos de Fonoaudiologia. O Decreto também estabelece que, nos demais cursos, a disciplina curricular Libras seja optativa, conforme o Capítulo II, § 2º: “a Libras constituir-se-á em disciplina curricular optativa nos demais cursos de educação superior”.",
+          "Em atenção a tal requisito legal, o Bacharelado em Engenharia de Software inclui a disciplina Libras como optativa, no oitavo período do curso."
+        ]
+      },
         {
           "subtopico": "Política de educação ambiental",
           "detalhe": [
