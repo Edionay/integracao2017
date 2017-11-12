@@ -1,4 +1,23 @@
-[
+interface Periodo {
+  numero: number;
+  disciplinas: Disciplina[];
+}
+
+interface Disciplina {
+  id: number;
+  nome: string;
+  ementa: string[];
+  cargaHorariaTotal: number;
+  cargaHorariaTeorica: number;
+  cargaHorariaPratica: number;
+  periodo: number;
+  obrigatoria: string;
+  preRequisitos: string[];
+  nucleo: string;
+  bibliografia: string[];
+}
+
+export const disciplinas: Disciplina[] = [
   {
     "id": 0,
     "nome": "Computação e Sociedade",
@@ -16,13 +35,13 @@
       "Incubadoras de empresas."
     ],
     "cargaHorariaTotal": 32,
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTeorica": 32,
+    "cargaHorariaPratica": 0,
     "periodo": 1,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 1,
@@ -40,13 +59,13 @@
       "Domínio de uma linguagem de programação: sintaxe e semântica; interpretação e compilação de programas; ambiente de desenvolvimento de programas; estilo de codificação; documentação de código; técnicas de depuração e técnicas de profiling; desenvolvimento e uso de bibliotecas."
     ],
     "cargaHorariaTotal": 128,
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTeorica": 48,
+    "cargaHorariaPratica": 80,
     "periodo": 1,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 2,
@@ -64,13 +83,13 @@
       "Aplicações."
     ],
     "cargaHorariaTotal": 96,
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTeorica": 96,
+    "cargaHorariaPratica": 0,
     "periodo": 1,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 3,
@@ -84,13 +103,13 @@
       "Representações numéricas e Mudança de base numérica."
     ],
     "cargaHorariaTotal": 64,
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 1,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 4,
@@ -107,14 +126,14 @@
       "Hierarquia de memória",
       "Introdução a arquiteturas paralelas e métricas de desempenho."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 2,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Fundamentos de Matemática para Computação"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 5,
@@ -127,14 +146,14 @@
       "Estruturas de dados utilizando vetores: pilhas, filas, listas (simples e circulares).",
       "Estruturas de dados com alocação dinâmica de memória: pilhas, filas, listas (simplesmente encadeadas, duplamente encadeadas e circulares)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 32,
+    "cargaHorariaPratica": 32,
     "periodo": 2,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Introdução a Programação"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 6,
@@ -150,14 +169,14 @@
       "Estimação pontual e intervalar para uma população: média e proporção.Teste de hipóteses para uma população: média e proporção",
       "Correlação linear e regressão linear simples."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 2,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Cálculo 1A"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 7,
@@ -168,14 +187,14 @@
       "Transformações lineares",
       "Autovalores e autovetores.Espaços com produto interno."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 2,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 8,
@@ -186,14 +205,14 @@
       "Linguagem para experimentação.",
       "Aplicações básicas."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 2,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Fundamentos da Matemática para Computação"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 9,
@@ -203,14 +222,14 @@
       "Mensagens, instâncias e inicialização",
       "Herança e composição.Polimorfismo.Uso de uma linguagem orientada a objetos.Noções de UML.Noções de padrões de projeto orientado a objetos"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 32,
+    "cargaHorariaPratica": 32,
     "periodo": 3,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Introdução a Programação"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 10,
@@ -222,17 +241,30 @@
       "Hashing: tipos de funções de hashing; tratamento de colisões.Definições de Grafos.",
       "Estruturas de Dados para representação de grafos.Algoritmos básicos em grafos."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 3,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Algoritmos e Estruturas de Dados 1"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
     "id": 11,
+    "nome": "Optativa 1",
+    "ementa": [""],
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
+    "periodo": 99,
+    "obrigatoria": "",
+    "preRequisitos": [""],
+    "nucleo": "",
+    "bibliografia": [""]
+  },
+  {
+    "id": 12,
     "nome": "Linguagens e Paradigmas de Programação",
     "ementa": [
       "Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.",
@@ -240,17 +272,17 @@
       "Descrição de sintaxe e semântica.",
       "Estudo sobre tipos de dados, estruturas de controle, ambientes de execução, variáveis, expressões e subprogramas em linguagens de programação."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 32,
+    "cargaHorariaPratica": 32,
     "periodo": 3,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Cálculo 1A"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 12,
+    "id": 13,
     "nome": "Engenharia de Software",
     "ementa": [
       "Requisitos de software.",
@@ -267,17 +299,17 @@
       "Economia para engenharia de software.",
       "Fundamentos de engenharia."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 3,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 13,
+    "id": 14,
     "nome": "Análise e Projeto de Algoritmos",
     "ementa": [
       "Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.",
@@ -286,17 +318,17 @@
       "Técnicas de projeto de algoritmos: dividir para conquistar, programação dinâmica, algoritmos gulosos.",
       "Introdução à NP-Completude."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 4,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Fundamentos de Matemática para Computação, Algoritmos e Estruturas de Dados 2"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 14,
+    "id": 15,
     "nome": "Interação Humano-Computador",
     "ementa": [
       "Aspectos gerais sobre interação humano-computador",
@@ -310,17 +342,30 @@
       "Métodos de avaliação de interfaces: avaliação heurística, abordagens para testes realizados com apoio de usuários, técnicas de testes para páginas Web, entre outros",
       "Visão geral de ferramentas de desenvolvimento de interfaces humano-computador."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 32,
+    "cargaHorariaPratica": 32,
     "periodo": 4,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Algoritmos e Estruturas de Dados 1, Probabilidade e Estatística A"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 15,
+    "id": 16,
+    "nome": "Optativa 2",
+    "ementa": [""],
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
+    "periodo": 99,
+    "obrigatoria": "",
+    "preRequisitos": [""],
+    "nucleo": "",
+    "bibliografia": [""]
+  },
+  {
+    "id": 17,
     "nome": "Banco de Dados",
     "ementa": [
       "Conceitos básicos de Banco de Dados",
@@ -330,17 +375,17 @@
       "Mapeamento ER-relacional",
       "Normalização."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 48,
+    "cargaHorariaPratica": 16,
     "periodo": 4,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Lógica Matemática"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 16,
+    "id": 18,
     "nome": "Projeto de Software",
     "ementa": [
       "Fundamentos de design de software",
@@ -352,17 +397,17 @@
       "Métodos e estratégias de design de software",
       "Ferramentas de design de software."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 4,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Programação Orientada a Objetos, Engenharia de Software"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 17,
+    "id": 19,
     "nome": "Sistemas Operacionais",
     "ementa": [
       "Conceitos de Hardware e Software",
@@ -375,17 +420,17 @@
       "Sistemas de Arquivos",
       "Estudos de casos de sistemas operacionais atuais"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Arquitetura de Computadores"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 18,
+    "id": 20,
     "nome": "Pesquisa Operacional",
     "ementa": [
       "Modelagem",
@@ -396,34 +441,34 @@
       "Algoritmo Simplex-Dual",
       "Pós-otimização e Análise de Sensibilidade."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Álgebra Linear"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 19,
+    "id": 21,
     "nome": "Linguagens Formais e Autômatos",
     "ementa": [
       "Conceitos básicos de linguagens",
       "Mecanismos geradores (gramáticas) e reconhecedores (determinísticos e não determinísticos) de linguagens regulares, livres de contexto e sensíveis ao contexto; relação entre estas classes de linguagens e suas principais propriedades",
       "Hierarquia de Chomsky"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Fundamentos de Matemática para Computação"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 20,
+    "id": 22,
     "nome": "Redes de computadores",
     "ementa": [
       "Fundamentos",
@@ -433,34 +478,34 @@
       "Redes Sem Fio e Mobilidade",
       "Estudo de Caso de Tópicos Emergentes em Redes."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 21,
+    "id": 23,
     "nome": "Introdução à Língua Brasileira de Sinais",
     "ementa": [
       "Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares",
       "Concepções sobre a Língua de Sinais",
       "O surdo e a sociedade"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 22,
+    "id": 24,
     "nome": "Compiladores",
     "ementa": [
       "A estrutura de um compilador",
@@ -472,17 +517,17 @@
       "Introdução à otimização do código-objeto",
       "Implementação de um compilador"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Algoritmos e Estruturas de Dados 2, Linguagens Formais e Autômatos"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 23,
+    "id": 25,
     "nome": "Sistemas Distribuídos",
     "ementa": [
       "Introdução a Sistemas Distribuídos",
@@ -492,17 +537,17 @@
       "Computação Móvel e Ubíqua",
       "Estudo de Casos de Tópicos Emergentes em Sistemas Distribuídos"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 64,
+    "cargaHorariaTeorica": 64,
+    "cargaHorariaPratica": 0,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": ["Programação Orientada a Objetos"],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 24,
+    "id": 26,
     "nome": "Construção de Software",
     "ementa": [
       "Visão geral (4h): construção (minimizar complexidade, antecipação de mudança, verificação, padrões), projeto de software (software design), qualidade de produto",
@@ -517,17 +562,17 @@
       "Detecção e remoção de defeitos (debugging) (8h)",
       "Integração (4h): integração contínua."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 5,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 25,
+    "id": 27,
     "nome": "Modelagem de Software",
     "ementa": [
       "Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software",
@@ -535,51 +580,51 @@
       "Notações para registro de modelos orientados a objetos (16h)",
       "Modelagem de software orientado a objetos (40h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 5,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 26,
+    "id": 28,
     "nome": "Processos de Software",
     "ementa": [
       "Visão geral (8h): processo, método e modelo",
       "Processos específicos de software: processos de implementação (12h), processos de suporte (12h) e processos de reutilização (2h)",
       "Qualidade de Processo: modelos de qualidade de processos (12h), avaliação da qualidade do processo (12h) e abordagens de implementação de processo (6h)"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 5,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 27,
+    "id": 29,
     "nome": "Engenharia de Sistemas",
     "ementa": [
       "Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz",
       "Fundamentos de sistema (16h): taxonomias de sistema; sistemas de engenharia (sistemas produzidos por engenharia - engineered systems); sistemas intensivos em software (software-intensive systems); sistemas de sistemas; complexidade de sistemas; propriedades emergentes; princípios do pensamento sistêmico; representação de sistemas por modelos",
       "Engenharia de Sistemas (32h): abordagens e metodologias; partes interessadas (stakeholders) e suas necessidades; ciclo de vida de sistemas de engenharia (concepção, conceitos operacionais, design, validação de design, construção, validação de construção, implantação, sustentação e descontinuação); processos do ciclo de vida de sistemas (negociação, preparação para projeto organizacional, gestão técnica, processos técnicos); qualidade de processo."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 5,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 28,
+    "id": 30,
     "nome": "Design de Software",
     "ementa": [
       "Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado",
@@ -594,17 +639,17 @@
       "Padrões de projeto orientado a objetos (16h)",
       "Prática de projeto de software orientado a objetos (36h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 6,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 29,
+    "id": 31,
     "nome": "Domínios de Software",
     "ementa": [
       "Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles",
@@ -612,17 +657,17 @@
       "Especificidades de um domínio (12h): requisitos, projeto, construção",
       "Desenvolvimento de software em um domínio (ênfase na construção) (40h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 6,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 30,
+    "id": 32,
     "nome": "Processos de Qualidade de Software",
     "ementa": [
       "Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software",
@@ -630,17 +675,17 @@
       "Processo de Verificação e Validação de Software (36h): requisito, projeto (design), código, integração, documentação",
       "Processos de Revisão e Auditoria de Software (14h): revisões gerenciais e revisões técnicas."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 6,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 31,
+    "id": 33,
     "nome": "Gerência de Projeto de Software",
     "ementa": [
       "Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO)",
@@ -649,17 +694,17 @@
       "Modelos de qualidade de processo de gerência de projeto de software (4h)",
       "Áreas de conhecimento da gerência de projetos aplicadas a projetos de software (48h): escopo, tempo, custo, qualidade, recursos humanos, comunicações, riscos, aquisições, integração e partes interessadas"
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 6,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 32,
+    "id": 34,
     "nome": "Software Concorrente e Distribuído",
     "ementa": [
       "Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.",
@@ -669,17 +714,17 @@
       "Distribuição (24h): projeto, implementação e uso de interface de programação, RESTful, serviços web e micro-serviços (microservices).",
       "Troca de mensagens (messaging) (8h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 7,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 33,
+    "id": 35,
     "nome": "Experiência do Usuário de Software",
     "ementa": [
       "Qualidade em uso (4h): usabilidade, acessibilidade.",
@@ -689,17 +734,17 @@
       "Implementação de interfaces (20h).",
       "Modelos de validação de experiência (8h): modelos, métodos e técnicas para validação de experiência do usuário."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 7,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 34,
+    "id": 36,
     "nome": "Arquitetura de Software",
     "ementa": [
       "Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
@@ -708,17 +753,17 @@
       "Fundamentos de arquitetura de software (4h): importância, contexto, estilos.Método de desenvolvimento de arquitetura de software (8h).",
       "Técnicas para satisfazer requisitos de qualidade (16h).Criação de arquiteturas de software (16h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 7,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 35,
+    "id": 37,
     "nome": "Requisitos de Software",
     "ementa": [
       "Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.",
@@ -733,17 +778,17 @@
       "Gerência de projetos de engenharia de requisitos (8).",
       "Processo de projeto arquitetural (8h): relação com requisitos."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 7,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 36,
+    "id": 38,
     "nome": "Governança e Gestão de Serviços de Software",
     "ementa": [
       "Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS",
@@ -757,34 +802,34 @@
       "Manutenção de SS (8h): correção, adaptação e evolução de SS; gestão de incidentes e problemas em SS; controle de mudança e de configuração; controle de qualidade",
       "Gerência de processos de negócio (BPM – Business Process Management) aplicada à GSS (8h): representação de SS como processos de negócio; notação para modelagem de processos de negócio (BPMN); análise, validação e evolução de processos de negócio e de SS."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 7,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 37,
+    "id": 39,
     "nome": "Software para Sistemas Ubíquos",
     "ementa": [
       "Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).",
       "Definição de arquiteturas para soluções móveis (16): conectar serviços, possivelmente de grande volume, fluxo e em tempo real, com a necessidade de analisá-los.",
       "Desenvolvimento de código para smartphone, sensor ou outro dispositivo capaz de alimentar/receber informações de sistema de informação (32h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 8,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 38,
+    "id": 40,
     "nome": "Software para Persistência de Dados",
     "ementa": [
       "Visão geral de persistência (12h): arquivos em formato texto/binário",
@@ -798,17 +843,17 @@
       "Refatoração de bancos de dados (8h).",
       "Integração de bancos de dados (8h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 8,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 39,
+    "id": 41,
     "nome": "Padrões de Arquitetura de Software",
     "ementa": [
       "Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC).",
@@ -816,50 +861,50 @@
       "Análise (avaliação) de arquiteturas de software (12h).",
       "Criação de arquiteturas de software (32h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 8,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 40,
+    "id": 42,
     "nome": "Teste de Software",
     "ementa": [
       "Processo de construção (8h): definições básicas, atividades e documentação.",
       "Processo de Teste de Software (56): definições básicas, técnicas de teste, teste baseado em intuição e experiência do engenheiro de software, atividades do processo, documentação e ferramentas."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 8,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 41,
+    "id": 43,
     "nome": "Metodologia e Experimentação em Engenharia de Software",
     "ementa": [
       "Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software",
       "Fundamentos da Engenharia de Software Experimental (16h): contexto da experimentação na Engenharia de Software; principais tipos de experimentos aplicados à Engenharia de Software; estudos primários e secundários; revisão e mapeamento sistemático da literatura",
       "Realização de Experimentos em Engenharia de Software (32h)."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 42,
+    "id": 44,
     "nome": "Mercado e Economia de Software",
     "ementa": [
       "Modelos de negócio para software (aluguel, serviço, código aberto).",
@@ -877,17 +922,17 @@
       "Avaliação de alternativas.",
       "Economia aplicada ao desenvolvimento de software."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 10,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   },
   {
-    "id": 43,
+    "id": 45,
     "nome": "Prática em Engenharia de Software",
     "ementa": [
       "Aplicação do corpo de conhecimento da Engenharia de Software no contexto de projetos realizados em uma Fábrica de Software (320h): emprego de processos de Engenharia de Software em abrangência e profundidade;",
@@ -898,13 +943,52 @@
       "Prática em Gestão de Engenharia de Software;",
       "Prática em Tecnologias de Engenharia de Software."
     ],
-    "cargaHorariaTotal": "",
-    "cargaHorariaTeorica": "",
-    "cargaHorariaPratica": "",
+    "cargaHorariaTotal": 1,
+    "cargaHorariaTeorica": 1,
+    "cargaHorariaPratica": 1,
     "periodo": 9,
     "obrigatoria": "Sim",
-    "preRequisitos": "",
+    "preRequisitos": [""],
     "nucleo": "NC",
-    "bibliografia": []
+    "bibliografia": [""]
   }
-]
+];
+
+export const cursoES: Periodo[] = [
+  {
+    numero: 1,
+    disciplinas: disciplinas.slice(0, 4)
+  },
+  {
+    numero: 2,
+    disciplinas: disciplinas.slice(4, 9)
+  },
+  {
+    numero: 3,
+    disciplinas: disciplinas.slice(9, 14)
+  },
+  {
+    numero: 4,
+    disciplinas: disciplinas.slice(14, 19)
+  },
+  {
+    numero: 5,
+    disciplinas: disciplinas.slice(19, 23)
+  },
+  {
+    numero: 6,
+    disciplinas: disciplinas.slice(23, 27)
+  },
+  {
+    numero: 7,
+    disciplinas: disciplinas.slice(27, 32)
+  },
+  {
+    numero: 8,
+    disciplinas: disciplinas.slice(32, 37)
+  },
+  {
+    numero: 9,
+    disciplinas: disciplinas.slice(37)
+  },
+];
