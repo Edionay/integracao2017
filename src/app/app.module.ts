@@ -20,6 +20,7 @@ const appRoutes = [
   { path: 'inicio', component: InicioComponent},
   { path: 'ppc', component: PpcComponent},
   { path: 'acessibilidade', component: AcessibilidadeComponent},
+  { path: 'busca', component: BuscaComponent},
   { path: '', redirectTo: '/inicio', pathMatch: 'full'},
   { path: '**', component: PaginaNaoEncontradaComponent }
 
