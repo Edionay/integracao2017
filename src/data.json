@@ -23,7 +23,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "VELOSO, R. Tecnologias da Informação e Comunicação: Desafios e Perspectivas. São Paulo: Saraiva, 2011",
+        "MASIERO, P. Ética em Computação. Editora da USP, 2000",
+        "FONSECA FILHO, C. História da computação: O Caminho do Pensamento e da Tecnologia. Porto Alegre: EDIPUCRS, 2007"
+      ],
+      "bibliografiaComplementar": [
+        "CHALITA, G. Os Dez Mandamentos da Ética. Editora Nova Fronteira, 2003",
+        "DRUMMOND, V. Internet, Privacidade e Dados Pessoais. Editora Lumen Juris, 2003",
+        "KACZMARCZYK, L. C. Computers and Society: Computing for Good. Chapman & Hall/CRC Textbooks in Computing. CRC Press, 2011",
+        "LUCCA, N.; FILHO, A. S. Direito & Internet. Editora Edipro, 2001",
+        "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005"
+      ]
     },
     {
       "id": 1,
@@ -47,7 +58,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "FOBERLONE, A. L. V.; EBERSPACHER, H. F. Lógica de Programação: A construção de algoritmos e estruturas de dados. 3.a edição. São Paulo: Prentice Hall, 2005",
+        "ASCENCIO, A. F. G.; CAMPOS, E. A. V. Fundamentos da Programação de Computadores. 3.a edição. Editora Pearson, 2010",
+        "SCHILDT, H. C Completo e Total. 3a Ed.  São Paulo: Makron Books, 1996"
+        ],
+      "bibliografiaComplementar": [
+        "FEOFILOFF, P. Algoritmos em Linguagem C. Editora Campus/Elsevier, 2009",
+        "FARRER, H. at al. Programação Estruturada de Computadores: Algoritmos Estruturados. 3.a edição. Rio de Janeiro: LTC, 1989",
+        "SEDGEWICK, R. Algorithms in C. 3rd ed. Reading, Mss: Addison-Wesley, 1998.  ISBN 0201314525",
+        "SALVETTI, D. D.; BARBOSA, L. M. Algoritmos, São Paulo: Makron Books, 1998",
+        "CORMEN, T. H et al., Algoritmos: Teoria e Prática. 2.a edição. Rio de Janeiro: Editora Campus, 2002"
+      ]
     },
     {
       "id": 2,
@@ -71,7 +93,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "GUIDORIZZI, H. L. Um Curso de Cálculo, vol. 1. LTC, Rio de Janeiro, Brasil, 2006",
+        "LEITHOLD, L. O Cálculo com Geometria Analítica, 3.a edição. vol. 1. Harbra, São Paulo, 1994",
+        "STEWART, J. Cálculo, 5.a edição. vol. 1. Cengage Learning, São Paulo, 2006"
+      ],
+      "bibliografiaComplementar": [
+        "ÁVILA, G. S. S. Cálculo: Funções de Uma Variável, 7.a edição. vol. 1. LTC: Rio de Janeiro, 1994",
+        "FLEMMING, D. M.; GONÇALVES, M. B. Cálculo A: Funções, limite, derivação e integração. Makron Books do Brasil, São Paulo, 2006",
+        "HOFFMANN, L. D.; BRADLEY, G. L. Cálculo: Um curso moderno com aplicações, 9.a edição. LTC, Rio de Janeiro, 2008",
+        "REIS, G. L; SILVA, V. V. Geometria Analítica. LTC, São Paulo",
+        "SIMMONS, G. F. Cálculo com Geometria Analítica, vol. 1. McGraw-Hill do Brasil, São Paulo, Brasil, 1987"
+      ]
     },
     {
       "id": 3,
@@ -91,7 +124,17 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "GERSTING, J. L. Fundamentos Matemáticos para a Ciência da Computação, 5.a edição, Editora LTC, Rio de Janeiro, 2004",
+        "SCHEINERMAN, E. R. Matemática Discreta: Uma introdução, Cengage Learning, Thompson Pioneira, 2003",
+        "GRIMALDI, R. P. Discrete and Combinatorial Mathematics: An Applied Introduction, 5th edition, Pearson - Addison-Wesley, Boston, 2003"
+      ],
+      "bibliografiaComplementar": [
+        "MATTSON, Jr.; H. F. Discrete Mathematics with applications, John Wiley & Sons, New York, 1993",
+        "ROSEN, K. H. Discrete Mathematics and Its Applications, 6.a edição, Boston: McGraw-Hill, 2009",
+        "ROSS, K. A.; Wright, C. R. B. Discrete mathematics, Prentice Hall, 1998",
+        "SANTOS, J. P. O. Introdução à Teoria dos Números, Coleção Matemática Universitária, CNPQ-IMPA, Rio de Janeiro, 2003"
+      ]
     },
     {
       "id": 4,
@@ -115,7 +158,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Fundamentos de Matemática para Computação",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "BRYANT, R.; O'RALLARON, D. Computer Systems: A Programmer's Perspective, 2nd Edition, Addison Wesley, 2010",
+        "STALLINGS, W. Arquitetura e Organização de Computadores, 5a. Edição, Prentice-Hall, 2002",
+        "TANENBAUM, A. Organização Estruturada de Computadores, Editora LTC, 2006"
+      ],
+      "bibliografiaComplementar": [
+        "HENNESSY, J. L.; PATTERSON, D. A. Computer Architecture: A Quantitative Approach, 4th Edition, Morgan Kaufmann, 2007",
+        "MONTEIRO, M. A.  Introdução à Organização de Computadores.  4ª.  Edição. Editora LTC, Rio de Janeiro, 2001. ISBN: 8521612915",
+        "PATTERSON, D. A.; HENNESSY, J. L. Computer Organization and Design: The Hardware/Software Interface, 3rd edition, Morgan Kaufmann, 2007",
+        "STALLINGS, W. Computer Organization and Architecture: Designing for Performance. 10th Edition. Prentice-Hall, Inc., Upper Saddle River, NJ, USA.  2010",
+        "WEBER, R. F. Fundamentos de Arquiteturas de Computadores, 2.a Edição, Editora Sagra-Luzzatto, 2001"
+      ]
     },
     {
       "id": 5,
@@ -135,7 +189,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Introdução a Programação",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "FEOFILOFF, P. Algoritmos em Linguagem C. Editora Campus/Elsevier, 2009",
+        "SZWARCFITER, J. L.; MARKENZON, L. Estruturas de Dados e seus Algoritmos. 2ª edição, LTC, 1994",
+        "TENENBAUM, A. M.; LANGSAM, Y.; AUGENSTEIN, M. Estruturas de Dados Usando C, São Paulo, Makron Books, 1995"
+      ],
+      "bibliografiaComplementar": [
+        "CORMEN, T. H. et al., Algoritmos: Teoria e Prática. 2.ª edição, Rio de Janeiro: Editora Campus, 2002",
+        "SALVETTI, D. D.; BARBOSA, L. M.; Algoritmos, Makron Books, São Paulo, 1998",
+        "SEDGEWICK, R. Algorithms in C++ (Parts 1-4), Addison-Wesley, 3rd Edition, 1998",
+        "ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. São Paulo: Editora Thomson, 3.ª edição, 2010",
+        "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006"
+      ]
     },
     {
       "id": 6,
@@ -158,7 +223,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Cálculo 1A",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "MAGALHÃES, M. N. Noções de Probabilidade e Estatística. São Paulo: EDUSP, 7.a ed., 2010",
+        "MEYER, P. L. Probabilidade: Aplicações à Estatística. Rio de Janeiro: LTC, 1969",
+        "WALPOLE, R. E.; MYERS, R. H.; MYERS, S. L.; YE, K. Probabilidade e Estatística para Engenharia e Ciências. São Paulo: Pearson, 8.a ed., 2009"
+      ],
+      "bibliografiaComplementar": [
+        "BUSSAB, W. O.; MORETTIN, P. A. Estatística Básica. 6.a ed. São Paulo: Saraiva, 2010",
+        "DANTAS, C. A. B. Probabilidade: um Curso Introdutório. 3.a ed. São Paulo: EDUSP, 2008",
+        "MORETTIN, L. G. Estatística básica: probabilidade e inferência. São Paulo: Prentice Hall, 2010",
+        "ROSS, S. Probabilidade. Um Curso Moderno com Aplicações. 8.a ed. Porto Alegre: Bookman, 2010",
+        "TRIOLA, M. F. Introdução à Estatística. 10. ed. Rio de Janeiro: LTC, 2008"
+      ]
     },
     {
       "id": 7,
@@ -176,7 +252,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "BOLDRINI, J. L.; COSTA, S. I. R; FIGUEIREDO, V. L; WETZLER, H. G. Álgebra Linear, 3.a ed. Harbra, São Paulo, 2003",
+        "CALLIOLI, C. A.; DOMINGUES, H. H; COSTA, R. C. F. Álgebra Linear e Aplicações. Atual, Brasil, 1983",
+        "LIPSCHUTZ, S. Álgebra Linear, 2.a ed. Makrom-Books, São Paulo, Brasil, 1974"
+      ],
+      "bibliografiaComplementar": [
+        "APOSTOL, T. Linear Algebra: A First Course with Applications to Differential Equations, 1st ed. Wiley-Interscience, 1997",
+        "HOFFMAN, K.; KUNZE, R. Álgebra Linear. Polígono, São Paulo, 1971",
+        "HOWARD, A.; RORRES, C. Álgebra Linear com Aplicações, 8.a ed. Bookman, Porto Alegre, Brasil, 2001",
+        "LIMA, E. L. Álgebra Linear: Coleção Matemática Universitária. IMPA, Rio de Janeiro, Brasil, 2006",
+        "SHOKRANIAN, S. Introdução à Álgebra Linear e Aplicações, 1 ed. UNB, 2004"
+      ]
     },
     {
       "id": 8,
@@ -194,7 +281,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Fundamentos da Matemática para Computação",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "SOUZA, J. N. Lógica para Ciência da Computação. Editora Campus, 3.a Edição, 2015",
+        "SILVA, F. C.; FINGER, M.; MELO, A. C. V. Lógica para Computação. Thomson Learning, 2006",
+        "HUTH, M.; RYAN, M. Lógica em Ciência da Computação: modelagem e argumentação sobre sistemas. 2.a edição. Editora LTC, 2008"
+      ],
+      "bibliografiaComplementar": [
+        "MORTARI, C. Introdução à Lógica. São Paulo: UNESP. 2001",
+        "MENDELSON, E. Introduction to Mathematical Logic, Academic Press, 2000",
+        "ENDERTON, H. A. Mathematical Introduction to Logic. Academic Press 2000",
+        "SMULLYAN, R. Lógica de Primeira Ordem. São Paulo: UNESP. 2009",
+        "CASANOVA, M. A.; GIORNO, F. A. C.; FURTADO, A. L. Programação em Lógica e a Linguagem PROLOG. Edgard Blucher, 1987"
+      ]
     },
     {
       "id": 9,
@@ -211,7 +309,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Introdução a Programação",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "BORATTI, I. C. Programação orientada a objetos em Java. 1.a Edição. Visual Books, 2007",
+        "ECKEL, B. Thinking in Java. Prentice Hall, 3.a Edição, 2002",
+        "DEITEL, P. J.; DEITEL, H. M. Java: como programar 6.a ed. São Paulo: Prentice Hall, 2005. 1386 p."
+      ],
+      "bibliografiaComplementar": [
+        "BUDD, T. An Introduction to Object-Oriented Programming. Addison Wesley, 1996",
+        "GAMMA, E. et al. Design patterns: elements of reusable object-oriented software. Reading: Addison Wesley, 1995",
+        "HORSTMANN, C. S. Core Java – Volume II – Advanced Features, Prentice Hall, 8.a Edição, 2008",
+        "SANTOS, R. Introdução à Programação Orientada a Objetos com Java. Campus, 2003",
+        "ZEIGLER, B. P. Objects and Systems: Principled Design with Implementations in C++ and Java. Springer-Verlag New York, Inc., New York, NY, USA. 1997"
+      ]
     },
     {
       "id": 10,
@@ -230,7 +339,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Algoritmos e Estruturas de Dados 1",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "FEOFILOFF, P. Algoritmos em Linguagem C. Editora Campus/Elsevier, 2009",
+        "SZWARCFITER, J. L.; Markenzon, L. Estruturas de Dados e seus Algoritmos. 2ª edição, LTC, 1994",
+        "TENENBAUM, A. M.; LANGSAM, Y.; AUGENSTEIN, M. Estruturas de Dados Usando C, São Paulo, Makron Books, 1995"
+      ],
+      "bibliografiaComplementar": [
+        "CORMEN, T. H. et al., Algoritmos: Teoria e Prática. 2ª edição, Rio de Janeiro: Editora Campus, 2002",
+        "SALVETTI, D. D. e BARBOSA, L. M., Algoritmos, Makron Books, São Paulo, 1998",
+        "SEDGEWICK, R. Algorithms in C++ (Parts 1-4), 3rd edition, Addison-Wesley, 1998",
+        "ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. 3ª edição, São Paulo: Editora Thomson, 2010",
+        "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006"
+      ]
     },
     {
       "id": 11,
@@ -243,8 +363,20 @@
       "obrigatoria": "",
       "preRequisitos": "",
       "nucleo": "",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
+
     {
       "id": 12,
       "nome": "Linguagens e Paradigmas de Programação",
@@ -261,8 +393,20 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Cálculo 1A",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "GHEZZI, C.; JAZYERI, M. Programming Language Concepts, 3rd Edition, Wiley; 3rd Edition; 1997",
+        "SCOTT, M. L. S. Programming Language Pragmatics, 3rd Edition, Morgan Kaufmann, 2009",
+        "SEBESTA, R. W. Concepts of Programming Languages; 10th Edition, Pearson, 2012"
+      ],
+      "bibliografiaComplementar": [
+        "FRIEDMAN, D. P.; WAND, M. Essentials of Programming Languages, 3rd Edition, The MIT Press, 2008",
+        "PRATT, T. W.; ZELKOWITZ, M. V. Programming Languages: Design and Implementation, 4th Edition, Prentice Hall, 2000",
+        "ROY, P. V.; HARIFI, S. Concepts, Techniques, and Models of Computer Programming, 1st Edition, The MIT Press, 2004",
+        "TURBAK, F.; GIFFORD, D. Design Concepts in Programming Languages, 1st Edition, The MIT Press, 2008",
+        "VAREJÃO, F. Linguagens de Programação, 1.a Edição, Editora. Campus, 2004"
+      ]
     },
+
     {
       "id": 13,
       "nome": "Engenharia de Software",
@@ -288,7 +432,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "PRESSMAN, R.; MAXIM, B. Software Engineering: A Practitioner’s Approach, 8th edition, McGraw-Hill, 2014",
+        "SOMMERVILLE, I. Software Engineering, 10th Edition, Pearson, 2016",
+        "WAZLAWICK, R. S. Engenharia de software: teoria e prática. Campus, 2013"
+      ],
+      "bibliografiaComplementar": [
+        "ISO/IEC/IEEE 24765. Systems and software engineering - Vocabulary, 2010. Portal de periódicos da CAPES (http://goo.gl/FrGm7c).",
+        "MAGELA, R. Engenharia de software aplicada. Alta Books, 2006",
+        "MPS.BR.  Melhoria de Processos do Software Brasileiro. Disponível em http://www.softex.br/mpsbr/, último acesso julho/2016",
+        "Software Engineering Body of Knowledge (SWEBOK), V3, IEEE, Disponível em https://www.computer.org/web/swebok",
+        "Software Engineering Competency Model (SWECOM), IEEE. Disponível em https://www.computer.org/web/peb/swecom"
+      ]
     },
     {
       "id": 14,
@@ -307,7 +462,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Fundamentos de Matemática para Computação, Algoritmos e Estruturas de Dados 2",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "BRASSARD, G.; BRATLEY, P. Fundamentals of Algorithmics. Prentice-Hall, Inc., Upper Saddle River, NJ, 1996. ISBN: 0-13-335068-1",
+        "CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN,  C. Algoritmos: Teoria e Prática, 3.a edição, Campus, 2012",
+        "PAPADIMITRIOU, C. H.; VAZIRANI, U. V.; DASGUPTA, S. Algoritmos. 2009. McGraw-Hill Brasil. ISBN 9788577260324"
+      ],
+      "bibliografiaComplementar": [
+        "AHO, A. V.; HOPCROFT, J. E.; ULLMAN, J. D. The Design and Analysis of Computer Algorithms, Addison-Wesley Publishing Company, 1974. ISBN 0-201-00029-6",
+        "BAASE, S.; GELDER, A. V. Computer Algorithms: Introduction to Design and Analysis, 3rd Edition, Pearson, 1999",
+        "MAMBER, U. Introduction to Algorithms. Addison Wesley Publishing Company. 1989",
+        "SEDGEWICK, R.; WAYNE, K. Algorithms. 4th edition, Addison-Wesley Professional, 2011. ISBN: 978-0321573513",
+        "SZWARCFITER, J. L.; MARKENZON, L. Estrutura de Dados e seus Algoritmos. 3.a edição, LTC Editora, 2010. ISBN 978852161750"
+      ]
     },
     {
       "id": 15,
@@ -331,7 +497,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Algoritmos e Estruturas de Dados 1, Probabilidade e Estatística A",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "DIX, A.; FINLAY, J. E.; ABOWD, G. D.; BEALE, R. Human­Computer Interaction (3rd Edition). Prentice­Hall, Inc., Upper Saddle River, NJ, USA, 2003",
+        "ROGERS, Y.; SHARP, H.; PREECE, J. Design de Interação ­ Além da Interação Homem­computador. 3a Ed., Porto Alegre: Bookman, 2013",
+        "TIDWELL, J. Designing Interfaces: Patterns for Effective Interaction Design. O’Reilly. Segunda edição, 2011"
+      ],
+      "bibliografiaComplementar": [
+        "BARBOSA, S. D. J.; SILVA, B. S. Interação Humano­Computador. Elsevier Editora. 1.a edição. 2010",
+        "JACKO, Julie A. The human­computer interaction handbook: fundamentals, evolving technologies, and emerging applications. CRC Press, 2012",
+        "LAZAR, J.; FENG, J. H.; HOCHHEISER, H. Research Methods in Human­Computer Interaction. Wiley, 2009",
+        "MACKENZIE, I. S. Human­computer Interaction: An Empirical Research Perspective. Morgan Kaufmann, 201 3. ISBN: 978­0­1 2­405865­1",
+        "SCOTT, B.; NEIL, T. Designing Web Interfaces: Principles and Patterns for Rich Interactions. O'Reilly Media; 1st edition. 2009"
+      ]
     },
     {
       "id": 16,
@@ -344,7 +521,18 @@
       "obrigatoria": "",
       "preRequisitos": "",
       "nucleo": "",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 17,
@@ -364,7 +552,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Lógica Matemática",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados, 6.ª ed., Pearson - Addison Wesley, 2011",
+        "HEUSER, C. A. Projeto de Banco de Dados, 6.ª edição, Bookman, Porto Alegre, 2009",
+        "SILBERSCHATZ, A.; KORTH, H. F.; SUDARSHAN, S. Sistema de Banco de Dados, 5.ª edição, Editora Campus, Rio de Janeiro, 2006"
+      ],
+      "bibliografiaComplementar": [
+        "CONNOLLY, T. M.; BEGG, C. E.; STRACHAN, A. D. Database systems: a practical approach to design, implementation and management, 3rd. Edition, Addison Wesley, 2010",
+        "DATE, C. J. Introdução a Sistemas de Banco de Dados, tradução da 8.a edição americana, Editora Campus, Rio de Janeiro, 2004",
+        "GARCIA-MOLINA, H.; ULLMAN, J. D.; WIDOM, J. D. Database Systems: The Complete Book, 2.a edição, Prentice Hall, 2009",
+        "RAMAKRISHNAN, R.; GEHRKE, J. Sistemas de Gerenciamento de Banco de Dados, tradução da 3.a edição, São Paulo, McGraw-Hill, 2008",
+        "TEOREY, T.; LIGHTSTONE, S.; NADEAU, T. Projeto e Modelagem de Bancos de Dados, Editora Campus, Rio de Janeiro, 2007"
+      ]
     },
     {
       "id": 18,
@@ -386,7 +585,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Programação Orientada a Objetos, Engenharia de Software",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "BUDGEN, B. Software Design, 2nd edition, Addison­Wesley, 2003",
+        "BASS, L. et al. Software Architecture in Practice, 3rd edition, Addison­Wesley, 2012",
+        "LARMAN, C. Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento interativo. Bookman, 2008"
+      ],
+      "bibliografiaComplementar": [
+        "BOOCH, G. UML guia do usuário: o mais avançado tutorial sobre Unified Modeling Language (UML). Elsevier, 2006",
+        "FREEMAN, E. et al. Use a cabeça!: padrões de projetos, (design patterns), Alta Books, 2007",
+        "FOWLER, M. Patterns of enterprise application architecture. Addison­Wesley, 2003",
+        "GAMMA, E. et al. Design patterns elements of reusable object-oriented software. Reading: Addison Wesley, 1995",
+        "NYGARD, M. Release It!: Design and Deploy Production­Ready Software, Pragmatic Bookshelf, 2007"
+      ]
     },
     {
       "id": 19,
@@ -409,7 +619,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Arquitetura de Computadores",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "OLIVEIRA, R. S.; CARISSIMI, A. S.; TOSCANI, S. S. Sistemas Operacionais. 3.a edição. Porto Alegre: Instituto de Informática da UFRGS: Editora Sagra Luzzatto, 2004",
+        "SILBERSCHATZ, A. Fundamentos de Sistemas Operacionais, 8.a edição, LTC, 2011",
+        "TANEMBAUM, A. S. Sistemas Operacionais Modernos. 3.a edição. São Paulo: Editora Prentice Hall, 2010. ISBN 9788576052371"
+      ],
+      "bibliografiaComplementar": [
+        "DEITEL, H. Sistemas Operacionais, Prentice Hall, 2005",
+        "MACHADO, F. B. Arquitetura de Sistemas Operacionais. 2.a edição. LTC, 1997",
+        "NEMETH E.; SNYDER, G.; HEIN, T. R. Unix system administration handbook. Pearson Prentice Hall, 1997. ISBN 9788576051121",
+        "O'GORMAN, J. Operating Systems with Linux. Palgrave, 2001",
+        "SHAY, W. Sistemas Operacionais, Makron Books, 1996"
+      ]
     },
     {
       "id": 20,
@@ -430,7 +651,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Álgebra Linear",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "BREGALDA, P. F.; OLIVEIRA, A. A. F.; BORNSTEIN, C. T. Introdução à programação linear. 3. ed. Rio de Janeiro: Campus, 1983",
+        "GOLBARG, M.; LUNA, H. Otimização combinatória e programação linear. 2. ed. Campus, 2005",
+        "TAHA, H. Pesquisa operacional. 8. ed. Prentice Hall, 2008"
+      ],
+      "bibliografiaComplementar": [
+        "BAZARAA M. S.; JARVIS, J. J.; SHERALI, H. D. Linear programming and network Flows.  Wiley, 2009",
+        "HILLIER, F. S.; LIEBERMAN, G. J. Introdução à pesquisa operacional. 9.a edição. Amgh Editora, 2013",
+        "PARLAR, M. Interactive operations research with Maple: methods and models. Birkhauser, 2000",
+        "SILVA, E. M. et al. Pesquisa Operacional: programação linear, simulação. 3.a ed. Atlas, 1998",
+        "WINSTON, W. L. Operations research applications and algorithms. 3rd ed. Duxbury Press, 1997"
+      ]
     },
     {
       "id": 21,
@@ -447,7 +679,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Fundamentos de Matemática para Computação",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "SUDKAMP, T. A. Languages and machines. 3.a edição. Addison Wesley, 2006",
+        "SIPSER, M. Introduction to the theory of computation. ITP, 1997. ISBN 053494728X",
+        "HOPCROFT, J. E.; MOTWANI, R.; ULLMAN, J. D. Introdução à teoria de autômatos: linguagens e computação. Campus, 2002"
+      ],
+      "bibliografiaComplementar": [
+        "RAMOS, M. V. M.; NETO, J. J.; VEGA, I. S. Linguagens formais: teoria, modelagem e implementação. Bookman, 2009",
+        "CARROLL, J.; LONG, D. Theory of finite automata. New Jersey: Prentice-Hall International Editions, 1989",
+        "LEWIS, H. R.; PAPADIMITRIOU, C. H. Elementos de teoria da computação. 2.a edição. Porto Alegre: Bookman, 2000",
+        "MENEZES, P. F. B. Linguagens formais e autônomos. 5.a edição. Porto Alegre: Sagra Luzzatto, 2005",
+        "ROSEN, K. H. Matemática discreta e suas aplicações. 6.a ed. Rio de Janeiro: McGraw Hill, 2009"
+      ]
     },
     {
       "id": 22,
@@ -467,7 +710,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "KUROSE, J.F.; ROSS, K. Redes de Computadores e a Internet, 6.a edição. Pearson Education, 2013",
+        "LAUDON, K. C.; LAUDON, J. P. Sistemas de Informação Gerenciais. 9.a edição. São Paulo: Pearson Education, 2013",
+        "TANENBAUM, A. S. Computer Networks, 4th edition, Prentice Hall, 2003"
+      ],
+      "bibliografiaComplementar": [
+        "DANTAS, M. Redes de comunicação e computadores: abordagem quantitativa. Visual Books, 2009. ISBN 9788575022559",
+        "PETERSON, L. L.; DAVIE, B. S. Redes de Computadores: Uma Abordagem de Sistemas, 3.a edição. Campus Elsevier, 2004",
+        "SOARES, L. F. G; SOUZA FILHO, G. L.; COLCHER, S. Redes de computadores: das LANS, MANS e WANS às Redes ATM. Editora Campus, 1995. ISBN 857001998X",
+        "STALLINGS, W. Data and Computer Communications, 8th edition, Pearson/Prentice Hall, 2007",
+        "TORRES, G. Redes de computadores: curso completo. Axcel Books, 2001"
+      ]
     },
     {
       "id": 23,
@@ -484,7 +738,19 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "FELIPE, T.; MONTEIRO, M. S. LIBRAS em contexto. Curso Básico. Brasília: Ministério da Educação e do Desporto/Secretaria de Educação Especial, 2001",
+        "PEREIRA, M. C. C.; et al. LIBRAS – Conhecimento além dos sinais. São Paulo: Pearson, 2011",
+        "PIMENTA, N.; QUADROS, R. M. Curso de LIBRAS 1 – Iniciante. 3.a edição. Porto Alegre: Pallotti, 2008"
+      ],
+      "bibliografiaComplementar": [
+        "ALMEIDA, E. C.; DUARTE, P. M. Atividades ilustradas em sinais da Libras. São Paulo: Revinter, 2004",
+        "BRITO, L. F. Por uma gramática de língua de sinais. Rio de Janeiro: Tempo Brasileiro, 1995",
+        "CAPOVILLA, F. C.; RAPHAEL, W. D.; MAURÍCIO, A. C. L. Dicionário Enciclopédico Ilustrado Trilíngue da Língua de Sinais Brasileira, v 1 e 2. São Paulo: Editora da Universidade de São Paulo, 2010",
+        "CAPOVILLA, F. C.; RAPHAEL, W. D. (ed.). Enciclopédia da Língua de Sinais Brasileira. v. 1 e 2. São Paulo: EDUSP, 2004",
+        "GESSER, A. LIBRAS? Que língua é essa?: Crenças e preconceitos em torno da língua de sinais e da realidade surda. São Paulo: Parábola Editorial, 2009",
+        "QUADROS, R. M.; KARNOPP, L. Língua de sinais brasileira: estudos linguísticos. ARTMED: Porto Alegre, 2004"
+      ]
     },
     {
       "id": 24,
@@ -506,7 +772,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Algoritmos e Estruturas de Dados 2, Linguagens Formais e Autômatos",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "AHO, A. V; LAM, M. S.; SETHI, R.; ULLMAN, J. D. Compiladores: Princípios, técnicas e ferramentas. 2.a ed. Pearson-Addison-Wesley, 2008",
+        "LOUDEN, K. C. Compiladores - Princípios e Práticas. Editora Thompson 2004",
+        "APPEL, A. W. Modern Compiler Implementation in C - Basic Techiniques. Cambridge University Press, 1997"
+      ],
+      "bibliografiaComplementar": [
+        "APPEL, A. W. Modern Compiler Implementation in Java. 2nd edition. New York: Cambridge University Press, 2002",
+        "HOLMES, J. Modern Compiler Implementation in Java. Prentice Hall, 1995",
+        "MUCHNICK, S. S. Advanced Compiler Design and Implementation. Morgan Kaufmann, 1997",
+        "HANSON, D. R.; FRASER, C. W. A Retargetable C Compiler: Design and Implementation. Benjamin Cummings Pub., 1995",
+        "LEBLANC, R. J.; FISCHER, C. N. Crafting a Compiler with C.  Benjamin/Cummings, 1991"
+      ]
     },
     {
       "id": 25,
@@ -526,7 +803,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "Programação Orientada a Objetos",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 26,
@@ -551,7 +839,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 27,
@@ -569,7 +868,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 28,
@@ -586,7 +896,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 29,
@@ -603,7 +924,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 30,
@@ -628,7 +960,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 31,
@@ -646,7 +989,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 32,
@@ -664,7 +1018,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 33,
@@ -683,7 +1048,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 34,
@@ -703,7 +1079,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 35,
@@ -723,7 +1110,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 36,
@@ -742,7 +1140,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 37,
@@ -767,7 +1176,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 38,
@@ -791,7 +1211,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 39,
@@ -808,7 +1239,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 40,
@@ -832,7 +1274,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 41,
@@ -850,7 +1303,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 42,
@@ -866,7 +1330,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 43,
@@ -883,7 +1358,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 44,
@@ -911,7 +1397,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": 45,
@@ -932,7 +1429,18 @@
       "obrigatoria": "Sim",
       "preRequisitos": "",
       "nucleo": "NC",
-      "bibliografia": []
+      "bibliografiaBasica": [
+        "",
+        "",
+        ""
+      ],
+      "bibliografiaComplementar": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     }
   ],
   "informacoes": [
