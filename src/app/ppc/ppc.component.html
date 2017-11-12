@@ -1,35 +1,53 @@
-<ul id="slide-out" class="side-nav fixed">
-  <li><a href="#!">First Sidebar Link</a></li>
-  <li><a href="#!">Second Sidebar Link</a></li>
-</ul>
-<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+<div class="row">
+  <div class="col hide-on-small-only m3 l2">
+    <ul class="section table-of-contents fixed">
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#structure">Structure</a></li>
+      <li><a href="#initialization">Intialization</a></li>
+      <li *ngFor="let topico of topicos"><a href="#{{ topico.id }}">{{ topico.topico }}</a></li>
+    </ul>
+  </div>
 
+
+
+  <div class="col s12 m9 l10">
+    <div id="introduction" class="section scrollspy">
+      <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero). </p>
+    </div>
+
+    <div id="structure" class="section scrollspy">
+      <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero). </p>
+    </div>
+
+    <div id="initialization" class="section scrollspy">
+      <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero). </p>
+    </div>
+
+    <div class="section scrollspy" *ngFor="let topico of topicos"  id="{{ topico.id }}">
+      <h1>{{ topico.topico }}</h1>
+      <p *ngFor="let paragradoDaDescricao of topico.descricao">{{ paragradoDaDescricao }}</p>
+    </div>
+
+  </div>
+</div>
 
 
 <!--<div class="container">-->
-  <!--<div class="row">-->
-    <!--<nav class="col-lg-3 sidebar">-->
+<!--<div class="row">-->
 
-      <!--<li class="list-group-item active">Baixar PPC </li>-->
+<!--<div class="col-lg-9" data-spy="scroll" data-target="#navbar-example">-->
+<!--<div *ngFor="let topico of topicos">-->
 
-      <!--<ul class="nav nav-pills list-group">-->
-        <!--<li class="list-group-item"  *ngFor="let topico of topicos">{{ topico.topico }}</li>-->
-      <!--</ul>-->
-    <!--</nav>-->
+<!--<h1 class="text-center">{{ topico.topico }}</h1>-->
+<!--<p *ngFor="let paragrafo of topico.descricao">{{ paragrafo }}</p>-->
 
-    <!--<div class="col-lg-9" data-spy="scroll" data-target="#navbar-example">-->
-      <!--<div *ngFor="let topico of topicos">-->
-
-        <!--<h1 class="text-center">{{ topico.topico }}</h1>-->
-        <!--<p *ngFor="let paragrafo of topico.descricao">{{ paragrafo }}</p>-->
-
-        <!--<div *ngFor="let subtopico of topico.conteudo">-->
-          <!--<h3>{{ subtopico.subtopico }}</h3>-->
-          <!--<p *ngFor="let paragrafo of subtopico.detalhe">-->
-            <!--{{ paragrafo}}-->
-          <!--</p>-->
-        <!--</div>-->
-      <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
+<!--<div *ngFor="let subtopico of topico.conteudo">-->
+<!--<h3>{{ subtopico.subtopico }}</h3>-->
+<!--<p *ngFor="let paragrafo of subtopico.detalhe">-->
+<!--{{ paragrafo}}-->
+<!--</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->

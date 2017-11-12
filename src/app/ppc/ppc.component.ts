@@ -23,6 +23,7 @@ export class PpcComponent implements OnInit {
 
 interface Topico {
   topico: string;
+  id: string;
   descricao: string[];
   conteudo: Subtopico[];
 }
