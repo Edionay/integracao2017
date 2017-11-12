@@ -34,6 +34,10 @@
         "KACZMARCZYK, L. C. Computers and Society: Computing for Good. Chapman & Hall/CRC Textbooks in Computing. CRC Press, 2011",
         "LUCCA, N.; FILHO, A. S. Direito & Internet. Editora Edipro, 2001",
         "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005"
+      ],
+      "swebok": [
+        "Software engineering professional practice",
+        "Prática profissional em engenharia de software"
       ]
     },
     {
@@ -69,6 +73,10 @@
         "SEDGEWICK, R. Algorithms in C. 3rd ed. Reading, Mss: Addison-Wesley, 1998.  ISBN 0201314525",
         "SALVETTI, D. D.; BARBOSA, L. M. Algoritmos, São Paulo: Makron Books, 1998",
         "CORMEN, T. H et al., Algoritmos: Teoria e Prática. 2.a edição. Rio de Janeiro: Editora Campus, 2002"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -104,6 +112,10 @@
         "HOFFMANN, L. D.; BRADLEY, G. L. Cálculo: Um curso moderno com aplicações, 9.a edição. LTC, Rio de Janeiro, 2008",
         "REIS, G. L; SILVA, V. V. Geometria Analítica. LTC, São Paulo",
         "SIMMONS, G. F. Cálculo com Geometria Analítica, vol. 1. McGraw-Hill do Brasil, São Paulo, Brasil, 1987"
+      ],
+      "swebok": [
+        "Mathematicals foundations",
+        "Fundamentos matemáticos"
       ]
     },
     {
@@ -134,6 +146,12 @@
         "ROSEN, K. H. Discrete Mathematics and Its Applications, 6.a edição, Boston: McGraw-Hill, 2009",
         "ROSS, K. A.; Wright, C. R. B. Discrete mathematics, Prentice Hall, 1998",
         "SANTOS, J. P. O. Introdução à Teoria dos Números, Coleção Matemática Universitária, CNPQ-IMPA, Rio de Janeiro, 2003"
+      ],
+      "swebok": [
+        "Mathematicals foundations",
+        "Fundamentos matemáticos",
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -169,6 +187,10 @@
         "PATTERSON, D. A.; HENNESSY, J. L. Computer Organization and Design: The Hardware/Software Interface, 3rd edition, Morgan Kaufmann, 2007",
         "STALLINGS, W. Computer Organization and Architecture: Designing for Performance. 10th Edition. Prentice-Hall, Inc., Upper Saddle River, NJ, USA.  2010",
         "WEBER, R. F. Fundamentos de Arquiteturas de Computadores, 2.a Edição, Editora Sagra-Luzzatto, 2001"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -200,6 +222,10 @@
         "SEDGEWICK, R. Algorithms in C++ (Parts 1-4), Addison-Wesley, 3rd Edition, 1998",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. São Paulo: Editora Thomson, 3.ª edição, 2010",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -235,6 +261,7 @@
         "ROSS, S. Probabilidade. Um Curso Moderno com Aplicações. 8.a ed. Porto Alegre: Bookman, 2010",
         "TRIOLA, M. F. Introdução à Estatística. 10. ed. Rio de Janeiro: LTC, 2008"
       ]
+      "swebok": []
     },
     {
       "id": 7,
@@ -264,6 +291,7 @@
         "LIMA, E. L. Álgebra Linear: Coleção Matemática Universitária. IMPA, Rio de Janeiro, Brasil, 2006",
         "SHOKRANIAN, S. Introdução à Álgebra Linear e Aplicações, 1 ed. UNB, 2004"
       ]
+      "swebok": []
     },
     {
       "id": 8,
@@ -293,6 +321,7 @@
         "SMULLYAN, R. Lógica de Primeira Ordem. São Paulo: UNESP. 2009",
         "CASANOVA, M. A.; GIORNO, F. A. C.; FURTADO, A. L. Programação em Lógica e a Linguagem PROLOG. Edgard Blucher, 1987"
       ]
+      "swebok": []
     },
     {
       "id": 9,
@@ -321,6 +350,7 @@
         "SANTOS, R. Introdução à Programação Orientada a Objetos com Java. Campus, 2003",
         "ZEIGLER, B. P. Objects and Systems: Principled Design with Implementations in C++ and Java. Springer-Verlag New York, Inc., New York, NY, USA. 1997"
       ]
+      "swebok": []
     },
     {
       "id": 10,
@@ -350,6 +380,10 @@
         "SEDGEWICK, R. Algorithms in C++ (Parts 1-4), 3rd edition, Addison-Wesley, 1998",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. 3ª edição, São Paulo: Editora Thomson, 2010",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -375,6 +409,7 @@
         "",
         ""
       ]
+      "swebok": []
     },
 
     {
@@ -404,6 +439,10 @@
         "ROY, P. V.; HARIFI, S. Concepts, Techniques, and Models of Computer Programming, 1st Edition, The MIT Press, 2004",
         "TURBAK, F.; GIFFORD, D. Design Concepts in Programming Languages, 1st Edition, The MIT Press, 2008",
         "VAREJÃO, F. Linguagens de Programação, 1.a Edição, Editora. Campus, 2004"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
 
@@ -443,6 +482,32 @@
         "MPS.BR.  Melhoria de Processos do Software Brasileiro. Disponível em http://www.softex.br/mpsbr/, último acesso julho/2016",
         "Software Engineering Body of Knowledge (SWEBOK), V3, IEEE, Disponível em https://www.computer.org/web/swebok",
         "Software Engineering Competency Model (SWECOM), IEEE. Disponível em https://www.computer.org/web/peb/swecom"
+      ],
+      "swebok": [
+        "Software testing",
+        "Teste de software",
+        "Software Engineering Managment",
+        "Gerencia de engenharia de software",
+        "Software configuration management",
+        "Gerencia de configuraço de software",
+        "software engineering processo",
+        "processo de software",
+        "software engineering models and methods",
+        "métodos e modelos de engenharia de software",
+        "software quality",
+        "qualidade de software",
+        "software engineering professional practice",
+        "prática profissional em engenharia de software",
+        "software engineering economics",
+        "economia em engenharia de software",
+        "software requirements",
+        "requisitos de software",
+        "software design",
+        "projeto de software",
+        "software construction",
+        "construção de software",
+        "software maintenance",
+        "manutenção de software",
       ]
     },
     {
@@ -473,6 +538,12 @@
         "MAMBER, U. Introduction to Algorithms. Addison Wesley Publishing Company. 1989",
         "SEDGEWICK, R.; WAYNE, K. Algorithms. 4th edition, Addison-Wesley Professional, 2011. ISBN: 978-0321573513",
         "SZWARCFITER, J. L.; MARKENZON, L. Estrutura de Dados e seus Algoritmos. 3.a edição, LTC Editora, 2010. ISBN 978852161750"
+      ],
+      "swebok": [
+        "Mathematicals foundations",
+        "fundamentos matemáticos",
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -508,6 +579,12 @@
         "LAZAR, J.; FENG, J. H.; HOCHHEISER, H. Research Methods in Human­Computer Interaction. Wiley, 2009",
         "MACKENZIE, I. S. Human­computer Interaction: An Empirical Research Perspective. Morgan Kaufmann, 201 3. ISBN: 978­0­1 2­405865­1",
         "SCOTT, B.; NEIL, T. Designing Web Interfaces: Principles and Patterns for Rich Interactions. O'Reilly Media; 1st edition. 2009"
+      ],
+      "swebok": [
+        "Software testing",
+        "teste de software",
+        "software design",
+        "projeto de software",
       ]
     },
     {
@@ -533,6 +610,7 @@
         "",
         ""
       ]
+      "swebok": []
     },
     {
       "id": 17,
@@ -563,6 +641,12 @@
         "GARCIA-MOLINA, H.; ULLMAN, J. D.; WIDOM, J. D. Database Systems: The Complete Book, 2.a edição, Prentice Hall, 2009",
         "RAMAKRISHNAN, R.; GEHRKE, J. Sistemas de Gerenciamento de Banco de Dados, tradução da 3.a edição, São Paulo, McGraw-Hill, 2008",
         "TEOREY, T.; LIGHTSTONE, S.; NADEAU, T. Projeto e Modelagem de Bancos de Dados, Editora Campus, Rio de Janeiro, 2007"
+      ],
+      "swebok": [
+        "software design",
+        "projeto de software",
+        "computing foundations",
+        "fundamentos da computação"
       ]
     },
     {
@@ -596,6 +680,10 @@
         "HEINEMAN, G. T.; COUNCILL, W. T. Component-based software engineering: putting the pieces together. Addison-Wesley, 2001. ISBN 0201704854",
         "BOSCH, J. Design and use of software architectures: adopting and evolving a product-line approach. Addison-Wesley, 2000. ISBN 0201674947",
         "JOHNSON, R. Expert one-on-one J2EE development without EJB. Wiley Publishing, 2004. ISBN 0764558315"
+      ],
+      "swebok": [
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -630,6 +718,10 @@
         "NEMETH E.; SNYDER, G.; HEIN, T. R. Unix system administration handbook. Pearson Prentice Hall, 1997. ISBN 9788576051121",
         "O'GORMAN, J. Operating Systems with Linux. Palgrave, 2001",
         "SHAY, W. Sistemas Operacionais, Makron Books, 1996"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "fundamentos da computação"
       ]
     },
     {
@@ -662,6 +754,10 @@
         "PARLAR, M. Interactive operations research with Maple: methods and models. Birkhauser, 2000",
         "SILVA, E. M. et al. Pesquisa Operacional: programação linear, simulação. 3.a ed. Atlas, 1998",
         "WINSTON, W. L. Operations research applications and algorithms. 3rd ed. Duxbury Press, 1997"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "fundamentos da computação"
       ]
     },
     {
@@ -690,6 +786,10 @@
         "LEWIS, H. R.; PAPADIMITRIOU, C. H. Elementos de teoria da computação. 2.a edição. Porto Alegre: Bookman, 2000",
         "MENEZES, P. F. B. Linguagens formais e autônomos. 5.a edição. Porto Alegre: Sagra Luzzatto, 2005",
         "ROSEN, K. H. Matemática discreta e suas aplicações. 6.a ed. Rio de Janeiro: McGraw Hill, 2009"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -721,6 +821,10 @@
         "SOARES, L. F. G; SOUZA FILHO, G. L.; COLCHER, S. Redes de computadores: das LANS, MANS e WANS às Redes ATM. Editora Campus, 1995. ISBN 857001998X",
         "STALLINGS, W. Data and Computer Communications, 8th edition, Pearson/Prentice Hall, 2007",
         "TORRES, G. Redes de computadores: curso completo. Axcel Books, 2001"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -750,6 +854,10 @@
         "CAPOVILLA, F. C.; RAPHAEL, W. D. (ed.). Enciclopédia da Língua de Sinais Brasileira. v. 1 e 2. São Paulo: EDUSP, 2004",
         "GESSER, A. LIBRAS? Que língua é essa?: Crenças e preconceitos em torno da língua de sinais e da realidade surda. São Paulo: Parábola Editorial, 2009",
         "QUADROS, R. M.; KARNOPP, L. Língua de sinais brasileira: estudos linguísticos. ARTMED: Porto Alegre, 2004"
+      ],
+      "swebok": [
+        "Software engineering professional practice",
+        "prática profissional em engenharia de software"
       ]
     },
     {
@@ -783,6 +891,10 @@
         "MUCHNICK, S. S. Advanced Compiler Design and Implementation. Morgan Kaufmann, 1997",
         "HANSON, D. R.; FRASER, C. W. A Retargetable C Compiler: Design and Implementation. Benjamin Cummings Pub., 1995",
         "LEBLANC, R. J.; FISCHER, C. N. Crafting a Compiler with C.  Benjamin/Cummings, 1991"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -814,6 +926,10 @@
         "JOSUTTIS, N. M. SOA in practice. O'Reilly, 2007. ISBN 0596529554",
         "LYNCH, N. A Distributed algorithms. M. Kaufmann, 1997",
         "ANENBAUM, A.S.; STEEN, M. van. Distributed Systems: Principles and Paradigms. Prentice Hall, 2nd Edition, 2006"
+      ],
+      "swebok": [
+        "Software construction",
+        "construção de software"
       ]
     },
     {
@@ -850,6 +966,10 @@
         "BECK, K. Implementation patterns Upper Saddle River, NJ: Addison-Wesley, 2008. ISBN 0321413091",
         "MARTIN, R. C. Clean code: a handbook of agile software craftsmanship. Prentice Hall, 2009. ISBN 0132350882",
         "AGANS, D. J. Debugging the nine indispensable rules for finding even the most elusive software and hardware problems. AMACOM, 2002. ISBN 0814471684"
+      ],
+      "swebok": [
+        "Software construction",
+        "construção de software"
       ]
     },
     {
@@ -879,6 +999,12 @@
         "MELLOR, S. J; SHLAER, S. Análise de sistemas orientada para objetos. São Paulo: McGraw-Hill, 1990",
         "KOWAL, J. A Behavior models: specifying user's expectations. Prentice Hall, 1992. ISBN 0132927152",
         "WAGNER, F. Modeling software with finite state machinesa practical approach. Auerbach, 2006. ISBN 9780849380860"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software",
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -907,6 +1033,32 @@
         "PROWELL, S. J. Cleanroom software engineering technology and process Reading, Mass.: Addison-Wesley, 1999. ISBN 0201854805",
         "CAPUTO, K. CMM implementation guide choreographing software process improvement. Addison-Wesley, 1998. ISBN 0201379384",
         "MAGUIRE, S. Debugging the development processpractical strategies for staying focused, hitting ship dates, and building solid teams. Microsoft, 1994. ISBN 1556156502"
+      ],
+      "swebok": [
+        "Software testing",
+        "Teste de software",
+        "Software Engineering Managment",
+        "Gerencia de engenharia de software",
+        "Software configuration management",
+        "Gerencia de configuraço de software",
+        "software engineering processo",
+        "processo de software",
+        "software engineering models and methods",
+        "métodos e modelos de engenharia de software",
+        "software quality",
+        "qualidade de software",
+        "software engineering professional practice",
+        "prática profissional em engenharia de software",
+        "software engineering economics",
+        "economia em engenharia de software",
+        "software requirements",
+        "requisitos de software",
+        "software design",
+        "projeto de software",
+        "software construction",
+        "construção de software",
+        "software maintenance",
+        "manutenção de software"
       ]
     },
     {
@@ -935,6 +1087,10 @@
         "MPS.BR.  Melhoria de Processos do Software Brasileiro.",
         "Software Engineering Body of Knowledge (SWEBOK), V3, IEEE, Disponível em https://www.computer.org/web/swebok",
         "Software Engineering Competency Model (SWECOM), IEEE. Disponível em https://www.computer.org/web/peb/swecom."
+      ],
+      "swebok": [
+        "Software engineering professional practice",
+        "prática profissional em engenharia de software"
       ]
     },
     {
@@ -971,6 +1127,10 @@
         "LARMAN, C. Applyng UML and patternsan introduction to object-oriented analysis and design. Prentice Hall PTR, 1997. ISBN 0137488807",
         "EVANS, E. Domain-driven designtackling complexity in the heart of software Boston, MA: Addison-Wesley, 2004. ISBN 0321125215",
         "HORSTMANN, C. S. Object-oriented design & patterns. 2nd edition. Hoboken, NJ: Wiley, 2006. ISBN 0471744875"
+      ],
+      "swebok": [
+        "design de software",
+        "projeto de software"
       ]
     },
     {
@@ -1000,6 +1160,10 @@
         "ODELL, J. J. Advanced object-oriented analysis and design using UML. Cambridge University Press, SIGS Books, 1998. ISBN 052164819X",
         "COCKBURN, A. Agile software development Boston: Addison-Wesley, 2002. (Agile software development series). ISBN 0201699699",
         "BEEDLE, M.; SCHWABER, K. Agile software development with Scrum. Prentice Hall, 2002. (Series in agile software development). ISBN 0130676349"
+      ],
+      "swebok": [
+        "Software requirements",
+        "requisitos de software"
       ]
     },
     {
@@ -1029,6 +1193,10 @@
         "KELLIHER, T. P.; KEEGAN, J. G.; OLIVER, D. W. Engineering complex systems with models and objects. McGraw-Hill, 1997. ISBN 0070481881",
         "KAN, S. H. Metrics and models in software quality engineering. 2nd edition. Addison-Wesley, 2003. ISBN 0201729156",
         "BARTIÉ, A. Garantia da qualidade de software. Campus, 2002. ISBN 8535211245"
+      ],
+      "swebok": [
+        "software quality",
+        "qualidade de software"
       ]
     },
     {
@@ -1059,6 +1227,10 @@
         "SCHWABER, K. Agile project management with Scrum. Microsoft Press, 2004. ISBN 073561993X",
         "DEMARCO, T. Controle de projetos de software: gerenciamento, avaliação, estimativa. Campus, 1991. ISBN 8570015283",
         "MARTINS, J. C. C. Gerenciando projetos de desenvolvimento de software com PMI, RUP e UML. 4.a edição. Brasport, 2007"
+      ],
+      "swebok": [
+        "software configuration management",
+        "gerencia de configuraço de software"
       ]
     },
     {
@@ -1090,6 +1262,10 @@
         "SHATZ, S. M. Development of distributed software concepts and tools. Macmillan, 1993. ISBN 0024096113",
         "PAGE-JONES, M. Fundamentals of object-oriented design in UML.  Addison-Wesley, 2003. ISBN 020169946X",
         "RODRIGUES, L.; GUERRAOUI, R. Introduction to reliable distributed programming. Springer, 2006. ISBN 9783540288459"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software"
       ]
     },
     {
@@ -1121,6 +1297,14 @@
         "COUTAZ, J.; BASS, L. Developing software for the user interface. Addison-Wesley, 1991. ISBN 0201510464",
         "HARTSON, H. R.; HIX, D. Developing user interfaces: ensuring usability through product & process. Wiley, 1993. ISBN 0471578134",
         "OLSEN, D. R. Developing user interfaces. Morgan Kaufmann, 1998. ISBN 1558604189"
+      ],
+      "swebok": [
+        "software quality",
+        "qualidade de software",
+        "software construction",
+        "construção de software",
+        "software requirements",
+        "requisitos de software"
       ]
     },
     {
@@ -1151,6 +1335,10 @@
         "TROTT, J.; SHALLOWAY, A. Design patterns explained: a new perspective on object-oriented design. 2nd ed. Addison-Wesley, 2005. ISBN 0321247140",
         "PREE, W. Design patterns for object-oriented software development. Addison-Wesley, 1995. ISBN 0201422948",
         "FREEMAN, E. et al. Head First design patterns. O'Reilly, 2004. ISBN 0596007124"
+      ],
+      "swebok": [
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -1187,6 +1375,10 @@
         "MILLER, G.; ARMOUR, F. Advanced use case modeling: software systems. Boston: Addison-Wesley, 2001. (Addison-Wesley object technology series) ISBN 0201615924",
         "YOURDON, E.; COAD, P. Análise baseada em objetos. 2a. edição. Rio de Janeiro: Campus, 1996. ISBN 8535200428",
         "WIEGERS, K. E. More about software requirements: thorny issues and practical advice. Microsoft Press, 2006. ISBN 9780735622678"
+      ],
+      "swebok": [
+        "software requirements",
+        "requisitos de software"
       ]
     },
     {
@@ -1222,6 +1414,12 @@
         "HASS, A. M. J. Configuration management principles and practice. Addison-Wesley, 2003. (The Agile software development series). ISBN 0321117662",
         "MARSHALL, C. Enterprise modeling with UML: designing successful software through business analysis. Addison-Wesley, 2000. ISBN 0201433133",
         "CENTRO DE GESTÃO E ESTUDOS ESTRATÉGICOS. Ciência, tecnologia e sociedade: novos modelos de governança. Brasilia, CGEE, 2005"
+      ],
+      "swebok": [
+        "software maintenance",
+        "manutenção de software",
+        "software configuration management",
+        "gerencia de configuraço de software"
       ]
     },
     {
@@ -1250,6 +1448,10 @@
         "MARK, D. Dominando o desenvolvimento no iPhone: explorando o SDK do iPhone. Alta Books, 2009. ISBN 97885760833757",
         "VAHID, F. Embedded system design: a unified hardware/software introduction. John Wiley & Sons, 2002. ISBN 0471386782",
         "KERN, C.; KESAVAN, A.; DASWANI, N. Foundations of security: what every programmer needs to know. Apress, 2007. ISBN 9781590597842"
+      ],
+      "swebok": [
+        "Software engineering professional practice",
+        "prática profissional em engenharia de software"
       ]
     },
     {
@@ -1285,6 +1487,12 @@
         "FALINO, J.; HERION, D.; MARTINER, W. Building distributed applications with ADO. John Wiley & Sons, 1999. ISBN 0471317012",
         "KING, G.; BAUER, C. Java Persistence com Hibernate. Ciencia Moderna, 2007. ISBN 9788573936148",
         "MANNINO, M. V. Projeto, desenvolvimento de aplicações e administração de banco de dados. McGraw-Hill, 2008. ISBN 9788577260201"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software",
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -1314,6 +1522,12 @@
         "FOWLER, M. Patterns of enterprise application architecture. Addison­Wesley, 2003",
         "GAMMA, E. et al. Design patterns elements of reusable object-oriented software. Reading: Addison Wesley, 1995",
         "NYGARD, M. Release It!: Design and Deploy Production­Ready Software, Pragmatic Bookshelf, 2007"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software",
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -1341,6 +1555,12 @@
         "GROSS, H. Component-based software testing with UML. Springer, 2005. ISBN 354020864X",
         "PERRY, W. E. Effective methods for software testing. 2nd edition. J. Wiley, 1999. ISBN 047135418X",
         "WU, M.; LI, K. Effective software test automationdeveloping an automated software testing tool. SYBEX, 2004. ISBN 0782143202"
+      ],
+      "swebok": [
+        "software quality",
+        "qualidade de software",
+        "software testing",
+        "teste de software"
       ]
     },
     {
@@ -1369,6 +1589,10 @@
         "POLYAK, B. T. Introduction to optimization. Optimization Software, 1987. ISBN 0911575146",
         "HALL, E. M. Managing risk methods for software systems development. Addison-Wesley, 1998. ISBN 0201255928",
         "QUALIDADE no setor de software brasileiro. Brasilia, D.F.: MCT, 1997"
+      ],
+      "swebok": [
+        "software engineering process",
+        "processo de engenharia de software",
       ]
     },
     {
@@ -1408,6 +1632,14 @@
         "PIMENTEL, L. O. A proteção jurídica da propriedade intelectual de software: noções básicas e temas relacionados. IEL, 2008. ISBN 9788587683045",
         "ORRICO J, H. Pirataria de Software. MM Livros, 2004. ISBN 8590424219",
         ""
+      ],
+      "swebok": [
+        "software requirements",
+        "requisitos de software",
+        "software testing",
+        "teste de software",
+        "software engineering economics",
+        "economia em engenharia de software",
       ]
     },
     {
@@ -1440,6 +1672,32 @@
         "PFLEEGER, S. L. Engenharia de software: teoria e prática. 2.a edição. Prentice Hall, 2004. ISBN 8587918311",
         "PEDRYCZ, W.; PETERS, J. F. Engenharia de software: teoria e prática. Campus, 2003. ISBN 8535207465",
         "MAGELA, R. Engenharia de software aplicada: princípios. Alta Books, 2006. ISBN 8576081202"
+      ]
+      "swebok": [
+        "Software testing",
+        "Teste de software",
+        "Software Engineering Managment",
+        "Gerencia de engenharia de software",
+        "Software configuration management",
+        "Gerencia de configuraço de software",
+        "software engineering processo",
+        "processo de software",
+        "software engineering models and methods",
+        "métodos e modelos de engenharia de software",
+        "software quality",
+        "qualidade de software",
+        "software engineering professional practice",
+        "prática profissional em engenharia de software",
+        "software engineering economics",
+        "economia em engenharia de software",
+        "software requirements",
+        "requisitos de software",
+        "software design",
+        "projeto de software",
+        "software construction",
+        "construção de software",
+        "software maintenance",
+        "manutenção de software"
       ]
     }
   ],
