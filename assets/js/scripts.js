@@ -1,4 +1,7 @@
-$(document).ready(function(){
-  // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+$(document).ready(function () {
   $('.modal').modal();
+  $(".button-collapse").sideNav();
+  $('.scrollspy').scrollSpy(
+    {scrollOffset: 50}
+  );
 });

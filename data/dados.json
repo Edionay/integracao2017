@@ -938,6 +938,7 @@
   "informacoes": [
     {
       "topico": "Apresentação",
+      "id": "apresentacao",
       "descricao": [
         "O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES.",
         "A busca pela qualidade é a motivação (p. ) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. ), o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”.",
@@ -954,6 +955,7 @@
     },
     {
       "topico": "Objetvos",
+      "id": "objetivos",
       "descricao": [""],
       "conteudo": [
         {
@@ -982,6 +984,7 @@
     },
     {
       "topico": "Expectativa da formação do profissional",
+      "id": "expextativas",
       "descricao": [""],
       "conteudo": [
         {
@@ -1003,6 +1006,7 @@
     },
     {
       "topico": "Princípios norteadores",
+      "id": "principios",
       "descricao": [
         "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso (p. ) e o perfil do egresso (p. ). Esses princípios são fornecidos abaixo."
       ],
@@ -1065,6 +1069,7 @@
     },
     {
       "topico": "Núcleo Docente Estruturante (NDE)",
+      "id": "nde",
       "descricao": [
         "Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios:",
         "O NDE possui duas prioridades. A maior prioridade é colocar em prática o Projeto Pedagógico do Curso (PPC). A prioridade seguinte é mantê-lo relevante.",
@@ -1097,6 +1102,7 @@
     },
     {
       "topico": "Política e gestão de estágio não obrigatório",
+      "id": "estagio",
       "descricao": [
         "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. ",
         "O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso.",
@@ -1107,6 +1113,7 @@
     },
     {
       "topico": "Trabalho de Conclusão de Curso (TCC)",
+      "id": "tcc",
       "descricao": [
         "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software.",
         "O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação.",
@@ -1117,6 +1124,7 @@
     },
     {
       "topico": "Integração ensino, pesquisa e extensão",
+      "id": "integracao",
       "descricao": [
         "A integração do ensino com a pesquisa e a extensão se verifica por meio de atividades complementares, do estágio não obrigatório, de disciplinas do curso e da postura didática dos docentes, conforme comentado abaixo. ",
         "As atividades complementares são identificadas em resolução própria, perfazem pelo menos 192 horas e explicitamente incluem ações de extensão e de pesquisa. Por exemplo, divulgação de trabalhos em eventos científicos, participação em projetos de extensão e participação em projetos de pesquisa, dentre outras.",
@@ -1134,6 +1142,7 @@
     },
     {
       "topico": "Avaliação do processo de ensino e aprendizagem",
+      "id": "avaliacao_processo",
       "descricao": [
         "O que é realizado em nome do curso para que o estudante adquira o perfil esperado pode ser avaliado considerando informações geradas externamente e outras internamente. A avaliação do curso pelo MEC e os resultados obtidos pelos estudantes do curso no ENADE são exemplos de insumos para a avaliação do processo de ensino. Internamente, a avaliação do docente pelo discente (instrumento formal e institucionalizado na UFG), o desempenho dos estudantes do curso nas disciplinas e os planos de ensino das disciplinas são fontes valiosas de informação. ",
         "O NDE do curso é o principal consumidor dessas informações com o propósito de detectar possíveis melhorias e fomentar a introdução delas. Por exemplo, embora o docente tenha autonomia metodológica ao planejar e executar o plano de ensino de uma disciplina, cabe ao NDE analisar o plano e, quando considerar oportuno, recomendar ajustes. Essas e outras ações devem ser realizadas durante a semana de planejamento pedagógico e administrativo (semana formalmente institucionalizada na UFG), que ocorre no início de cada período letivo. Convém destacar que o plano de ensino de cada disciplina deve ser aprovado formalmente pelo Conselho Diretor da unidade antes do início do período letivo. Adicionalmente, a ação de avaliação não deve estar restrita à semana de planejamento, mas contínua. O objetivo é viabilizar a introdução de uma eventual mudança o mais próximo possível do instante no qual a necessidade foi detectada.",
@@ -1155,6 +1164,7 @@
     },
     {
       "topico": "Avaliação do projeto de curso",
+      "id": "avaliacao_curso",
       "descricao": [
         "O presente PPC deverá ser revisado formalmente de cinco em cinco anos, em ação proativa, ou em intervalo de tempo menor, na ocorrência de evento que justifique tal decisão.",
         "O NDE é responsável pelas revisões do PPC e, em particular, por contínua vigilância da adequação do PPC ao cenário corrente. Esse esforço se realizada de duas formas. Uma no sentido de fazer com que as orientações do PPC sejam observadas no cotidiano do curso e outra, onde considerado oportuno, na análise de possíveis melhorias para reagir adequadamente às mudanças do ambiente.",
@@ -1169,6 +1179,7 @@
     },
     {
       "topico": "Política de qualificação",
+      "id": "politica_qualificacao",
       "descricao": [
         "Desde a criação o Instituto de Informática implementa uma política vigorosa de capacitação do seu corpo docente, a qual inclui a meta de que todos os docentes tenham a titulação mínima de doutor. De fato, a liberação de docentes para prosseguirem os seus estudos de pós-graduação é uma prática comum, em consequência, nenhum pedido para afastamento com o propósito de realizar o doutorado foi negado até o momento. Essa política é acrescentada de regras institucionalizadas para a concessão de afastamento para o pós-doutorado e de licença para capacitação.",
         "A qualificação de docentes do INF também pode ser obtida pela sua participação em congressos, simpósios, dentre outros eventos, quer seja nos papéis de autor de artigo, organizador de evento, membro de comitê de programa ou avaliador de artigo. O Instituto de Informática ainda financia ou co-financia viagens e inscrições de seus docentes em congressos e simpósios importantes, principalmente quando há publicação de artigo.",
@@ -1186,6 +1197,7 @@
     },
     {
       "topico": "Requisitos legais e normativos",
+      "id": "requisitos_legais_noormativos",
       "descricao": "",
       "conteudo": [
         {
