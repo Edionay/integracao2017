@@ -1,0 +1,12 @@
+<div class="container">
+  <ul class="collapsible" data-collapsible="accordion">
+    <li *ngFor="let periodo of es">
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>{{ periodo.numero}}º Período</div>
+      <div class="collapsible-body">
+        <ul>
+          <li *ngFor="let disciplina of periodo.disciplinas">{{ disciplina.nome }}</li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
