@@ -3,7 +3,7 @@ interface Periodo {
   disciplinas: Disciplina[];
 }
 
-interface Disciplina {
+export interface Disciplina {
   id: number;
   nome: string;
   ementa: string[];
