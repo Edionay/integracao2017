@@ -3,7 +3,7 @@ interface Periodo {
   disciplinas: Disciplina[];
 }
 
-interface Disciplina {
+export interface Disciplina {
   id: number;
   nome: string;
   ementa: string[];
@@ -257,7 +257,7 @@ export const disciplinas: Disciplina[] = [
     "cargaHorariaTotal": 1,
     "cargaHorariaTeorica": 1,
     "cargaHorariaPratica": 1,
-    "periodo": 99,
+    "periodo": 3,
     "obrigatoria": "",
     "preRequisitos": [""],
     "nucleo": "",
@@ -358,7 +358,7 @@ export const disciplinas: Disciplina[] = [
     "cargaHorariaTotal": 1,
     "cargaHorariaTeorica": 1,
     "cargaHorariaPratica": 1,
-    "periodo": 99,
+    "periodo": 4,
     "obrigatoria": "",
     "preRequisitos": [""],
     "nucleo": "",
@@ -423,7 +423,7 @@ export const disciplinas: Disciplina[] = [
     "cargaHorariaTotal": 64,
     "cargaHorariaTeorica": 64,
     "cargaHorariaPratica": 0,
-    "periodo": 10,
+    "periodo": 5,
     "obrigatoria": "Sim",
     "preRequisitos": ["Arquitetura de Computadores"],
     "nucleo": "NC",
@@ -444,7 +444,7 @@ export const disciplinas: Disciplina[] = [
     "cargaHorariaTotal": 64,
     "cargaHorariaTeorica": 64,
     "cargaHorariaPratica": 0,
-    "periodo": 10,
+    "periodo": 5,
     "obrigatoria": "Sim",
     "preRequisitos": ["Álgebra Linear"],
     "nucleo": "NC",
@@ -461,7 +461,7 @@ export const disciplinas: Disciplina[] = [
     "cargaHorariaTotal": 64,
     "cargaHorariaTeorica": 64,
     "cargaHorariaPratica": 0,
-    "periodo": 10,
+    "periodo": 5,
     "obrigatoria": "Sim",
     "preRequisitos": ["Fundamentos de Matemática para Computação"],
     "nucleo": "NC",
@@ -481,7 +481,7 @@ export const disciplinas: Disciplina[] = [
     "cargaHorariaTotal": 64,
     "cargaHorariaTeorica": 64,
     "cargaHorariaPratica": 0,
-    "periodo": 10,
+    "periodo": 5,
     "obrigatoria": "Sim",
     "preRequisitos": [""],
     "nucleo": "NC",
