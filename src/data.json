@@ -525,7 +525,10 @@
       "cargaHorariaPratica": 0,
       "periodo": 4,
       "obrigatoria": "Sim",
-      "preRequisitos": "Fundamentos de Matemática para Computação, Algoritmos e Estruturas de Dados 2",
+      "preRequisitos": [
+        "Fundamentos de Matemática para Computação",
+        "Algoritmos e Estruturas de Dados 2"
+        ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "BRASSARD, G.; BRATLEY, P. Fundamentals of Algorithmics. Prentice-Hall, Inc., Upper Saddle River, NJ, 1996. ISBN: 0-13-335068-1",
@@ -566,7 +569,10 @@
       "cargaHorariaPratica": 32,
       "periodo": 4,
       "obrigatoria": "Sim",
-      "preRequisitos": "Algoritmos e Estruturas de Dados 1, Probabilidade e Estatística A",
+      "preRequisitos": [
+        "Algoritmos e Estruturas de Dados 1",
+        "Probabilidade e Estatística A"
+        ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "DIX, A.; FINLAY, J. E.; ABOWD, G. D.; BEALE, R. Human­Computer Interaction (3rd Edition). Prentice­Hall, Inc., Upper Saddle River, NJ, USA, 2003",
@@ -667,7 +673,10 @@
       "cargaHorariaPratica": 0,
       "periodo": 4,
       "obrigatoria": "Sim",
-      "preRequisitos": "Programação Orientada a Objetos, Engenharia de Software",
+      "preRequisitos": [
+        "Programação Orientada a Objetos",
+        "Engenharia de Software"
+        ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "BASS, L.; CLEMENTS, P.; KAZMAN, R. Software Architecture in Practice, 3rd edition, Pearson Education, Inc., 2013",
@@ -878,7 +887,10 @@
       "cargaHorariaPratica": 0,
       "periodo": 10,
       "obrigatoria": "Sim",
-      "preRequisitos": "Algoritmos e Estruturas de Dados 2, Linguagens Formais e Autômatos",
+      "preRequisitos": [
+        "Algoritmos e Estruturas de Dados 2",
+        "Linguagens Formais e Autômatos"
+        ],
       "nucleo": "NE",
       "bibliografiaBasica": [
         "AHO, A. V; LAM, M. S.; SETHI, R.; ULLMAN, J. D. Compiladores: Princípios, técnicas e ferramentas. 2.a ed. Pearson-Addison-Wesley, 2008",
