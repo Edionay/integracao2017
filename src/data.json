@@ -1,41 +1,44 @@
 {
-  "disciplina": [
-    {
-      "id": 0,
-      "nome": "Computação e Sociedade",
-      "ementa": [
-        "História da computação",
-        "Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente",
-        "Subáreas da computação e áreas interdisciplinares",
-        "Importância e desafios da computação no Brasil e no mundo",
-        "Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado,organizações e associações na área, regulamentação da profissão",
-        "mercado, organizações e associações na área, regulamentação da profissão",
-        "Leis e normas relacionadas à Informática",
-        "Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação",
-        "Ética na Computação",
-        "Empresas de tecnologia da informação",
-        "Incubadoras de empresas."
-      ],
-      "cargaHorariaTotal": 32,
-      "cargaHorariaTeorica": 32,
-      "cargaHorariaPratica": 0,
-      "periodo": 1,
-      "obrigatoria": "Sim",
-      "preRequisitos": "",
-      "nucleo": "NC",
-      "bibliografiaBasica": [
-        "VELOSO, R. Tecnologias da Informação e Comunicação: Desafios e Perspectivas. São Paulo: Saraiva, 2011",
-        "MASIERO, P. Ética em Computação. Editora da USP, 2000",
-        "FONSECA FILHO, C. História da computação: O Caminho do Pensamento e da Tecnologia. Porto Alegre: EDIPUCRS, 2007"
-      ],
-      "bibliografiaComplementar": [
-        "CHALITA, G. Os Dez Mandamentos da Ética. Editora Nova Fronteira, 2003",
-        "DRUMMOND, V. Internet, Privacidade e Dados Pessoais. Editora Lumen Juris, 2003",
-        "KACZMARCZYK, L. C. Computers and Society: Computing for Good. Chapman & Hall/CRC Textbooks in Computing. CRC Press, 2011",
-        "LUCCA, N.; FILHO, A. S. Direito & Internet. Editora Edipro, 2001",
-        "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005"
-      ]
-    },
+  "disciplina": [{
+    "id": 0,
+    "nome": "Computação e Sociedade",
+    "ementa": [
+      "História da computação",
+      "Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente",
+      "Subáreas da computação e áreas interdisciplinares",
+      "Importância e desafios da computação no Brasil e no mundo",
+      "Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado,organizações e associações na área, regulamentação da profissão",
+      "mercado, organizações e associações na área, regulamentação da profissão",
+      "Leis e normas relacionadas à Informática",
+      "Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação",
+      "Ética na Computação",
+      "Empresas de tecnologia da informação",
+      "Incubadoras de empresas."
+    ],
+    "cargaHorariaTotal": 32,
+    "cargaHorariaTeorica": 32,
+    "cargaHorariaPratica": 0,
+    "periodo": 1,
+    "obrigatoria": "Sim",
+    "preRequisitos": "",
+    "nucleo": "NC",
+    "bibliografiaBasica": [
+      "VELOSO, R. Tecnologias da Informação e Comunicação: Desafios e Perspectivas. São Paulo: Saraiva, 2011",
+      "MASIERO, P. Ética em Computação. Editora da USP, 2000",
+      "FONSECA FILHO, C. História da computação: O Caminho do Pensamento e da Tecnologia. Porto Alegre: EDIPUCRS, 2007"
+    ],
+    "bibliografiaComplementar": [
+      "CHALITA, G. Os Dez Mandamentos da Ética. Editora Nova Fronteira, 2003",
+      "DRUMMOND, V. Internet, Privacidade e Dados Pessoais. Editora Lumen Juris, 2003",
+      "KACZMARCZYK, L. C. Computers and Society: Computing for Good. Chapman & Hall/CRC Textbooks in Computing. CRC Press, 2011",
+      "LUCCA, N.; FILHO, A. S. Direito & Internet. Editora Edipro, 2001",
+      "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005"
+    ],
+    "swebok": [
+      "Software engineering professional practice",
+      "Prática profissional em engenharia de software"
+    ]
+  },
     {
       "id": 1,
       "nome": "Introdução à Programação",
@@ -62,13 +65,17 @@
         "FOBERLONE, A. L. V.; EBERSPACHER, H. F. Lógica de Programação: A construção de algoritmos e estruturas de dados. 3.a edição. São Paulo: Prentice Hall, 2005",
         "ASCENCIO, A. F. G.; CAMPOS, E. A. V. Fundamentos da Programação de Computadores. 3.a edição. Editora Pearson, 2010",
         "SCHILDT, H. C Completo e Total. 3a Ed.  São Paulo: Makron Books, 1996"
-        ],
+      ],
       "bibliografiaComplementar": [
         "FEOFILOFF, P. Algoritmos em Linguagem C. Editora Campus/Elsevier, 2009",
         "FARRER, H. at al. Programação Estruturada de Computadores: Algoritmos Estruturados. 3.a edição. Rio de Janeiro: LTC, 1989",
         "SEDGEWICK, R. Algorithms in C. 3rd ed. Reading, Mss: Addison-Wesley, 1998.  ISBN 0201314525",
         "SALVETTI, D. D.; BARBOSA, L. M. Algoritmos, São Paulo: Makron Books, 1998",
         "CORMEN, T. H et al., Algoritmos: Teoria e Prática. 2.a edição. Rio de Janeiro: Editora Campus, 2002"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -104,6 +111,10 @@
         "HOFFMANN, L. D.; BRADLEY, G. L. Cálculo: Um curso moderno com aplicações, 9.a edição. LTC, Rio de Janeiro, 2008",
         "REIS, G. L; SILVA, V. V. Geometria Analítica. LTC, São Paulo",
         "SIMMONS, G. F. Cálculo com Geometria Analítica, vol. 1. McGraw-Hill do Brasil, São Paulo, Brasil, 1987"
+      ],
+      "swebok": [
+        "Mathematicals foundations",
+        "Fundamentos matemáticos"
       ]
     },
     {
@@ -134,6 +145,12 @@
         "ROSEN, K. H. Discrete Mathematics and Its Applications, 6.a edição, Boston: McGraw-Hill, 2009",
         "ROSS, K. A.; Wright, C. R. B. Discrete mathematics, Prentice Hall, 1998",
         "SANTOS, J. P. O. Introdução à Teoria dos Números, Coleção Matemática Universitária, CNPQ-IMPA, Rio de Janeiro, 2003"
+      ],
+      "swebok": [
+        "Mathematicals foundations",
+        "Fundamentos matemáticos",
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -152,8 +169,8 @@
         "Introdução a arquiteturas paralelas e métricas de desempenho."
       ],
       "cargaHorariaTotal": 64,
-      "cargaHorariaTeorica": 64,
-      "cargaHorariaPratica": 0,
+      "cargaHorariaTeorica": 48,
+      "cargaHorariaPratica": 16,
       "periodo": 2,
       "obrigatoria": "Sim",
       "preRequisitos": "Fundamentos de Matemática para Computação",
@@ -169,6 +186,10 @@
         "PATTERSON, D. A.; HENNESSY, J. L. Computer Organization and Design: The Hardware/Software Interface, 3rd edition, Morgan Kaufmann, 2007",
         "STALLINGS, W. Computer Organization and Architecture: Designing for Performance. 10th Edition. Prentice-Hall, Inc., Upper Saddle River, NJ, USA.  2010",
         "WEBER, R. F. Fundamentos de Arquiteturas de Computadores, 2.a Edição, Editora Sagra-Luzzatto, 2001"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -200,6 +221,10 @@
         "SEDGEWICK, R. Algorithms in C++ (Parts 1-4), Addison-Wesley, 3rd Edition, 1998",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. São Paulo: Editora Thomson, 3.ª edição, 2010",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -234,7 +259,8 @@
         "MORETTIN, L. G. Estatística básica: probabilidade e inferência. São Paulo: Prentice Hall, 2010",
         "ROSS, S. Probabilidade. Um Curso Moderno com Aplicações. 8.a ed. Porto Alegre: Bookman, 2010",
         "TRIOLA, M. F. Introdução à Estatística. 10. ed. Rio de Janeiro: LTC, 2008"
-      ]
+      ],
+      "swebok": []
     },
     {
       "id": 7,
@@ -263,7 +289,8 @@
         "HOWARD, A.; RORRES, C. Álgebra Linear com Aplicações, 8.a ed. Bookman, Porto Alegre, Brasil, 2001",
         "LIMA, E. L. Álgebra Linear: Coleção Matemática Universitária. IMPA, Rio de Janeiro, Brasil, 2006",
         "SHOKRANIAN, S. Introdução à Álgebra Linear e Aplicações, 1 ed. UNB, 2004"
-      ]
+      ],
+      "swebok": []
     },
     {
       "id": 8,
@@ -292,7 +319,8 @@
         "ENDERTON, H. A. Mathematical Introduction to Logic. Academic Press 2000",
         "SMULLYAN, R. Lógica de Primeira Ordem. São Paulo: UNESP. 2009",
         "CASANOVA, M. A.; GIORNO, F. A. C.; FURTADO, A. L. Programação em Lógica e a Linguagem PROLOG. Edgard Blucher, 1987"
-      ]
+      ],
+      "swebok": []
     },
     {
       "id": 9,
@@ -320,7 +348,8 @@
         "HORSTMANN, C. S. Core Java – Volume II – Advanced Features, Prentice Hall, 8.a Edição, 2008",
         "SANTOS, R. Introdução à Programação Orientada a Objetos com Java. Campus, 2003",
         "ZEIGLER, B. P. Objects and Systems: Principled Design with Implementations in C++ and Java. Springer-Verlag New York, Inc., New York, NY, USA. 1997"
-      ]
+      ],
+      "swebok": []
     },
     {
       "id": 10,
@@ -350,6 +379,10 @@
         "SEDGEWICK, R. Algorithms in C++ (Parts 1-4), 3rd edition, Addison-Wesley, 1998",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. 3ª edição, São Paulo: Editora Thomson, 2010",
         "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -374,7 +407,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "swebok": []
     },
 
     {
@@ -391,7 +425,7 @@
       "cargaHorariaPratica": 32,
       "periodo": 3,
       "obrigatoria": "Sim",
-      "preRequisitos": "Cálculo 1A",
+      "preRequisitos": "Introdução à Programação",
       "nucleo": "NC",
       "bibliografiaBasica": [
         "GHEZZI, C.; JAZYERI, M. Programming Language Concepts, 3rd Edition, Wiley; 3rd Edition; 1997",
@@ -404,6 +438,10 @@
         "ROY, P. V.; HARIFI, S. Concepts, Techniques, and Models of Computer Programming, 1st Edition, The MIT Press, 2004",
         "TURBAK, F.; GIFFORD, D. Design Concepts in Programming Languages, 1st Edition, The MIT Press, 2008",
         "VAREJÃO, F. Linguagens de Programação, 1.a Edição, Editora. Campus, 2004"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
 
@@ -443,6 +481,32 @@
         "MPS.BR.  Melhoria de Processos do Software Brasileiro. Disponível em http://www.softex.br/mpsbr/, último acesso julho/2016",
         "Software Engineering Body of Knowledge (SWEBOK), V3, IEEE, Disponível em https://www.computer.org/web/swebok",
         "Software Engineering Competency Model (SWECOM), IEEE. Disponível em https://www.computer.org/web/peb/swecom"
+      ],
+      "swebok": [
+        "Software testing",
+        "Teste de software",
+        "Software Engineering Managment",
+        "Gerencia de engenharia de software",
+        "Software configuration management",
+        "Gerencia de configuraço de software",
+        "software engineering processo",
+        "processo de software",
+        "software engineering models and methods",
+        "métodos e modelos de engenharia de software",
+        "software quality",
+        "qualidade de software",
+        "software engineering professional practice",
+        "prática profissional em engenharia de software",
+        "software engineering economics",
+        "economia em engenharia de software",
+        "software requirements",
+        "requisitos de software",
+        "software design",
+        "projeto de software",
+        "software construction",
+        "construção de software",
+        "software maintenance",
+        "manutenção de software"
       ]
     },
     {
@@ -460,7 +524,10 @@
       "cargaHorariaPratica": 0,
       "periodo": 4,
       "obrigatoria": "Sim",
-      "preRequisitos": "Fundamentos de Matemática para Computação, Algoritmos e Estruturas de Dados 2",
+      "preRequisitos": [
+        "Fundamentos de Matemática para Computação",
+        "Algoritmos e Estruturas de Dados 2"
+      ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "BRASSARD, G.; BRATLEY, P. Fundamentals of Algorithmics. Prentice-Hall, Inc., Upper Saddle River, NJ, 1996. ISBN: 0-13-335068-1",
@@ -473,6 +540,12 @@
         "MAMBER, U. Introduction to Algorithms. Addison Wesley Publishing Company. 1989",
         "SEDGEWICK, R.; WAYNE, K. Algorithms. 4th edition, Addison-Wesley Professional, 2011. ISBN: 978-0321573513",
         "SZWARCFITER, J. L.; MARKENZON, L. Estrutura de Dados e seus Algoritmos. 3.a edição, LTC Editora, 2010. ISBN 978852161750"
+      ],
+      "swebok": [
+        "Mathematicals foundations",
+        "fundamentos matemáticos",
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -495,7 +568,10 @@
       "cargaHorariaPratica": 32,
       "periodo": 4,
       "obrigatoria": "Sim",
-      "preRequisitos": "Algoritmos e Estruturas de Dados 1, Probabilidade e Estatística A",
+      "preRequisitos": [
+        "Algoritmos e Estruturas de Dados 1",
+        "Probabilidade e Estatística A"
+      ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "DIX, A.; FINLAY, J. E.; ABOWD, G. D.; BEALE, R. Human­Computer Interaction (3rd Edition). Prentice­Hall, Inc., Upper Saddle River, NJ, USA, 2003",
@@ -508,6 +584,12 @@
         "LAZAR, J.; FENG, J. H.; HOCHHEISER, H. Research Methods in Human­Computer Interaction. Wiley, 2009",
         "MACKENZIE, I. S. Human­computer Interaction: An Empirical Research Perspective. Morgan Kaufmann, 201 3. ISBN: 978­0­1 2­405865­1",
         "SCOTT, B.; NEIL, T. Designing Web Interfaces: Principles and Patterns for Rich Interactions. O'Reilly Media; 1st edition. 2009"
+      ],
+      "swebok": [
+        "Software testing",
+        "teste de software",
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -532,7 +614,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "swebok": []
     },
     {
       "id": 17,
@@ -563,6 +646,12 @@
         "GARCIA-MOLINA, H.; ULLMAN, J. D.; WIDOM, J. D. Database Systems: The Complete Book, 2.a edição, Prentice Hall, 2009",
         "RAMAKRISHNAN, R.; GEHRKE, J. Sistemas de Gerenciamento de Banco de Dados, tradução da 3.a edição, São Paulo, McGraw-Hill, 2008",
         "TEOREY, T.; LIGHTSTONE, S.; NADEAU, T. Projeto e Modelagem de Bancos de Dados, Editora Campus, Rio de Janeiro, 2007"
+      ],
+      "swebok": [
+        "software design",
+        "projeto de software",
+        "computing foundations",
+        "fundamentos da computação"
       ]
     },
     {
@@ -583,7 +672,10 @@
       "cargaHorariaPratica": 0,
       "periodo": 4,
       "obrigatoria": "Sim",
-      "preRequisitos": "Programação Orientada a Objetos, Engenharia de Software",
+      "preRequisitos": [
+        "Programação Orientada a Objetos",
+        "Engenharia de Software"
+      ],
       "nucleo": "NC",
       "bibliografiaBasica": [
         "BASS, L.; CLEMENTS, P.; KAZMAN, R. Software Architecture in Practice, 3rd edition, Pearson Education, Inc., 2013",
@@ -596,6 +688,10 @@
         "HEINEMAN, G. T.; COUNCILL, W. T. Component-based software engineering: putting the pieces together. Addison-Wesley, 2001. ISBN 0201704854",
         "BOSCH, J. Design and use of software architectures: adopting and evolving a product-line approach. Addison-Wesley, 2000. ISBN 0201674947",
         "JOHNSON, R. Expert one-on-one J2EE development without EJB. Wiley Publishing, 2004. ISBN 0764558315"
+      ],
+      "swebok": [
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -618,7 +714,7 @@
       "periodo": 10,
       "obrigatoria": "Sim",
       "preRequisitos": "Arquitetura de Computadores",
-      "nucleo": "NC",
+      "nucleo": "NE",
       "bibliografiaBasica": [
         "OLIVEIRA, R. S.; CARISSIMI, A. S.; TOSCANI, S. S. Sistemas Operacionais. 3.a edição. Porto Alegre: Instituto de Informática da UFRGS: Editora Sagra Luzzatto, 2004",
         "SILBERSCHATZ, A. Fundamentos de Sistemas Operacionais, 8.a edição, LTC, 2011",
@@ -630,6 +726,10 @@
         "NEMETH E.; SNYDER, G.; HEIN, T. R. Unix system administration handbook. Pearson Prentice Hall, 1997. ISBN 9788576051121",
         "O'GORMAN, J. Operating Systems with Linux. Palgrave, 2001",
         "SHAY, W. Sistemas Operacionais, Makron Books, 1996"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "fundamentos da computação"
       ]
     },
     {
@@ -650,7 +750,7 @@
       "periodo": 10,
       "obrigatoria": "Sim",
       "preRequisitos": "Álgebra Linear",
-      "nucleo": "NC",
+      "nucleo": "NE",
       "bibliografiaBasica": [
         "BREGALDA, P. F.; OLIVEIRA, A. A. F.; BORNSTEIN, C. T. Introdução à programação linear. 3. ed. Rio de Janeiro: Campus, 1983",
         "GOLBARG, M.; LUNA, H. Otimização combinatória e programação linear. 2. ed. Campus, 2005",
@@ -662,6 +762,10 @@
         "PARLAR, M. Interactive operations research with Maple: methods and models. Birkhauser, 2000",
         "SILVA, E. M. et al. Pesquisa Operacional: programação linear, simulação. 3.a ed. Atlas, 1998",
         "WINSTON, W. L. Operations research applications and algorithms. 3rd ed. Duxbury Press, 1997"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "fundamentos da computação"
       ]
     },
     {
@@ -678,7 +782,7 @@
       "periodo": 10,
       "obrigatoria": "Sim",
       "preRequisitos": "Fundamentos de Matemática para Computação",
-      "nucleo": "NC",
+      "nucleo": "NE",
       "bibliografiaBasica": [
         "SUDKAMP, T. A. Languages and machines. 3.a edição. Addison Wesley, 2006",
         "SIPSER, M. Introduction to the theory of computation. ITP, 1997. ISBN 053494728X",
@@ -690,6 +794,10 @@
         "LEWIS, H. R.; PAPADIMITRIOU, C. H. Elementos de teoria da computação. 2.a edição. Porto Alegre: Bookman, 2000",
         "MENEZES, P. F. B. Linguagens formais e autônomos. 5.a edição. Porto Alegre: Sagra Luzzatto, 2005",
         "ROSEN, K. H. Matemática discreta e suas aplicações. 6.a ed. Rio de Janeiro: McGraw Hill, 2009"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -704,12 +812,12 @@
         "Estudo de Caso de Tópicos Emergentes em Redes."
       ],
       "cargaHorariaTotal": 64,
-      "cargaHorariaTeorica": 64,
-      "cargaHorariaPratica": 0,
+      "cargaHorariaTeorica": 32,
+      "cargaHorariaPratica": 32,
       "periodo": 10,
       "obrigatoria": "Sim",
-      "preRequisitos": "",
-      "nucleo": "NC",
+      "preRequisitos": "Sistemas Operacionais",
+      "nucleo": "NE",
       "bibliografiaBasica": [
         "KUROSE, J.F.; ROSS, K. Redes de Computadores e a Internet, 6.a edição. Pearson Education, 2013",
         "LAUDON, K. C.; LAUDON, J. P. Sistemas de Informação Gerenciais. 9.a edição. São Paulo: Pearson Education, 2013",
@@ -721,6 +829,10 @@
         "SOARES, L. F. G; SOUZA FILHO, G. L.; COLCHER, S. Redes de computadores: das LANS, MANS e WANS às Redes ATM. Editora Campus, 1995. ISBN 857001998X",
         "STALLINGS, W. Data and Computer Communications, 8th edition, Pearson/Prentice Hall, 2007",
         "TORRES, G. Redes de computadores: curso completo. Axcel Books, 2001"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -737,7 +849,7 @@
       "periodo": 10,
       "obrigatoria": "Sim",
       "preRequisitos": "",
-      "nucleo": "NC",
+      "nucleo": "NE",
       "bibliografiaBasica": [
         "FELIPE, T.; MONTEIRO, M. S. LIBRAS em contexto. Curso Básico. Brasília: Ministério da Educação e do Desporto/Secretaria de Educação Especial, 2001",
         "PEREIRA, M. C. C.; et al. LIBRAS – Conhecimento além dos sinais. São Paulo: Pearson, 2011",
@@ -750,6 +862,10 @@
         "CAPOVILLA, F. C.; RAPHAEL, W. D. (ed.). Enciclopédia da Língua de Sinais Brasileira. v. 1 e 2. São Paulo: EDUSP, 2004",
         "GESSER, A. LIBRAS? Que língua é essa?: Crenças e preconceitos em torno da língua de sinais e da realidade surda. São Paulo: Parábola Editorial, 2009",
         "QUADROS, R. M.; KARNOPP, L. Língua de sinais brasileira: estudos linguísticos. ARTMED: Porto Alegre, 2004"
+      ],
+      "swebok": [
+        "Software engineering professional practice",
+        "prática profissional em engenharia de software"
       ]
     },
     {
@@ -770,8 +886,11 @@
       "cargaHorariaPratica": 0,
       "periodo": 10,
       "obrigatoria": "Sim",
-      "preRequisitos": "Algoritmos e Estruturas de Dados 2, Linguagens Formais e Autômatos",
-      "nucleo": "NC",
+      "preRequisitos": [
+        "Algoritmos e Estruturas de Dados 2",
+        "Linguagens Formais e Autômatos"
+      ],
+      "nucleo": "NE",
       "bibliografiaBasica": [
         "AHO, A. V; LAM, M. S.; SETHI, R.; ULLMAN, J. D. Compiladores: Princípios, técnicas e ferramentas. 2.a ed. Pearson-Addison-Wesley, 2008",
         "LOUDEN, K. C. Compiladores - Princípios e Práticas. Editora Thompson 2004",
@@ -783,6 +902,10 @@
         "MUCHNICK, S. S. Advanced Compiler Design and Implementation. Morgan Kaufmann, 1997",
         "HANSON, D. R.; FRASER, C. W. A Retargetable C Compiler: Design and Implementation. Benjamin Cummings Pub., 1995",
         "LEBLANC, R. J.; FISCHER, C. N. Crafting a Compiler with C.  Benjamin/Cummings, 1991"
+      ],
+      "swebok": [
+        "Computing foundations",
+        "Fundamentos da computação"
       ]
     },
     {
@@ -797,12 +920,12 @@
         "Estudo de Casos de Tópicos Emergentes em Sistemas Distribuídos"
       ],
       "cargaHorariaTotal": 64,
-      "cargaHorariaTeorica": 64,
-      "cargaHorariaPratica": 0,
+      "cargaHorariaTeorica": 32,
+      "cargaHorariaPratica": 32,
       "periodo": 10,
       "obrigatoria": "Sim",
       "preRequisitos": "Programação Orientada a Objetos",
-      "nucleo": "NC",
+      "nucleo": "NE",
       "bibliografiaBasica": [
         "ANDREWS, G. R. Foundations of multithreaded, parallel, and distributed programming. Addison-Wesley, 2000",
         "COULOURIS, G. F. et al. Distributed Systems: Concepts and Design, 5th edition, Addison-Wesley, 2012",
@@ -814,6 +937,10 @@
         "JOSUTTIS, N. M. SOA in practice. O'Reilly, 2007. ISBN 0596529554",
         "LYNCH, N. A Distributed algorithms. M. Kaufmann, 1997",
         "ANENBAUM, A.S.; STEEN, M. van. Distributed Systems: Principles and Paradigms. Prentice Hall, 2nd Edition, 2006"
+      ],
+      "swebok": [
+        "Software construction",
+        "construção de software"
       ]
     },
     {
@@ -832,9 +959,9 @@
         "Detecção e remoção de defeitos (debugging) (8h)",
         "Integração (4h): integração contínua."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "128",
+      "cargaHorariaTeorica": "48",
+      "cargaHorariaPratica": "80",
       "periodo": 5,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -850,6 +977,10 @@
         "BECK, K. Implementation patterns Upper Saddle River, NJ: Addison-Wesley, 2008. ISBN 0321413091",
         "MARTIN, R. C. Clean code: a handbook of agile software craftsmanship. Prentice Hall, 2009. ISBN 0132350882",
         "AGANS, D. J. Debugging the nine indispensable rules for finding even the most elusive software and hardware problems. AMACOM, 2002. ISBN 0814471684"
+      ],
+      "swebok": [
+        "Software construction",
+        "construção de software"
       ]
     },
     {
@@ -861,9 +992,9 @@
         "Notações para registro de modelos orientados a objetos (16h)",
         "Modelagem de software orientado a objetos (40h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "16",
+      "cargaHorariaPratica": "48",
       "periodo": 5,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -879,6 +1010,12 @@
         "MELLOR, S. J; SHLAER, S. Análise de sistemas orientada para objetos. São Paulo: McGraw-Hill, 1990",
         "KOWAL, J. A Behavior models: specifying user's expectations. Prentice Hall, 1992. ISBN 0132927152",
         "WAGNER, F. Modeling software with finite state machinesa practical approach. Auerbach, 2006. ISBN 9780849380860"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software",
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -889,9 +1026,9 @@
         "Processos específicos de software: processos de implementação (12h), processos de suporte (12h) e processos de reutilização (2h)",
         "Qualidade de Processo: modelos de qualidade de processos (12h), avaliação da qualidade do processo (12h) e abordagens de implementação de processo (6h)"
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 5,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -907,6 +1044,32 @@
         "PROWELL, S. J. Cleanroom software engineering technology and process Reading, Mass.: Addison-Wesley, 1999. ISBN 0201854805",
         "CAPUTO, K. CMM implementation guide choreographing software process improvement. Addison-Wesley, 1998. ISBN 0201379384",
         "MAGUIRE, S. Debugging the development processpractical strategies for staying focused, hitting ship dates, and building solid teams. Microsoft, 1994. ISBN 1556156502"
+      ],
+      "swebok": [
+        "Software testing",
+        "Teste de software",
+        "Software Engineering Managment",
+        "Gerencia de engenharia de software",
+        "Software configuration management",
+        "Gerencia de configuraço de software",
+        "software engineering processo",
+        "processo de software",
+        "software engineering models and methods",
+        "métodos e modelos de engenharia de software",
+        "software quality",
+        "qualidade de software",
+        "software engineering professional practice",
+        "prática profissional em engenharia de software",
+        "software engineering economics",
+        "economia em engenharia de software",
+        "software requirements",
+        "requisitos de software",
+        "software design",
+        "projeto de software",
+        "software construction",
+        "construção de software",
+        "software maintenance",
+        "manutenção de software"
       ]
     },
     {
@@ -917,8 +1080,8 @@
         "Fundamentos de sistema (16h): taxonomias de sistema; sistemas de engenharia (sistemas produzidos por engenharia - engineered systems); sistemas intensivos em software (software-intensive systems); sistemas de sistemas; complexidade de sistemas; propriedades emergentes; princípios do pensamento sistêmico; representação de sistemas por modelos",
         "Engenharia de Sistemas (32h): abordagens e metodologias; partes interessadas (stakeholders) e suas necessidades; ciclo de vida de sistemas de engenharia (concepção, conceitos operacionais, design, validação de design, construção, validação de construção, implantação, sustentação e descontinuação); processos do ciclo de vida de sistemas (negociação, preparação para projeto organizacional, gestão técnica, processos técnicos); qualidade de processo."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "64",
       "cargaHorariaPratica": "",
       "periodo": 5,
       "obrigatoria": "Sim",
@@ -931,10 +1094,14 @@
       ],
       "bibliografiaComplementar": [
         "ISO/IEC/IEEE 24765. Systems and software engineering - Vocabulary, 2010. Portal de periódicos da CAPES (http://goo.gl/FrGm7c)",
-        "MAGELA, R. Engenharia de software aplicada. Alta Books, 2006."
+        "MAGELA, R. Engenharia de software aplicada. Alta Books, 2006.",
         "MPS.BR.  Melhoria de Processos do Software Brasileiro.",
         "Software Engineering Body of Knowledge (SWEBOK), V3, IEEE, Disponível em https://www.computer.org/web/swebok",
         "Software Engineering Competency Model (SWECOM), IEEE. Disponível em https://www.computer.org/web/peb/swecom."
+      ],
+      "swebok": [
+        "Software engineering professional practice",
+        "prática profissional em engenharia de software"
       ]
     },
     {
@@ -953,9 +1120,9 @@
         "Padrões de projeto orientado a objetos (16h)",
         "Prática de projeto de software orientado a objetos (36h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "128",
+      "cargaHorariaTeorica": "48",
+      "cargaHorariaPratica": "80",
       "periodo": 6,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -971,6 +1138,10 @@
         "LARMAN, C. Applyng UML and patternsan introduction to object-oriented analysis and design. Prentice Hall PTR, 1997. ISBN 0137488807",
         "EVANS, E. Domain-driven designtackling complexity in the heart of software Boston, MA: Addison-Wesley, 2004. ISBN 0321125215",
         "HORSTMANN, C. S. Object-oriented design & patterns. 2nd edition. Hoboken, NJ: Wiley, 2006. ISBN 0471744875"
+      ],
+      "swebok": [
+        "design de software",
+        "projeto de software"
       ]
     },
     {
@@ -982,9 +1153,9 @@
         "Especificidades de um domínio (12h): requisitos, projeto, construção",
         "Desenvolvimento de software em um domínio (ênfase na construção) (40h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "16",
+      "cargaHorariaPratica": "48",
       "periodo": 6,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1000,6 +1171,10 @@
         "ODELL, J. J. Advanced object-oriented analysis and design using UML. Cambridge University Press, SIGS Books, 1998. ISBN 052164819X",
         "COCKBURN, A. Agile software development Boston: Addison-Wesley, 2002. (Agile software development series). ISBN 0201699699",
         "BEEDLE, M.; SCHWABER, K. Agile software development with Scrum. Prentice Hall, 2002. (Series in agile software development). ISBN 0130676349"
+      ],
+      "swebok": [
+        "Software requirements",
+        "requisitos de software"
       ]
     },
     {
@@ -1011,9 +1186,9 @@
         "Processo de Verificação e Validação de Software (36h): requisito, projeto (design), código, integração, documentação",
         "Processos de Revisão e Auditoria de Software (14h): revisões gerenciais e revisões técnicas."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "48",
+      "cargaHorariaPratica": "16",
       "periodo": 6,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1029,6 +1204,10 @@
         "KELLIHER, T. P.; KEEGAN, J. G.; OLIVER, D. W. Engineering complex systems with models and objects. McGraw-Hill, 1997. ISBN 0070481881",
         "KAN, S. H. Metrics and models in software quality engineering. 2nd edition. Addison-Wesley, 2003. ISBN 0201729156",
         "BARTIÉ, A. Garantia da qualidade de software. Campus, 2002. ISBN 8535211245"
+      ],
+      "swebok": [
+        "software quality",
+        "qualidade de software"
       ]
     },
     {
@@ -1041,9 +1220,9 @@
         "Modelos de qualidade de processo de gerência de projeto de software (4h)",
         "Áreas de conhecimento da gerência de projetos aplicadas a projetos de software (48h): escopo, tempo, custo, qualidade, recursos humanos, comunicações, riscos, aquisições, integração e partes interessadas"
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 6,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1059,6 +1238,10 @@
         "SCHWABER, K. Agile project management with Scrum. Microsoft Press, 2004. ISBN 073561993X",
         "DEMARCO, T. Controle de projetos de software: gerenciamento, avaliação, estimativa. Campus, 1991. ISBN 8570015283",
         "MARTINS, J. C. C. Gerenciando projetos de desenvolvimento de software com PMI, RUP e UML. 4.a edição. Brasport, 2007"
+      ],
+      "swebok": [
+        "software configuration management",
+        "gerencia de configuraço de software"
       ]
     },
     {
@@ -1072,9 +1255,9 @@
         "Distribuição (24h): projeto, implementação e uso de interface de programação, RESTful, serviços web e micro-serviços (microservices).",
         "Troca de mensagens (messaging) (8h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 7,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1090,6 +1273,10 @@
         "SHATZ, S. M. Development of distributed software concepts and tools. Macmillan, 1993. ISBN 0024096113",
         "PAGE-JONES, M. Fundamentals of object-oriented design in UML.  Addison-Wesley, 2003. ISBN 020169946X",
         "RODRIGUES, L.; GUERRAOUI, R. Introduction to reliable distributed programming. Springer, 2006. ISBN 9783540288459"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software"
       ]
     },
     {
@@ -1103,9 +1290,9 @@
         "Implementação de interfaces (20h).",
         "Modelos de validação de experiência (8h): modelos, métodos e técnicas para validação de experiência do usuário."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 7,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1121,6 +1308,14 @@
         "COUTAZ, J.; BASS, L. Developing software for the user interface. Addison-Wesley, 1991. ISBN 0201510464",
         "HARTSON, H. R.; HIX, D. Developing user interfaces: ensuring usability through product & process. Wiley, 1993. ISBN 0471578134",
         "OLSEN, D. R. Developing user interfaces. Morgan Kaufmann, 1998. ISBN 1558604189"
+      ],
+      "swebok": [
+        "software quality",
+        "qualidade de software",
+        "software construction",
+        "construção de software",
+        "software requirements",
+        "requisitos de software"
       ]
     },
     {
@@ -1133,9 +1328,9 @@
         "Fundamentos de arquitetura de software (4h): importância, contexto, estilos.Método de desenvolvimento de arquitetura de software (8h).",
         "Técnicas para satisfazer requisitos de qualidade (16h).Criação de arquiteturas de software (16h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 7,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1151,6 +1346,10 @@
         "TROTT, J.; SHALLOWAY, A. Design patterns explained: a new perspective on object-oriented design. 2nd ed. Addison-Wesley, 2005. ISBN 0321247140",
         "PREE, W. Design patterns for object-oriented software development. Addison-Wesley, 1995. ISBN 0201422948",
         "FREEMAN, E. et al. Head First design patterns. O'Reilly, 2004. ISBN 0596007124"
+      ],
+      "swebok": [
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -1169,9 +1368,9 @@
         "Gerência de projetos de engenharia de requisitos (8).",
         "Processo de projeto arquitetural (8h): relação com requisitos."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 7,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1187,6 +1386,10 @@
         "MILLER, G.; ARMOUR, F. Advanced use case modeling: software systems. Boston: Addison-Wesley, 2001. (Addison-Wesley object technology series) ISBN 0201615924",
         "YOURDON, E.; COAD, P. Análise baseada em objetos. 2a. edição. Rio de Janeiro: Campus, 1996. ISBN 8535200428",
         "WIEGERS, K. E. More about software requirements: thorny issues and practical advice. Microsoft Press, 2006. ISBN 9780735622678"
+      ],
+      "swebok": [
+        "software requirements",
+        "requisitos de software"
       ]
     },
     {
@@ -1204,9 +1407,9 @@
         "Manutenção de SS (8h): correção, adaptação e evolução de SS; gestão de incidentes e problemas em SS; controle de mudança e de configuração; controle de qualidade",
         "Gerência de processos de negócio (BPM – Business Process Management) aplicada à GSS (8h): representação de SS como processos de negócio; notação para modelagem de processos de negócio (BPMN); análise, validação e evolução de processos de negócio e de SS."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "48",
+      "cargaHorariaPratica": "16",
       "periodo": 7,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1222,6 +1425,12 @@
         "HASS, A. M. J. Configuration management principles and practice. Addison-Wesley, 2003. (The Agile software development series). ISBN 0321117662",
         "MARSHALL, C. Enterprise modeling with UML: designing successful software through business analysis. Addison-Wesley, 2000. ISBN 0201433133",
         "CENTRO DE GESTÃO E ESTUDOS ESTRATÉGICOS. Ciência, tecnologia e sociedade: novos modelos de governança. Brasilia, CGEE, 2005"
+      ],
+      "swebok": [
+        "software maintenance",
+        "manutenção de software",
+        "software configuration management",
+        "gerencia de configuraço de software"
       ]
     },
     {
@@ -1232,9 +1441,9 @@
         "Definição de arquiteturas para soluções móveis (16): conectar serviços, possivelmente de grande volume, fluxo e em tempo real, com a necessidade de analisá-los.",
         "Desenvolvimento de código para smartphone, sensor ou outro dispositivo capaz de alimentar/receber informações de sistema de informação (32h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 8,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1250,6 +1459,10 @@
         "MARK, D. Dominando o desenvolvimento no iPhone: explorando o SDK do iPhone. Alta Books, 2009. ISBN 97885760833757",
         "VAHID, F. Embedded system design: a unified hardware/software introduction. John Wiley & Sons, 2002. ISBN 0471386782",
         "KERN, C.; KESAVAN, A.; DASWANI, N. Foundations of security: what every programmer needs to know. Apress, 2007. ISBN 9781590597842"
+      ],
+      "swebok": [
+        "Software engineering professional practice",
+        "prática profissional em engenharia de software"
       ]
     },
     {
@@ -1267,9 +1480,9 @@
         "Refatoração de bancos de dados (8h).",
         "Integração de bancos de dados (8h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 8,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1285,6 +1498,12 @@
         "FALINO, J.; HERION, D.; MARTINER, W. Building distributed applications with ADO. John Wiley & Sons, 1999. ISBN 0471317012",
         "KING, G.; BAUER, C. Java Persistence com Hibernate. Ciencia Moderna, 2007. ISBN 9788573936148",
         "MANNINO, M. V. Projeto, desenvolvimento de aplicações e administração de banco de dados. McGraw-Hill, 2008. ISBN 9788577260201"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software",
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -1296,9 +1515,9 @@
         "Análise (avaliação) de arquiteturas de software (12h).",
         "Criação de arquiteturas de software (32h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 8,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1314,6 +1533,12 @@
         "FOWLER, M. Patterns of enterprise application architecture. Addison­Wesley, 2003",
         "GAMMA, E. et al. Design patterns elements of reusable object-oriented software. Reading: Addison Wesley, 1995",
         "NYGARD, M. Release It!: Design and Deploy Production­Ready Software, Pragmatic Bookshelf, 2007"
+      ],
+      "swebok": [
+        "software construction",
+        "construção de software",
+        "software design",
+        "projeto de software"
       ]
     },
     {
@@ -1323,9 +1548,9 @@
         "Processo de construção (8h): definições básicas, atividades e documentação.",
         "Processo de Teste de Software (56): definições básicas, técnicas de teste, teste baseado em intuição e experiência do engenheiro de software, atividades do processo, documentação e ferramentas."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "32",
+      "cargaHorariaPratica": "32",
       "periodo": 8,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1341,6 +1566,12 @@
         "GROSS, H. Component-based software testing with UML. Springer, 2005. ISBN 354020864X",
         "PERRY, W. E. Effective methods for software testing. 2nd edition. J. Wiley, 1999. ISBN 047135418X",
         "WU, M.; LI, K. Effective software test automationdeveloping an automated software testing tool. SYBEX, 2004. ISBN 0782143202"
+      ],
+      "swebok": [
+        "software quality",
+        "qualidade de software",
+        "software testing",
+        "teste de software"
       ]
     },
     {
@@ -1351,9 +1582,9 @@
         "Fundamentos da Engenharia de Software Experimental (16h): contexto da experimentação na Engenharia de Software; principais tipos de experimentos aplicados à Engenharia de Software; estudos primários e secundários; revisão e mapeamento sistemático da literatura",
         "Realização de Experimentos em Engenharia de Software (32h)."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "48",
+      "cargaHorariaPratica": "80",
       "periodo": 10,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1369,6 +1600,10 @@
         "POLYAK, B. T. Introduction to optimization. Optimization Software, 1987. ISBN 0911575146",
         "HALL, E. M. Managing risk methods for software systems development. Addison-Wesley, 1998. ISBN 0201255928",
         "QUALIDADE no setor de software brasileiro. Brasilia, D.F.: MCT, 1997"
+      ],
+      "swebok": [
+        "software engineering process",
+        "processo de engenharia de software"
       ]
     },
     {
@@ -1390,9 +1625,9 @@
         "Avaliação de alternativas.",
         "Economia aplicada ao desenvolvimento de software."
       ],
-      "cargaHorariaTotal": "",
-      "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaTotal": "64",
+      "cargaHorariaTeorica": "48",
+      "cargaHorariaPratica": "80",
       "periodo": 10,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1408,6 +1643,14 @@
         "PIMENTEL, L. O. A proteção jurídica da propriedade intelectual de software: noções básicas e temas relacionados. IEL, 2008. ISBN 9788587683045",
         "ORRICO J, H. Pirataria de Software. MM Livros, 2004. ISBN 8590424219",
         ""
+      ],
+      "swebok": [
+        "software requirements",
+        "requisitos de software",
+        "software testing",
+        "teste de software",
+        "software engineering economics",
+        "economia em engenharia de software"
       ]
     },
     {
@@ -1422,9 +1665,9 @@
         "Prática em Gestão de Engenharia de Software;",
         "Prática em Tecnologias de Engenharia de Software."
       ],
-      "cargaHorariaTotal": "",
+      "cargaHorariaTotal": "320",
       "cargaHorariaTeorica": "",
-      "cargaHorariaPratica": "",
+      "cargaHorariaPratica": "320",
       "periodo": 9,
       "obrigatoria": "Sim",
       "preRequisitos": "",
@@ -1440,37 +1683,59 @@
         "PFLEEGER, S. L. Engenharia de software: teoria e prática. 2.a edição. Prentice Hall, 2004. ISBN 8587918311",
         "PEDRYCZ, W.; PETERS, J. F. Engenharia de software: teoria e prática. Campus, 2003. ISBN 8535207465",
         "MAGELA, R. Engenharia de software aplicada: princípios. Alta Books, 2006. ISBN 8576081202"
+      ],
+      "swebok": [
+        "Software testing",
+        "Teste de software",
+        "Software Engineering Managment",
+        "Gerencia de engenharia de software",
+        "Software configuration management",
+        "Gerencia de configuraço de software",
+        "software engineering processo",
+        "processo de software",
+        "software engineering models and methods",
+        "métodos e modelos de engenharia de software",
+        "software quality",
+        "qualidade de software",
+        "software engineering professional practice",
+        "prática profissional em engenharia de software",
+        "software engineering economics",
+        "economia em engenharia de software",
+        "software requirements",
+        "requisitos de software",
+        "software design",
+        "projeto de software",
+        "software construction",
+        "construção de software",
+        "software maintenance",
+        "manutenção de software"
       ]
     }
   ],
-  "informacoes": [
-    {
-      "topico": "Apresentação",
-      "descricao": [
-        "O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES.",
-        "A busca pela qualidade é a motivação (p. ) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. ), o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”.",
-        "Não houve alteração relevante dos objetivos do curso (p. ), nem tampouco do perfil do egresso (p. ), contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações étnico-raciais e para o ensino de história e cultura afro-brasileira e africana foi revista em sua totalidade.",
-        "A estrutura curricular (p. ) sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina “Prática em Engenharia de Software” (p. ) é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas” (p. ), que estabelece competências a serem demonstradas/adquiridas pelo estudante em cada uma delas.",
-        "A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios (p. ). Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções."
-      ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": [""]
-        }
-      ]
-    },
+  "informacoes": [{
+    "topico": "Apresentação",
+    "descricao": [
+      "O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES.",
+      "A busca pela qualidade é a motivação (p. ) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. ), o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”.",
+      "Não houve alteração relevante dos objetivos do curso (p. ), nem tampouco do perfil do egresso (p. ), contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações étnico-raciais e para o ensino de história e cultura afro-brasileira e africana foi revista em sua totalidade.",
+      "A estrutura curricular (p. ) sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina “Prática em Engenharia de Software” (p. ) é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas” (p. ), que estabelece competências a serem demonstradas/adquiridas pelo estudante em cada uma delas.",
+      "A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios (p. ). Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções."
+    ],
+    "conteudo": [{
+      "subtopico": "",
+      "detalhe": [""]
+    }]
+  },
     {
       "topico": "Objetvos",
       "descricao": [""],
-      "conteudo": [
-        {
-          "subtopico": "Objetivo geral",
-          "detalhe": [
-            "O BES tem como objetivo: ",
-            "Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Objetivo geral",
+        "detalhe": [
+          "O BES tem como objetivo: ",
+          "Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional."
+        ]
+      },
         {
           "subtopico": "Objetivos específicos",
           "detalhe": [
@@ -1491,16 +1756,15 @@
     {
       "topico": "Expectativa da formação do profissional",
       "descricao": [""],
-      "conteudo": [
-        {
-          "subtopico": "Perfil do egresso",
-          "detalhe": [
-            "O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.",
-            "O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos.",
-            "A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética.",
-            "As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantê-la, usando processos adequados."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Perfil do egresso",
+        "detalhe": [
+          "O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.",
+          "O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos.",
+          "A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética.",
+          "As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantê-la, usando processos adequados."
+        ]
+      },
         {
           "subtopico": "Habilidades do egresso",
           "detalhe": [
@@ -1514,16 +1778,15 @@
       "descricao": [
         "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso (p. ) e o perfil do egresso (p. ). Esses princípios são fornecidos abaixo."
       ],
-      "conteudo": [
-        {
-          "subtopico": "Formação Ética e Função Social do Profissional",
-          "detalhe": [
-            "A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES.",
-            "Ética é assunto de uma das disciplinas do primeiro semestre do curso, “Computação e Sociedade” (p. ), e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso “Prática em Engenharia de Software” (p. ). Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina.",
-            "O comportamento ético e profissional será trabalhado nas atividades do curso, e não apenas na primeira e última disciplinas. A exigência de uma conduta apropriada em sala de aula, tanto dos docentes quanto dos estudantes, contribui com essa formação. Isso significa promover a qualidade de vida, o respeito à diversidade, o respeito ao meio ambiente. Nesse sentido, não apenas as disciplinas, mas toda e qualquer ação, deve ser pautada pela reflexão do impacto no contexto no qual se insere.",
-            "Ainda convém destacar que a área possui um código de ética próprio, Código de Ética e Prática Profissional da Engenharia de Software [ACM/IEEE]. Esse código é uma das bases de fundamentação do curso e deve ser observado no convívio diário do curso."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Formação Ética e Função Social do Profissional",
+        "detalhe": [
+          "A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES.",
+          "Ética é assunto de uma das disciplinas do primeiro semestre do curso, “Computação e Sociedade” (p. ), e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso “Prática em Engenharia de Software” (p. ). Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina.",
+          "O comportamento ético e profissional será trabalhado nas atividades do curso, e não apenas na primeira e última disciplinas. A exigência de uma conduta apropriada em sala de aula, tanto dos docentes quanto dos estudantes, contribui com essa formação. Isso significa promover a qualidade de vida, o respeito à diversidade, o respeito ao meio ambiente. Nesse sentido, não apenas as disciplinas, mas toda e qualquer ação, deve ser pautada pela reflexão do impacto no contexto no qual se insere.",
+          "Ainda convém destacar que a área possui um código de ética próprio, Código de Ética e Prática Profissional da Engenharia de Software [ACM/IEEE]. Esse código é uma das bases de fundamentação do curso e deve ser observado no convívio diário do curso."
+        ]
+      },
         {
           "subtopico": "Formação Técnica",
           "detalhe": [
@@ -1596,12 +1859,10 @@
         "A atuação do NDE deve ser realizada em estreita interação com a coordenação do curso. Entretanto, não é nem pode ser vista como meio para auxiliar a realização de fluxos administrativos (atribuição da coordenação do curso). ",
         "Convém observar que as atribuições estabelecidas acima estão em conformidade com a resolução da Comissão Nacional de Avaliação da Educação Superior (CONAES), 01/2010 de 17 de junho de 2010, a qual “normatiza o núcleo docente estruturante”, e esclarecido pelo parecer CONAES 04/2010 de 17 de junho de 2010. "
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Política e gestão de estágio não obrigatório",
@@ -1633,12 +1894,10 @@
         "Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção o ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino).",
         "A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não é apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso. "
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Avaliação do processo de ensino e aprendizagem",
@@ -1654,12 +1913,10 @@
         "Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas” (p. ), que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições.",
         "Dada a especificidade da disciplina “Prática em Engenharia de Software” (p. ), o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada."
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Avaliação do projeto de curso",
@@ -1668,12 +1925,10 @@
         "O NDE é responsável pelas revisões do PPC e, em particular, por contínua vigilância da adequação do PPC ao cenário corrente. Esse esforço se realizada de duas formas. Uma no sentido de fazer com que as orientações do PPC sejam observadas no cotidiano do curso e outra, onde considerado oportuno, na análise de possíveis melhorias para reagir adequadamente às mudanças do ambiente.",
         "Ao acompanhar o curso, o NDE continuamente coleta, detecta e propõe alterações. As demandas podem se originar dos estudantes, dos docentes e de outras fontes como os resultados dos estudantes do curso no Exame Nacional de Desempenho de Estudantes (ENADE)."
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Política de qualificação",
@@ -1685,24 +1940,21 @@
         "Do ponto de vista legal, o INF se apoia na Resolução CEPEC 1286/2014 de 2014 [CEPEC 2014], que regulamenta o afastamento de docentes para cursar Mestrado, Doutorado e estágios Pós-Doutorais, e na Resolução CONSUNI 02/2014 [CONSUNI 2014], que regulamenta o Programa de Capacitação e o Plano Anual de Capacitação dos TAEs. Em consonância com a Resolução CEPEC 1286/2014, o INF instrui o afastamento de docentes com a Resolução CD/INF n. 01 de 2014, que dá suporte ao planejamento administrativo e incentiva a participação de seus docentes, em cursos de doutorado, pós-doutorado e capacitação, no país e no exterior, de acordo com a sua política de pessoal para o ensino, a pesquisa, a extensão e a administração.",
         "Por fim, cabe ao NDE monitorar o PPC e, consequentemente, promover ações que promovam a qualidade dos serviços oferecidos tanto por docentes quanto por TAEs."
       ],
-      "conteudo": [
-        {
-          "subtopico": "",
-          "detalhe": ""
-        }
-      ]
+      "conteudo": [{
+        "subtopico": "",
+        "detalhe": ""
+      }]
     },
     {
       "topico": "Requisitos legais e normativos",
       "descricao": "",
-      "conteudo": [
-        {
-          "subtopico": "Libras",
-          "detalhe": [
-            "O Decreto 5.626/2005 regulamenta a Lei 10.436, de 24 de abril de 2002, e o artigo 18 da Lei 10.098, de 19 de dezembro de 2000. Segundo esse Decreto, a disciplina curricular Libras é obrigatória para vários cursos, dentre eles, as licenciaturas e os cursos de Fonoaudiologia. O Decreto também estabelece que, nos demais cursos, a disciplina curricular Libras seja optativa, conforme o Capítulo II, § 2º: “a Libras constituir-se-á em disciplina curricular optativa nos demais cursos de educação superior”.",
-            "Em atenção a tal requisito legal, o Bacharelado em Engenharia de Software inclui a disciplina Libras como optativa, no oitavo período do curso."
-          ]
-        },
+      "conteudo": [{
+        "subtopico": "Libras",
+        "detalhe": [
+          "O Decreto 5.626/2005 regulamenta a Lei 10.436, de 24 de abril de 2002, e o artigo 18 da Lei 10.098, de 19 de dezembro de 2000. Segundo esse Decreto, a disciplina curricular Libras é obrigatória para vários cursos, dentre eles, as licenciaturas e os cursos de Fonoaudiologia. O Decreto também estabelece que, nos demais cursos, a disciplina curricular Libras seja optativa, conforme o Capítulo II, § 2º: “a Libras constituir-se-á em disciplina curricular optativa nos demais cursos de educação superior”.",
+          "Em atenção a tal requisito legal, o Bacharelado em Engenharia de Software inclui a disciplina Libras como optativa, no oitavo período do curso."
+        ]
+      },
         {
           "subtopico": "Política de educação ambiental",
           "detalhe": [
