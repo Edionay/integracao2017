@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  links = ['Disciplinas', 'PPC'];
   constructor() { }
 
   ngOnInit() {

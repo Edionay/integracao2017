@@ -3,28 +3,35 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { RodapeComponent } from './rodape/rodape.component';
-import { DisciplinasComponent } from './disciplinas/disciplinas.component';
-import {RouterModule, Routes} from '@angular/router';
-
-const appRoutes = [
-  {path: 'disciplinas', component: DisciplinasComponent}
-];
+import {AppRoutingModule} from './app-routing.module';
+import {DisciplinasModule} from './disciplinas/disciplinas.module';
+import {InicioModule} from './inicio/inicio.module';
+import {CommonModule} from '@angular/common';
+import {PpcModule} from './ppc/ppc.module';
+import { DadosService } from './dados.service';
+import {BuscaModule} from './busca/busca.module';
+import {BuscaService} from './busca.service';
+import { JsonpModule} from '@angular/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    RodapeComponent,
-    DisciplinasComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(
-      appRoutes
-    )
+    AppRoutingModule,
+    DisciplinasModule,
+    InicioModule,
+    CommonModule,
+    PpcModule,
+    BuscaModule,
+    JsonpModule
   ],
-  providers: [],
+  providers: [
+  DadosService,
+  BuscaService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
