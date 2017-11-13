@@ -7,3 +7,8 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+#rodape {
+  background-color: black;
+  color: white;
+}
