@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="PT-BR">
 <html>
 
 <head>
@@ -29,13 +30,214 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
 </head>
 
 
 <body>
-  <h2>Equivalencia Disciplinas BES</h2>
-  <img id="#equivalencia-BES" 'position:relative;' src="assets/images/EquivalenciaBES.png">
-  <p id="equivalencia-BES"></p>
+<!-- navbar header -->
+<div class="fixed" style="color:white!important">
+    <div class="nav-brand">
+        <a href="index.html">
+            <img id="#colored-logo" style="position:relative;" src="assets/images/cl-logo.png">
+            <img id="#white-logo" style="position:absolute; display:none; top:10px;" src="assets/images/logo.png">
+        </a>
+    </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links" style="padding:0%">
+        <ul style="padding:0%">
+            <li style="padding:0%">
+                <form id="pesq" style="padding-top:10px;padding-right:20px">
+                    <input id="pesq-btn" type="search" placeholder="Pesquisar">
+                </form>
+            </li>
+            <li data-menuanchor="fourthPage">
+                <a href="equivalencias.html">EQUIVALÊNCIAS</a>
+            </li>
+            <li data-menuanchor="thirdPage">
+                <a href="disciplinas.html">DISCIPLINAS</a>
+            </li>
+            <li data-menuanchor="secondPage">
+                <a class="brand-logo center waves-effect waves-light btn blue darken-1 white-text valign-wrapper"
+                   href="http://www.inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf"
+                   style="margin:-10px;">
+                    <i class="material-icons">cloud_download</i> PPC completo
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end navbar header -->
+
+<!-- sidebar slider -->
+<div class="nav-screen">
+    <i class="fa fa-times fa-3x"></i>
+    <div class="nav-container">
+        <div class="nav-links">
+            <ul id='myMenu'>
+                <li data-menuanchor="secondPage">
+                <li>
+                    <a class="waves-effect waves-light btn" href="http://www.inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf">
+                        <i class="material-icons">cloud_download</i>PPC completo
+                    </a>
+                </li>
+                </li>
+                <li data-menuanchor="thirdPage">
+                    <a href="disciplinas.html">DISCIPLINAS</a>
+                </li>
+                <li data-menuanchor="fourthPage">
+                    <a href="equivalencias.html">EQUIVALÊNCIAS</a>
+                </li>
+                <li>
+                    <form id="pesq-mb">
+                        <input id="pesq-btn" type="search" placeholder="Pesquisar">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- end navbar slider -->
+
+<div class="row center">
+    <div class="col s12"><span class="blinking-cursor">|</span>
+        <p style="color:black" class="animated fadeInUp" id="equivalencia-BES">Equivalencia Disciplinas BES</div>
+    <div class="col s6">DISCIPLINA DO PPC DE 2009-1</div>
+    <div class="col s6">APROVEITA COMO PPC DE 2016</div>
+    <div class="col s6">Introdução à Engenharia de Software</div>
+    <div class="col s6">Engenharia de Software</div>
+    <div class="col s6">Ética, Normas e Postura Profissional</div>
+    <div class="col s6">Computação e Sociedade</div>
+    <div class="col s6">Matemática Discreta</div>
+    <div class="col s6">Lógica</div>
+    <div class="col s6">Lógica Matemática</div>
+    <div class="col s6">Introdução à Programação</div>
+    <div class="col s6">Introdução à Programação</div>
+    <div class="col s6">Método de Desenvolvimento de Software</div>
+    <div class="col s6">Programação Orientada a Objetos</div>
+    <div class="col s6">Construção de Software</div>
+    <div class="col s6">Domínios de Software</div>
+    <div class="col s6">Arquitetura de Computadores</div>
+    <div class="col s6">Arquitetura de Computadores</div>
+    <div class="col s6">Algoritmos: Fundamentos e Estruturas de Dados</div>
+    <div class="col s6">Algoritmos e Estruturas de Dados 1</div>
+    <div class="col s6">Banco de Dados</div>
+    <div class="col s6">Banco de Dados</div>
+    <div class="col s6">Engenharia de Software</div>
+    <div class="col s6">Engenharia de Software</div>
+    <div class="col s6">Sistema Operacional</div>
+    <div class="col s6">Sistemas Operacionais</div>
+    <div class="col s6">Redes e Sistemas Distribuídos</div>
+    <div class="col s6">Redes de Computadores</div>
+    <div class="col s6">Algoritmos: Ordenação e Busca</div>
+    <div class="col s6">Algoritmos e Estruturas de Dados 2</div>
+    <div class="col s6">Linguagens de Programação</div>
+    <div class="col s6">Linguagens e Paradigmas de Programação</div>
+    <div class="col s6">Requisitos de Software</div>
+    <div class="col s6">Requisitos de Software</div>
+    <div class="col s6">Projeto Detalhado de Software</div>
+    <div class="col s6">Projeto de Software</div>
+    <div class="col s6">Processo de Software</div>
+    <div class="col s6">Processo de Software</div>
+    <div class="col s6">Algoritmos em Grafos</div>
+    <div class="col s6">Algoritmos e Estruturas de Dados 2</div>
+    <div class="col s6">Interação Homem-Computador</div>
+    <div class="col s6">Interação Homem-Computador</div>
+    <div class="col s6">Engenharia de Software</div>
+    <div class="col s6">Segurança</div>
+    <div class="col s6">Optativa 1, Optativa 2 ou Optativa 3</div>
+    <div class="col s6">Qualidade de Software</div>
+    <div class="col s6">Processo de Qualidade de Software</div>
+    <div class="col s6">Arquitetura de Software</div>
+    <div class="col s6">Arquitetura de Software</div>
+    <div class="col s6">Verificação e Validação</div>
+    <div class="col s6">Testes de Software</div>
+    <div class="col s6">Gerência de Configuração de Software</div>
+    <div class="col s6">Optativa 1, Optativa 2 ou Optativa 3</div>
+    <div class="col s6">Manutenção de Software</div>
+    <div class="col s6">Optativa 1, Optativa 2 ou Optativa 3</div>
+    <div class="col s6">Gerência de Projeto de Software</div>
+    <div class="col s6">Gerência de Projeto de Software</div>
+    <div class="col s6">Métodos e Ferramentas da Engenharia de Software</div>
+    <div class="col s6">Optativa 1, Optativa 2 ou Optativa 3</div>
+    <div class="col s6">Experimentação em Engenharia de Software</div>
+    <div class="col s6">Metodologia e Experimentação em Engenharia de Software</div>
+    <div class="col s6">Leitura de Software</div>
+    <div class="col s6">Optativa 1, Optativa 2 ou Optativa 3</div>
+    <div class="col s6">Software Concorrente</div>
+    <div class="col s6">Software Concorrente e Distribuído</div>
+    <div class="col s6">Engenharia Econômica para Software</div>
+    <div class="col s6">Mercado e Economia de Software</div>
+    <div class="col s6">Software para Web</div>
+    <div class="col s6">Experiência do Usuário em Software</div>
+    <div class="col s6">Software para Dispositivos Móveis</div>
+    <div class="col s6">Software para Sistemas Ubíquos</div>
+    <div class="col s6">Software para Persistência</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Integração de Aplicações E
+        Técnicas Avançadas de Construção de Software
+    </div>
+    <div class="col s6">Design de Software</div>
+    <div class="col s6">Tópicos em Engenharia de Software</div>
+    <div class="col s6">Optativa 1, Optativa 2 ou Optativa 3</div>
+    <div class="col s6">LIBRAS</div>
+    <div class="col s6">Introdução à Língua Brasileira de Si</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+    <div class="col s6">Software para Persistência de Dados</div>
+
+
+
+
+</div>
+
+
+
+
 
   <script>
       var obj, dbParam, xmlhttp, myObj, x, txt = "";
@@ -58,7 +260,10 @@
       xmlhttp.send("x=" + dbParam);
 
   </script>
-
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
   </body>
 </body>
 
