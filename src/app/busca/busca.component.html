@@ -1,7 +1,27 @@
-<div>
-  <h2>Busca</h2>
-  <!--<input (input)="term$.next($event.target.value)">-->
-  <ul>
-    <!--<li *ngFor="let item of items">{{ item }}</li>-->
-  </ul>
+<div class="container">
+
+  <div class="row">
+    <div class="input-field">
+      <input id="search" type="search" (change)="mudarValor($event.target.value)">
+      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+    </div>
+  </div>
+
+  <h4>Disciplinas</h4>
+  <div class="row">
+    <div class="card col l3" *ngFor="let disciplina of disciplinasFiltradas">
+      <span class="card-title">{{ disciplina.nome }}</span>
+    </div>
+  </div>
+
+  <h4>PPC</h4>
+
+  <div class="row">
+    <div class="card col l3" *ngFor="let topico of topicosFiltrados">
+      <ul class="collection">
+        <li class="collection-item">{{ topico.topico }}</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
