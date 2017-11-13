@@ -1,16 +1,32 @@
 <div class="container">
 
-  <div class="row">
-    <div class="col l6">
-      <h5>1º período</h5>
-      <li class="collection">
-        <ul class="collection-item"></ul>
-      </li>
-    </div>
-    <div class="col l6"></div>
-  </div>
-</div>
+  <div class="containet">
 
+    <div class="row">
+
+      <div class="col l6">
+        <h5>1º Período</h5>
+        <ul class="collection">
+          <a *ngFor="let dis1 of periodo1" class="modal-trigger collection-item" id="{{ dis1.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(dis1.id)">
+            <h6>{{ dis1.nome }}</h6>
+          </a>
+        </ul>
+      </div>
+      <div class="col l6">
+        <h5>2º Período</h5>
+        <ul class="collection">
+          <a *ngFor="let dis2 of periodo2" class="modal-trigger collection-item" id="{{ dis2.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(dis2.id)">
+            <h6>{{ dis2.nome }}</h6>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
 
 <div class="container hide-on-large-only">
@@ -50,71 +66,71 @@
       </div>
     </li>
     <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>4º Período</div>
-    <div class="collapsible-body">
-      <table>
-        <tr *ngFor="let disciplina4 of periodo4" class="modal-trigger" id="{{ disciplina4.id }}" data-target="modal1"
-            (click)="gerarDisciplinaModal(disciplina4.id)">
-          <td>{{ disciplina4.nome }}</td>
-        </tr>
-      </table>
-    </div>
-  </li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>4º Período</div>
+      <div class="collapsible-body">
+        <table>
+          <tr *ngFor="let disciplina4 of periodo4" class="modal-trigger" id="{{ disciplina4.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(disciplina4.id)">
+            <td>{{ disciplina4.nome }}</td>
+          </tr>
+        </table>
+      </div>
+    </li>
     <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>5º Período</div>
-    <div class="collapsible-body">
-      <table>
-        <tr *ngFor="let disciplina5 of periodo5" class="modal-trigger" id="{{ disciplina5.id }}" data-target="modal1"
-            (click)="gerarDisciplinaModal(disciplina5.id)">
-          <td>{{ disciplina5.nome }}</td>
-        </tr>
-      </table>
-    </div>
-  </li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>5º Período</div>
+      <div class="collapsible-body">
+        <table>
+          <tr *ngFor="let disciplina5 of periodo5" class="modal-trigger" id="{{ disciplina5.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(disciplina5.id)">
+            <td>{{ disciplina5.nome }}</td>
+          </tr>
+        </table>
+      </div>
+    </li>
     <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>6º Período</div>
-    <div class="collapsible-body">
-      <table>
-        <tr *ngFor="let disciplina6 of periodo6" class="modal-trigger" id="{{ disciplina6.id }}" data-target="modal1"
-            (click)="gerarDisciplinaModal(disciplina6.id)">
-          <td>{{ disciplina6.nome }}</td>
-        </tr>
-      </table>
-    </div>
-  </li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>6º Período</div>
+      <div class="collapsible-body">
+        <table>
+          <tr *ngFor="let disciplina6 of periodo6" class="modal-trigger" id="{{ disciplina6.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(disciplina6.id)">
+            <td>{{ disciplina6.nome }}</td>
+          </tr>
+        </table>
+      </div>
+    </li>
     <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>7º Período</div>
-    <div class="collapsible-body">
-      <table>
-        <tr *ngFor="let disciplina7 of periodo7" class="modal-trigger" id="{{ disciplina7.id }}" data-target="modal1"
-            (click)="gerarDisciplinaModal(disciplina7.id)">
-          <td>{{ disciplina7.nome }}</td>
-        </tr>
-      </table>
-    </div>
-  </li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>7º Período</div>
+      <div class="collapsible-body">
+        <table>
+          <tr *ngFor="let disciplina7 of periodo7" class="modal-trigger" id="{{ disciplina7.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(disciplina7.id)">
+            <td>{{ disciplina7.nome }}</td>
+          </tr>
+        </table>
+      </div>
+    </li>
     <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>8º Período</div>
-    <div class="collapsible-body">
-      <table>
-        <tr *ngFor="let disciplina8 of periodo8" class="modal-trigger" id="{{ disciplina8.id }}" data-target="modal1"
-            (click)="gerarDisciplinaModal(disciplina8.id)">
-          <td>{{ disciplina8.nome }}</td>
-        </tr>
-      </table>
-    </div>
-  </li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>8º Período</div>
+      <div class="collapsible-body">
+        <table>
+          <tr *ngFor="let disciplina8 of periodo8" class="modal-trigger" id="{{ disciplina8.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(disciplina8.id)">
+            <td>{{ disciplina8.nome }}</td>
+          </tr>
+        </table>
+      </div>
+    </li>
     <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>9º Período</div>
-    <div class="collapsible-body">
-      <table>
-        <tr *ngFor="let disciplina9 of periodo9" class="modal-trigger" id="{{ disciplina9.id }}" data-target="modal1"
-            (click)="gerarDisciplinaModal(disciplina9.id)">
-          <td>{{ disciplina9.nome }}</td>
-        </tr>
-      </table>
-    </div>
-  </li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>9º Período</div>
+      <div class="collapsible-body">
+        <table>
+          <tr *ngFor="let disciplina9 of periodo9" class="modal-trigger" id="{{ disciplina9.id }}" data-target="modal1"
+              (click)="gerarDisciplinaModal(disciplina9.id)">
+            <td>{{ disciplina9.nome }}</td>
+          </tr>
+        </table>
+      </div>
+    </li>
   </ul>
 </div>
 
@@ -126,7 +142,9 @@
     <div class="row">
       <div class="col l6">
         <ul class="collection">
-          <li class="collection-item" *ngFor="let itemDaEmenta of disciplinaQueVaiAparecerNoModal.ementa">- {{ itemDaEmenta }}</li>
+          <li class="collection-item" *ngFor="let itemDaEmenta of disciplinaQueVaiAparecerNoModal.ementa">- {{
+            itemDaEmenta }}
+          </li>
         </ul>
       </div>
       <div class="col l6"></div>
