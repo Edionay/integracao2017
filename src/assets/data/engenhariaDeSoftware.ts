@@ -54,7 +54,7 @@ export const disciplinas: Disciplina[] = [
     'cargaHorariaPratica': 0,
     'periodo': 1,
     'obrigatoria': 'Sim',
-    'preRequisitos': [''],
+    'preRequisitos': ['Nenhum'],
     'nucleo': 'NC',
     'bibliografia': ['']
   },
