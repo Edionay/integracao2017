@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {DadosService} from '../dados.service';
-import { Response } from '@angular/http';
+import {Topico, topicosPpc} from '../../assets/data/engenhariaDeSoftware';
 
 
 @Component({
@@ -10,25 +9,10 @@ import { Response } from '@angular/http';
 })
 export class PpcComponent implements OnInit {
 
-  topicos: Topico[];
-  constructor(private dadosJson: DadosService) { }
+  topicos: Topico[] = topicosPpc;
+  constructor() { }
 
   ngOnInit() {
-    this.dadosJson.baixarDados().subscribe((response: Response) => {
-      this.topicos = response.json().informacoes;
-      console.log(this.topicos);
-    });
   }
 }
 
-interface Topico {
-  topico: string;
-  id: string;
-  descricao: string[];
-  conteudo: Subtopico[];
-}
-
-interface Subtopico {
-  subtopico: string;
-  detalhe: string[];
-}
