@@ -15,6 +15,8 @@ export interface Disciplina {
   preRequisitos: string[];
   nucleo: string;
   bibliografia: string[];
+  unidade: string;
+  relacaoComSwebok: string;
 }
 
 export interface Topico {
@@ -54,9 +56,11 @@ export const disciplinas: Disciplina[] = [
     'cargaHorariaPratica': 0,
     'periodo': 1,
     'obrigatoria': 'Sim',
-    'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'preRequisitos': ['Nenhum'],
+    'nucleo': 'Comum',
+    'bibliografia': ['Nenhum'],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software engineering professional practice prática profissional em engenharia de software;"
   },
   {
     'id': 1,
@@ -78,9 +82,11 @@ export const disciplinas: Disciplina[] = [
     'cargaHorariaPratica': 80,
     'periodo': 1,
     'obrigatoria': 'Sim',
-    'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'preRequisitos': ['Nenhum'],
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação"
   },
   {
     'id': 2,
@@ -95,16 +101,18 @@ export const disciplinas: Disciplina[] = [
       'Técnicas de Integração',
       'Integrais impróprias',
       'Polinômio de Taylor',
-      'Aplicações.'
+      'Aplicações.',
     ],
     'cargaHorariaTotal': 96,
     'cargaHorariaTeorica': 96,
     'cargaHorariaPratica': 0,
     'periodo': 1,
     'obrigatoria': 'Sim',
-    'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'preRequisitos': ['Nenhum'],
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'IME',
+    "relacaoComSwebok": "Mathematicals foundations, fundamentos matemáticos, matemática;"
   },
   {
     'id': 3,
@@ -122,9 +130,11 @@ export const disciplinas: Disciplina[] = [
     'cargaHorariaPratica': 0,
     'periodo': 1,
     'obrigatoria': 'Sim',
-    'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'preRequisitos': ['Nenhum'],
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Mathematicals foundations, fundamentos matemáticos, matemática, Computing foundations, fundamentos da computação;"
   },
   {
     'id': 4,
@@ -147,8 +157,10 @@ export const disciplinas: Disciplina[] = [
     'periodo': 2,
     'obrigatoria': 'Sim',
     'preRequisitos': ['Fundamentos de Matemática para Computação'],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
   },
   {
     'id': 5,
@@ -167,8 +179,11 @@ export const disciplinas: Disciplina[] = [
     'periodo': 2,
     'obrigatoria': 'Sim',
     'preRequisitos': ['Introdução a Programação'],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
+
   },
   {
     'id': 6,
@@ -190,8 +205,10 @@ export const disciplinas: Disciplina[] = [
     'periodo': 2,
     'obrigatoria': 'Sim',
     'preRequisitos': ['Cálculo 1A'],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'IME',
+    "relacaoComSwebok": " Mathematicals foundations, fundamentos matemáticos, matemática;"
   },
   {
     'id': 7,
@@ -207,9 +224,11 @@ export const disciplinas: Disciplina[] = [
     'cargaHorariaPratica': 0,
     'periodo': 2,
     'obrigatoria': 'Sim',
-    'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'preRequisitos': ['Nenhum'],
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'IME',
+    "relacaoComSwebok": "Mathematicals foundations, fundamentos matemáticos, matemática;"
   },
   {
     'id': 8,
@@ -227,7 +246,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Fundamentos da Matemática para Computação'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Mathematicals foundations, fundamentos matemáticos;"
+
   },
   {
     'id': 9,
@@ -243,8 +265,10 @@ export const disciplinas: Disciplina[] = [
     'periodo': 3,
     'obrigatoria': 'Sim',
     'preRequisitos': ['Introdução a Programação'],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software Design, projeto de software, Software construction, construção de software;"
   },
   {
     'id': 10,
@@ -262,21 +286,25 @@ export const disciplinas: Disciplina[] = [
     'periodo': 3,
     'obrigatoria': 'Sim',
     'preRequisitos': ['Algoritmos e Estruturas de Dados 1'],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Comum',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
   },
   {
     'id': 11,
     'nome': 'Optativa 1',
-    'ementa': [''],
-    'cargaHorariaTotal': 1,
-    'cargaHorariaTeorica': 1,
-    'cargaHorariaPratica': 1,
+    'ementa': ['Infefinida'],
+    'cargaHorariaTotal': 0,
+    'cargaHorariaTeorica': 0,
+    'cargaHorariaPratica': 0,
     'periodo': 3,
-    'obrigatoria': '',
-    'preRequisitos': [''],
+    'obrigatoria': 'Infedinido',
+    'preRequisitos': ['Nenhum'],
     'nucleo': '',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": ""
   },
   {
     'id': 12,
@@ -294,7 +322,9 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Cálculo 1A'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": " Computing foundations, fundamentos da computação;"
   },
   {
     'id': 13,
@@ -321,7 +351,9 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": " Software testing, teste de software, Software Engineering Managment, gerencia de engenharia de software, software configuration management, gerencia de configuraço de software, software engineering processo, processo de software, software engineering models and methods, métodos e modelos de engenharia de software, software quality, qualidade de software, software engineering professional practice, prática profissional em engenharia de software, software engineering economics, economia em engenharia de software, software requirements, requisitos de software, software design, projeto de software, software construction, construção de software, software maintenance, manutenção de software;"
   },
   {
     'id': 14,
@@ -340,7 +372,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Fundamentos de Matemática para Computação, Algoritmos e Estruturas de Dados 2'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": " Mathematicals foundations, fundamentos matemáticos, matemática, Computing foundations, fundamentos da computação;"
+
   },
   {
     'id': 15,
@@ -364,7 +399,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Algoritmos e Estruturas de Dados 1, Probabilidade e Estatística A'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software testing, teste de software, software design, projeto de software;"
+
   },
   {
     'id': 16,
@@ -377,7 +415,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': '',
     'preRequisitos': [''],
     'nucleo': '',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": ""
+
   },
   {
     'id': 17,
@@ -397,7 +438,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Lógica Matemática'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": " software design, projeto de software, computing foundations;"
+
   },
   {
     'id': 18,
@@ -419,7 +463,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Programação Orientada a Objetos, Engenharia de Software'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software design, projeto de software;"
+
   },
   {
     'id': 19,
@@ -442,7 +489,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Arquitetura de Computadores'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
+
   },
   {
     'id': 20,
@@ -463,7 +513,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Álgebra Linear'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
+
   },
   {
     'id': 21,
@@ -480,7 +533,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Fundamentos de Matemática para Computação'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
+
   },
   {
     'id': 22,
@@ -500,7 +556,9 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
   },
   {
     'id': 23,
@@ -517,7 +575,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'Letras',
+    "relacaoComSwebok": "Software engineering professional practice, prática profissional em engenharia de software;"
+
   },
   {
     'id': 24,
@@ -539,7 +600,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Algoritmos e Estruturas de Dados 2, Linguagens Formais e Autômatos'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Computing foundations, fundamentos da computação;"
+
   },
   {
     'id': 25,
@@ -559,7 +623,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': ['Programação Orientada a Objetos'],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software construction, construção de software;"
+
   },
   {
     'id': 26,
@@ -583,8 +650,11 @@ export const disciplinas: Disciplina[] = [
     'periodo': 5,
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Específico',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software construction, construção de software;"
+
   },
   {
     'id': 27,
@@ -601,8 +671,11 @@ export const disciplinas: Disciplina[] = [
     'periodo': 5,
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Específico',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software construction, construção de software, software design, projeto de software;"
+
   },
   {
     'id': 28,
@@ -618,8 +691,11 @@ export const disciplinas: Disciplina[] = [
     'periodo': 5,
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
-    'nucleo': 'NC',
-    'bibliografia': ['']
+    'nucleo': 'Específico',
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software requirements, requisitos de software, software design, projeto de software, Software testing, teste de software, software maintenance, manutenção de software, software configuration managment, gerencia de configuração de software, software Engineering Managment, gerencia de engenharia de software, software engineering process, processo de engenharia de software, software quality, qualidade de software, software engineering economics, engenharia economica de software, computing foundations, fundamentos da computação;"
+
   },
   {
     'id': 29,
@@ -636,7 +712,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software engineering professional practice, prática profissional em engenharia de software;"
+
   },
   {
     'id': 30,
@@ -661,7 +740,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "design de software, projeto de software;"
+
   },
   {
     'id': 31,
@@ -679,7 +761,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software requirements, requisitos de software;"
+
   },
   {
     'id': 32,
@@ -697,7 +782,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software quality, qualidade de software;"
+
   },
   {
     'id': 33,
@@ -716,7 +804,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software configuration management, gerencia de configuraço de software;"
+
   },
   {
     'id': 34,
@@ -736,7 +827,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software construction, construção de software;"
+
   },
   {
     'id': 35,
@@ -756,7 +850,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software quality, qualidade de software, software construction, construção de software, software requirements, requisitos de software;"
+
   },
   {
     'id': 36,
@@ -775,7 +872,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software design, projeto de software;"
+
   },
   {
     'id': 37,
@@ -800,7 +900,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software requirements;"
+
   },
   {
     'id': 38,
@@ -824,7 +927,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software maintenance, manutenção de software, software configuration management, gerencia de configuraço de software;"
+
   },
   {
     'id': 39,
@@ -841,7 +947,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software engineering professional practice, prática profissional em engenharia de software;"
+
   },
   {
     'id': 40,
@@ -865,7 +974,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software construction, construção de software, software design, projeto de software;"
+
   },
   {
     'id': 41,
@@ -883,7 +995,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software construction, construção de software, software design, projeto de software;"
+
   },
   {
     'id': 42,
@@ -899,7 +1014,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software quality, qualidade de software, software testing, teste de software;"
+
   },
   {
     'id': 43,
@@ -916,7 +1034,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software engineering process, processo de engenharia de software;"
+
   },
   {
     'id': 44,
@@ -944,7 +1065,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "software requirements, requisitos de software, software testing, teste de software, software engineering economics, economia em engenharia de software;"
+
   },
   {
     'id': 45,
@@ -965,7 +1089,10 @@ export const disciplinas: Disciplina[] = [
     'obrigatoria': 'Sim',
     'preRequisitos': [''],
     'nucleo': 'NC',
-    'bibliografia': ['']
+    'bibliografia': [''],
+    'unidade': 'INF',
+    "relacaoComSwebok": "Software requirements, requisitos de software, software design, projeto de software, Software testing, teste de software, software maintenance, manutenção de software, software configuration managment, gerencia de configuração de software, software Engineering Managment, gerencia de engenharia de software, software engineering process, processo de engenharia de software, software quality, qualidade de software, software engineering economics, engenharia economica de software, computing foundations, fundamentos da computação;"
+
   }
 ];
 export const topicosPpc: Topico[] = [
@@ -974,10 +1101,10 @@ export const topicosPpc: Topico[] = [
     "id": "apresentacao",
     "descricao": [
       "O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES.",
-      "A busca pela qualidade é a motivação (p. ) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. ), o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”.",
-      "Não houve alteração relevante dos objetivos do curso (p. ), nem tampouco do perfil do egresso (p. ), contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações étnico-raciais e para o ensino de história e cultura afro-brasileira e africana foi revista em sua totalidade.",
-      "A estrutura curricular (p. ) sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina “Prática em Engenharia de Software” (p. ) é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas” (p. ), que estabelece competências a serem demonstradas/adquiridas pelo estudante em cada uma delas.",
-      "A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios (p. ). Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções."
+      "A busca pela qualidade é a motivação dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido, o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”.",
+      "Não houve alteração relevante dos objetivos do curso, nem tampouco do perfil do egresso, contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações étnico-raciais e para o ensino de história e cultura afro-brasileira e africana foi revista em sua totalidade.",
+      "A estrutura curricular sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina “Prática em Engenharia de Software” é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas”, que estabelece competências a serem demonstradas/adquiridas pelo estudante em cada uma delas.",
+      "A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios. Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções."
     ],
     "conteudo": [
       {
@@ -1041,14 +1168,14 @@ export const topicosPpc: Topico[] = [
     "topico": "Princípios norteadores",
     "id": "principios",
     "descricao": [
-      "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso (p. ) e o perfil do egresso (p. ). Esses princípios são fornecidos abaixo."
+      "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso e o perfil do egresso. Esses princípios são fornecidos abaixo."
     ],
     "conteudo": [
       {
         "subtopico": "Formação Ética e Função Social do Profissional",
         "detalhe": [
           "A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES.",
-          "Ética é assunto de uma das disciplinas do primeiro semestre do curso, “Computação e Sociedade” (p. ), e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso “Prática em Engenharia de Software” (p. ). Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina.",
+          "Ética é assunto de uma das disciplinas do primeiro semestre do curso, “Computação e Sociedade”, e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso “Prática em Engenharia de Software”. Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina.",
           "O comportamento ético e profissional será trabalhado nas atividades do curso, e não apenas na primeira e última disciplinas. A exigência de uma conduta apropriada em sala de aula, tanto dos docentes quanto dos estudantes, contribui com essa formação. Isso significa promover a qualidade de vida, o respeito à diversidade, o respeito ao meio ambiente. Nesse sentido, não apenas as disciplinas, mas toda e qualquer ação, deve ser pautada pela reflexão do impacto no contexto no qual se insere.",
           "Ainda convém destacar que a área possui um código de ética próprio, Código de Ética e Prática Profissional da Engenharia de Software [ACM/IEEE]. Esse código é uma das bases de fundamentação do curso e deve ser observado no convívio diário do curso."
         ]
@@ -1066,7 +1193,7 @@ export const topicosPpc: Topico[] = [
           "As disciplinas do BES foram definidas com substancial cruzamento de fronteiras de subáreas do conhecimento da Engenharia de Software. A estratégia na qual se define uma disciplina por subárea foi preterida. Convém ressaltar que o corpo de conhecimento da área [SWEBOK 2014] foi extensivamente empregado, mas não como exemplo de organização didática.",
           "Em vez da separação de tópicos induzida pela classificação do conhecimento, o conteúdo (ementa) atribuído a cada disciplina do BES inclui tópicos entre os quais há sinergia. Essa orientação é compatível com a prática da Engenharia de Software e não apenas reconhece, mas também respeita os vínculos entre as suas subáreas. Isso resultou em disciplinas coerentes com a prática da Engenharia de Software.",
           "A Figura abaixo ilustra uma disciplina X qualquer do BES, composta por conteúdo das subáreas A, B e C. Ou seja, o conteúdo de X não está contido estritamente na subárea A, nem tampouco na B ou na C. Em vez disso, reúne e explora a interdependência de conceitos dessas três subáreas.",
-          "As subáreas “requisitos” e “projeto de software”, por exemplo, são contempladas em várias disciplinas do curso e não apenas nas disciplinas nas quais são o foco principal de interesse. A disciplina que enfatiza testes, por exemplo, inclui aspectos de design de software e também de requisitos, assim como aqueles de construção de software. De forma resumida, as disciplinas não são uma projeção cartesiana das 15 subáreas de conhecimento da Engenharia de Software [SWECOM 2014]. Em vez disso, são 18 disciplinas cobrindo reiteradamente várias dessas 15 áreas, sendo que uma delas cobre todas as áreas necessárias para a execução de um projeto real de produção de software (p. )."
+          "As subáreas “requisitos” e “projeto de software”, por exemplo, são contempladas em várias disciplinas do curso e não apenas nas disciplinas nas quais são o foco principal de interesse. A disciplina que enfatiza testes, por exemplo, inclui aspectos de design de software e também de requisitos, assim como aqueles de construção de software. De forma resumida, as disciplinas não são uma projeção cartesiana das 15 subáreas de conhecimento da Engenharia de Software [SWECOM 2014]. Em vez disso, são 18 disciplinas cobrindo reiteradamente várias dessas 15 áreas, sendo que uma delas cobre todas as áreas necessárias para a execução de um projeto real de produção de software."
         ]
       },
       {
@@ -1074,7 +1201,7 @@ export const topicosPpc: Topico[] = [
         "detalhe": [
           "O perfil do egresso, definido em outra seção desse documento, exige do egresso o envolvimento com o fazer, com o exercício do conhecimento de Engenharia de Software.",
           "Essa articulação é explicitamente estabelecida por meio da seção “Condições mínimas” definida para cada disciplina de Engenharia de Software. Tais condições, em geral, definem o que o egresso pode fazer, em outras palavras, é capaz de realizar com o conhecimento. Ou seja, o que convencionalmente se limita ao conteúdo, ou teoria, deverá ser exercitado, ou prática, e com um nível bem definido de proficiência.",
-          "A disciplina “Prática em Engenharia de Software” (p. ) é um ponto explícito do curso no qual a prática é o elemento principal, perfazendo 320 horas. O fazer, contudo, não está restrito a essa disciplina. A capacidade de realização de atividades de desenvolvimento de software é exigência em boa parte das disciplinas."
+          "A disciplina “Prática em Engenharia de Software” é um ponto explícito do curso no qual a prática é o elemento principal, perfazendo 320 horas. O fazer, contudo, não está restrito a essa disciplina. A capacidade de realização de atividades de desenvolvimento de software é exigência em boa parte das disciplinas."
         ]
       },
       {
@@ -1082,7 +1209,7 @@ export const topicosPpc: Topico[] = [
         "detalhe": [
           "Produzir software significa, necessariamente, o emprego de pelo menos dois domínios. O domínio da solução, no qual a Engenharia de Software é exercitada e o domínio do problema, que fomenta a existência do software. O domínio do problema é “universal”, pois inclui saúde, educação, segurança, governo, finanças e entretenimento, dentre muitos outros. Fazer software, portanto, por si só, exige o contato com outras áreas do conhecimento.",
           "O acesso a outras áreas pode vir das disciplinas do Núcleo Livre (NL). O BES exige para a integralização curricular pelo menos 128 horas de disciplinas do NL. Essas disciplinas são escolhidas pelo estudante dentre todas aquelas oferecidas na UFG. Para ilustrar, no primeiro semestre de 2015 houve oferta de vagas para mais de 300 disciplinas de NL. Ou seja, o conjunto de opções de outras áreas do conhecimento é rico, o que contribui com uma formação ampla do estudante. Convém destacar que tais 128 horas perfazem a quantidade mínima exigida, o estudante pode fazer uso de uma carga horária maior. O mesmo é válido para o estágio não obrigatório e para as atividades complementares. O estudante deve cumprir um mínimo de 192 horas em atividades complementares.",
-          "A interdisciplinaridade estimulada pelos elementos citados acima é extra curso. Aquela intracurso é tratada tanto pela definição das disciplinas quanto pela disciplina “Prática em Engenharia de Software” (p. ). Nesses casos a interdisciplinaridade é compulsória, pois faz parte da própria concepção do curso. Adicionalmente, sem restringir a liberdade metodológica do docente, cabe ao NDE orientar a definição de programas de disciplinas que cultivem a interdisciplinaridade."
+          "A interdisciplinaridade estimulada pelos elementos citados acima é extra curso. Aquela intracurso é tratada tanto pela definição das disciplinas quanto pela disciplina “Prática em Engenharia de Software”. Nesses casos a interdisciplinaridade é compulsória, pois faz parte da própria concepção do curso. Adicionalmente, sem restringir a liberdade metodológica do docente, cabe ao NDE orientar a definição de programas de disciplinas que cultivem a interdisciplinaridade."
         ]
       },
       {
@@ -1156,7 +1283,7 @@ export const topicosPpc: Topico[] = [
     "descricao": [
       "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software.",
       "O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação.",
-      "O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, o relatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software (p. ). ",
+      "O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, o relatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software. ",
       "A apresentação do relatório, também individual, é realizada como última atividade do curso e tem como objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e é responsável pela avaliação tanto do relatório quanto da apresentação."
 
     ],
@@ -1192,13 +1319,13 @@ export const topicosPpc: Topico[] = [
       "O que é realizado em nome do curso para que o estudante adquira o perfil esperado pode ser avaliado considerando informações geradas externamente e outras internamente. A avaliação do curso pelo MEC e os resultados obtidos pelos estudantes do curso no ENADE são exemplos de insumos para a avaliação do processo de ensino. Internamente, a avaliação do docente pelo discente (instrumento formal e institucionalizado na UFG), o desempenho dos estudantes do curso nas disciplinas e os planos de ensino das disciplinas são fontes valiosas de informação. ",
       "O NDE do curso é o principal consumidor dessas informações com o propósito de detectar possíveis melhorias e fomentar a introdução delas. Por exemplo, embora o docente tenha autonomia metodológica ao planejar e executar o plano de ensino de uma disciplina, cabe ao NDE analisar o plano e, quando considerar oportuno, recomendar ajustes. Essas e outras ações devem ser realizadas durante a semana de planejamento pedagógico e administrativo (semana formalmente institucionalizada na UFG), que ocorre no início de cada período letivo. Convém destacar que o plano de ensino de cada disciplina deve ser aprovado formalmente pelo Conselho Diretor da unidade antes do início do período letivo. Adicionalmente, a ação de avaliação não deve estar restrita à semana de planejamento, mas contínua. O objetivo é viabilizar a introdução de uma eventual mudança o mais próximo possível do instante no qual a necessidade foi detectada.",
       "Outra ação relevante do NDE na semana de planejamento pedagógico é apresentar as lições aprendidas no período anterior. Oferecer visibilidade de processos de ensino exitosos, o que é um instrumento de valorização do docente e, ao mesmo tempo, forma de socializar o que produziu bons resultados, também é uma ação a ser executada nessa semana. Enfim, acerca da avaliação do processo de ensino, o NDE possui papel relevante na identificação de dificuldades e busca de alternativas, em comunhão com os docentes do curso.",
-      "A avaliação do processo de ensino, da aprendizagem e do curso, dentre outros, são assuntos pertinentes ao NDE (p. ). De fato, são interconectados. Em vez de estabelecer ações específicas no presente PPC, são fornecidos princípios adotados pelo NDE do curso (p. ). Ou seja, orientar os estudantes do curso a cada início do período letivo acerca das normas da UFG, de prazos, da meta de integralização curricular de cada um deles, são algumas ações relevantes, tendo em vista tais princípios.",
+      "A avaliação do processo de ensino, da aprendizagem e do curso, dentre outros, são assuntos pertinentes ao NDE. De fato, são interconectados. Em vez de estabelecer ações específicas no presente PPC, são fornecidos princípios adotados pelo NDE do curso. Ou seja, orientar os estudantes do curso a cada início do período letivo acerca das normas da UFG, de prazos, da meta de integralização curricular de cada um deles, são algumas ações relevantes, tendo em vista tais princípios.",
       "A avaliação da aprendizagem pode ser materializada de várias formas. São comuns avaliações (provas) escritas e individuais, a avaliação por meio de relatórios ou trabalhos escritos e apresentações orais, dentre outras. A avaliação contínua por meio de exercícios realizados ao longo de toda uma disciplina também é uma forma. De fato, vale ressaltar que um método adequado de avaliação em um cenário não o é em outro. ",
       "A avaliação do processo de ensino e aprendizagem do BES deve atender, no seu planejamento e na forma contínua de sua execução, o estipulado pelo Regulamento Geral dos Cursos de Graduação (RGCG) da UFG [CEPEC 2012], notadamente em seu Capítulo IV, Seção 1 - “Da verificação da Aprendizagem”.",
-      "Cabe ressaltar que o Sistema de Avaliação do BES tem como objetivo primeiro de sua aplicação, por meio de sua Estrutura Curricular (p. ), utilizando instrumentos pedagógicos norteados pelos Princípios Norteadores (p. ), permitir que cada estudante adquira o perfil desejado (p. ).",
+      "Cabe ressaltar que o Sistema de Avaliação do BES tem como objetivo primeiro de sua aplicação, por meio de sua Estrutura Curricular, utilizando instrumentos pedagógicos norteados pelos Princípios Norteadores, permitir que cada estudante adquira o perfil desejado.",
       "A avaliação do estudante deve levar em consideração não apenas o atendimento de requisitos técnicos de produtos e processos das diversas disciplinas da Engenharia de Software, mas também demonstrar postura ética e profissional ao desenvolver ações do curso. ",
-      "Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas” (p. ), que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições.",
-      "Dada a especificidade da disciplina “Prática em Engenharia de Software” (p. ), o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada."
+      "Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas”, que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições.",
+      "Dada a especificidade da disciplina “Prática em Engenharia de Software”, o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada."
     ],
     "conteudo": [
       {
@@ -1296,7 +1423,7 @@ export const topicosPpc: Topico[] = [
       {
         "subtopico": "Disciplinas de graduação obrigatórias",
         "detalhe": [
-          "As disciplinas “Computador e Sociedade” (p. ) e “Interação Humano-Computador” (p. ) incluem, em seus ementários, tópicos pertinentes às exigências da Resolução. Em particular, remetem para o conhecimento de questões pertinentes ao continente africano e para o conhecimento e respeito à diversidade."
+          "As disciplinas “Computador e Sociedade” e “Interação Humano-Computador” incluem, em seus ementários, tópicos pertinentes às exigências da Resolução. Em particular, remetem para o conhecimento de questões pertinentes ao continente africano e para o conhecimento e respeito à diversidade."
         ]
       },
       {
@@ -1317,7 +1444,7 @@ export const topicosPpc: Topico[] = [
       {
         "subtopico": "Diretrizes nacionais para Educação em Direitos Humanos",
         "detalhe": [
-          "A disciplina “Computador e Sociedade” (p. ) trata questões relevantes acerca de direitos humanos: aspectos profissionais; participação de mulheres na computação e evolução de aplicações com acessibilidade, dentre outras, nas quais os direitos humanos precisam de discussões mais aprofundadas na computação. Na disciplina “Interação Humano-Computador” (p. ) as características humanísticas, culturais, de direitos humanos e de aspectos políticos serão abordados em mais profundidade."
+          "A disciplina “Computador e Sociedade” trata questões relevantes acerca de direitos humanos: aspectos profissionais; participação de mulheres na computação e evolução de aplicações com acessibilidade, dentre outras, nas quais os direitos humanos precisam de discussões mais aprofundadas na computação. Na disciplina “Interação Humano-Computador” as características humanísticas, culturais, de direitos humanos e de aspectos políticos serão abordados em mais profundidade."
         ]
       },
       {
