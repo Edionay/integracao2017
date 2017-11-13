@@ -25,5 +25,12 @@ export class BuscaComponent implements OnInit {
           || disciplina.ementa.some(item => item.includes(termo))
           || disciplina.bibliografia.some(item => item.includes(termo));
       });
+    this.topicosFiltrados = this.topicos;
+    this.topicosFiltrados = this.topicosFiltrados.filter(topico => {
+      return topico.topico.includes(termo)
+        || topico.descricao.some(item => item.includes(termo))
+        || topico.conteudo.some(subtopico =>
+            subtopico.detalhe.some(detalhe => detalhe.includes(termo)));
+    });
   }
 }

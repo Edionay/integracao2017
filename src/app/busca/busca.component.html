@@ -2,26 +2,30 @@
 
   <div class="row">
     <div class="input-field">
-      <input id="search" type="search" (change)="mudarValor($event.target.value)">
+      <input id="search" type="search" (keyup)="mudarValor($event.target.value)">
       <label class="label-icon" for="search"><i class="material-icons">search</i></label>
     </div>
   </div>
 
-  <h4>Disciplinas</h4>
   <div class="row">
-    <div class="card col l3" *ngFor="let disciplina of disciplinasFiltradas">
-      <span class="card-title">{{ disciplina.nome }}</span>
+    <div class="col l6">
+      <h4>Disciplinas</h4>
+      <div class="collection" contentEditable=true data-text="Enter text here">
+        <a href="#" class="collection-item" *ngFor="let disciplina of disciplinasFiltradas">{{ disciplina.nome }}</a>
+      </div>
+    </div>
+    <div class="col l6">
+      <h4>PPC</h4>
+      <div class="row">
+
+        <div class="collection">
+          <a *ngFor="let topico of topicosFiltrados" class="collection-item" href="ppc#{{ topico.id }}">
+            {{ topico.topico }}</a>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <h4>PPC</h4>
-
-  <div class="row">
-    <div class="card col l3" *ngFor="let topico of topicosFiltrados">
-      <ul class="collection">
-        <li class="collection-item">{{ topico.topico }}</li>
-      </ul>
-    </div>
-  </div>
 
 </div>
