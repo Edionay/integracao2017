@@ -32,12 +32,12 @@ export class DisciplinasComponent implements OnInit {
       obrigatoria: '',
       preRequisitos: [''],
       nucleo: '',
-      bibliografia: []
+      bibliografia: [],
+      unidade: '',
+      relacaoComSwebok: ''
     };
   }
   ngOnInit() {
-    console.log(disciplinas);
-    console.log(this.disciplinas);
     this.periodo1 = this.disciplinas.slice(0, 4);
     this.periodo2 = this.disciplinas.slice(4, 9);
     this.periodo3 = this.disciplinas.slice(9, 14);

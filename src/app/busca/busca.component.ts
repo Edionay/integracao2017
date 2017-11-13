@@ -12,25 +12,46 @@ export class BuscaComponent implements OnInit {
   topicos = topicosPpc;
   disciplinasFiltradas = this.disciplinas;
   topicosFiltrados = this.topicos;
+  disciplinaQueVaiAparecerNoModal;
 
   constructor() {
+    this.disciplinaQueVaiAparecerNoModal = {
+      id: 0,
+      nome: 'teste',
+      ementa: [],
+      cargaHorariaTotal: 0,
+      cargaHorariaTeorica: 0,
+      cargaHorariaPratica: 0,
+      periodo: 0,
+      obrigatoria: '',
+      preRequisitos: [''],
+      nucleo: '',
+      bibliografia: [],
+      unidade: '',
+      relacaoComSwebok: ''
+    };
   }
 
   ngOnInit() {
   }
   mudarValor(termo: string) {
+    termo = termo.toLowerCase();
     this.disciplinasFiltradas = this.disciplinas;
     this.disciplinasFiltradas = this.disciplinasFiltradas.filter(disciplina => {
-        return disciplina.nome.includes(termo)
-          || disciplina.ementa.some(item => item.includes(termo))
-          || disciplina.bibliografia.some(item => item.includes(termo));
+        return disciplina.nome.toLowerCase().includes(termo)
+          || disciplina.ementa.some(item => item.toLowerCase().includes(termo))
+          || disciplina.bibliografia.some(item => item.toLowerCase().includes(termo))
+          || disciplina.relacaoComSwebok.toLowerCase().includes(termo);
       });
     this.topicosFiltrados = this.topicos;
     this.topicosFiltrados = this.topicosFiltrados.filter(topico => {
-      return topico.topico.includes(termo)
-        || topico.descricao.some(item => item.includes(termo))
+      return topico.topico.toLowerCase().includes(termo)
+        || topico.descricao.some(item => item.toLowerCase().includes(termo))
         || topico.conteudo.some(subtopico =>
-            subtopico.detalhe.some(detalhe => detalhe.includes(termo)));
+            subtopico.detalhe.some(detalhe => detalhe.toLowerCase().includes(termo)));
     });
+  }
+  gerarDisciplinaModal(posicao: number): void {
+    this.disciplinaQueVaiAparecerNoModal = this.disciplinas[posicao];
   }
 }
