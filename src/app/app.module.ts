@@ -14,6 +14,7 @@ import { RouterModule} from '@angular/router';
 import {BuscaComponent} from './busca/busca.component';
 import {InicioComponent} from './inicio/inicio.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
+import { FaqComponent } from './faq/faq.component';
 
 const appRoutes = [
   { path: 'disciplinas', component: DisciplinasComponent},
@@ -35,7 +36,8 @@ const appRoutes = [
     PpcComponent,
     BuscaComponent,
     InicioComponent,
-    PaginaNaoEncontradaComponent
+    PaginaNaoEncontradaComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

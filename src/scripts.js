@@ -1,3 +1,7 @@
+$( document ).ready(function(){
+  $(".button-collapse").sideNav();
+});
+
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 });
