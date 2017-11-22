@@ -17,7 +17,7 @@ Execute `ng build` para construir o projeto. Os artefatos do projeto serão arma
 
 Para mais informações e ajuda sobre o Angular CLI utilize `ng help` ou visite: [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-Integrantes Grupo:
+## Integrantes Grupo:
 
 - [Edionay Aguiar](https://github.com/edionay)
 - [Erick Vieira](https://github.com/erickvieira)
