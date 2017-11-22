@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import {CommonModule} from '@angular/common';
+import {CommonModule, HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {HttpModule, JsonpModule} from '@angular/http';
 import { AcessibilidadeComponent } from './acessibilidade/acessibilidade.component';
 import {DisciplinasComponent} from './disciplinas/disciplinas.component';
@@ -51,7 +51,7 @@ const appRoutes = [
     )
   ],
   providers: [
-
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
   ],
   bootstrap: [AppComponent]
 })
