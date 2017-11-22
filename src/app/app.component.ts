@@ -1,6 +1,4 @@
 import {Component, OnInit, Output} from '@angular/core';
-import {DadosService} from './dados.service';
-import { Response, Http} from '@angular/http';
 
 @Component({
   selector: 'app-root',
@@ -9,12 +7,7 @@ import { Response, Http} from '@angular/http';
 })
 export class AppComponent implements OnInit {
 
-  dados: any[] = [];
-  constructor(private dadosJson: DadosService) {}
+  constructor() {}
   ngOnInit() {
-
-    this.dadosJson.baixarDados().subscribe((response: Response) => {
-      this.dados = response.json();
-    });
   }
 }

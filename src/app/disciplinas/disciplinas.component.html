@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container hide-on-med-and-down">
     <div class="row">
 
       <div class="col l6">
@@ -25,7 +25,7 @@
       <div class="col l6">
         <h5>3º Período</h5>
         <ul class="collection">
-          <a *ngFor="let dis3 of periodo5" class="modal-trigger collection-item" id="{{ dis3.id }}" data-target="modal1"
+          <a *ngFor="let dis3 of periodo3" class="modal-trigger collection-item" id="{{ dis3.id }}" data-target="modal1"
              (click)="gerarDisciplinaModal(dis3.id)">
             <h6>{{ dis3.nome }}</h6>
           </a>

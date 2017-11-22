@@ -4,8 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {CommonModule} from '@angular/common';
-import { DadosService } from './dados.service';
-import {BuscaService} from './busca.service';
 import {HttpModule, JsonpModule} from '@angular/http';
 import { AcessibilidadeComponent } from './acessibilidade/acessibilidade.component';
 import {DisciplinasComponent} from './disciplinas/disciplinas.component';
@@ -22,6 +20,7 @@ const appRoutes = [
   { path: 'ppc', component: PpcComponent},
   { path: 'acessibilidade', component: AcessibilidadeComponent},
   { path: 'busca', component: BuscaComponent},
+  { path: 'faq', component: FaqComponent},
   { path: '', redirectTo: '/inicio', pathMatch: 'full'},
   { path: '**', component: PaginaNaoEncontradaComponent }
 
@@ -52,8 +51,7 @@ const appRoutes = [
     )
   ],
   providers: [
-  DadosService,
-  BuscaService,
+
   ],
   bootstrap: [AppComponent]
 })

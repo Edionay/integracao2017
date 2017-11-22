@@ -42,11 +42,11 @@ export class DisciplinasComponent implements OnInit {
     this.periodo2 = this.disciplinas.slice(4, 9);
     this.periodo3 = this.disciplinas.slice(9, 14);
     this.periodo4 = this.disciplinas.slice(14, 19);
-    this.periodo5 = this.disciplinas.slice(19, 23);
-    this.periodo6 = this.disciplinas.slice(23, 27);
-    this.periodo7 = this.disciplinas.slice(27, 32);
-    this.periodo8 = this.disciplinas.slice(32, 37);
-    this.periodo9 = this.disciplinas.slice(37);
+    this.periodo5 = this.disciplinas.slice(26, 30);
+    this.periodo6 = this.disciplinas.slice(30, 34);
+    this.periodo7 = this.disciplinas.slice(34, 39);
+    this.periodo8 = this.disciplinas.slice(39, 44);
+    this.periodo9 = this.disciplinas.slice(46, 47);
   }
   gerarDisciplinaModal(posicao: number): void {
     this.disciplinaQueVaiAparecerNoModal = this.disciplinas[posicao];
