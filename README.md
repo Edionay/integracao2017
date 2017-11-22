@@ -1,6 +1,11 @@
-# PresencaNaWeb
+# Presenca na Web
 
-Este projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 1.4.2.
+Este projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 1.4.2.  
+
+Pré-requisitos para execução local:
+- Instale o Node.Js e NPM: https://nodejs.org/en/download/
+- Execute o comando `npm install -g @angular/cli` para instalar o Angular CLI. 
+
 
 ## Servidor de desenvolvimento e execução
 
