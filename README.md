@@ -16,3 +16,11 @@ Execute `ng serve` para iniciar o servidor. Acesse `http://localhost:4200/`.
 Execute `ng build` para construir o projeto. Os artefatos do projeto serão armazenados a pasta `dist/`. Utilize a opção `-prod` para construir uma versão para produção.
 
 Para mais informações e ajuda sobre o Angular CLI utilize `ng help` ou visite: [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Integrantes Grupo:
+
+- [Edionay Aguiar](https://github.com/edionay)
+- [Erick Vieira](https://github.com/erickvieira)
+- [João Lucas](https://github.com/JLucas5)
+- [Osmar Cavalcante](https://github.com/osmarpixuri)
+- [Paula Resende](https://github.com/paularesende)
